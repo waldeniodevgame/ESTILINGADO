@@ -1,0 +1,1 @@
+  function syncReactorAttachments(g){for(const reactor of g.units.filter(u=>u.alive&&u.reactorAttached)){const target=entity(g,reactor.reactorAttached.id);if(!target||target.hp<=0){reactor.reactorAttached=null;continue;}reactor.x=target.x+reactor.reactorAttached.ox;reactor.y=target.y+reactor.reactorAttached.oy;reactor.vx=0;reactor.vy=0;}}

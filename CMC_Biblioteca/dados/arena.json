@@ -1,0 +1,15 @@
+{
+  "width": 960,
+  "height": 600,
+  "left": 24,
+  "right": 936,
+  "top": 24,
+  "bottom": 576,
+  "horizontalScale": {
+    "$divide": [
+      912,
+      632
+    ]
+  },
+  "radius": 19
+}

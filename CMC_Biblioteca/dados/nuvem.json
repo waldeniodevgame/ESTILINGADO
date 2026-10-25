@@ -1,0 +1,13 @@
+{
+  "provider": "firebase",
+  "enabled": false,
+  "projectId": "",
+  "apiKey": "",
+  "authDomain": "",
+  "storageBucket": "",
+  "messagingSenderId": "",
+  "appId": "",
+  "anonymousLogin": true,
+  "googleLogin": false,
+  "collection": "players"
+}

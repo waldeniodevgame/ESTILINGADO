@@ -1,0 +1,1 @@
+  function switchInitialTab(tutorial){$('teamPicker').hidden=tutorial;$('initialTutorial').hidden=!tutorial;$('selectionTab').setAttribute('aria-selected',String(!tutorial));$('tutorialTab').setAttribute('aria-selected',String(tutorial));document.querySelector('.selection-footer').hidden=tutorial;if(tutorial)renderLesson();}

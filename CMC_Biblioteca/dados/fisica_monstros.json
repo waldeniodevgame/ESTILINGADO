@@ -1,0 +1,253 @@
+[
+  {
+    "role": "Explosão radial por contato",
+    "weightClass": "Leve",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 0.8,
+    "maxSpeed": {
+      "$multiply": [
+        {
+          "$ref": "C.maxSpeed"
+        },
+        0.8
+      ]
+    },
+    "pushImpulse": 105,
+    "impactStyle": "blast-on-contact",
+    "blastMaxDamage": 10,
+    "blastRadius": 5,
+    "calibration": "Leve; velocidade máxima 80%; gruda em aliados e ricocheteia em inimigos"
+  },
+  {
+    "role": "Corrente elétrica",
+    "weightClass": "Leve (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Congelamento e redução da força",
+    "weightClass": "Médio (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Colisão forte + martelada atrasada",
+    "weightClass": "Pesado (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 0,
+    "impactStyle": "two-hit-hammer",
+    "impactDamageMultiplier": 1.7,
+    "hammerDamageMultiplier": 0.6,
+    "hammerDelay": 0.32,
+    "hammerImpulse": 0,
+    "calibration": "Etapa focada: dois impactos, alvo imóvel e pausa de 0,32 s; valores ainda ajustáveis"
+  },
+  {
+    "role": "Mobilidade / aceleração",
+    "weightClass": "Leve",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "turbine-impact",
+    "calibration": "1 aliado +15%; 2 aliados +30%; 3 aliados +50%; colisão dobra a velocidade"
+  },
+  {
+    "role": "Ricochete / carga cinética",
+    "weightClass": "Médio (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Agrupamento / atração",
+    "weightClass": "Médio (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Perfuração de linha",
+    "weightClass": "Médio (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "piercing-impact",
+    "calibration": "1 aliado: +20% de força de impacto; 2 aliados: +25% de dano de colisão; 3 aliados: +30% de dano de colisão"
+  },
+  {
+    "role": "Feixe / alcance",
+    "weightClass": "Leve",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "prismatic-portal",
+    "calibration": "Teleporte por clique e arrasto; dano radial proporcional à explosão da Fornalha"
+  },
+  {
+    "role": "Suporte / reparo",
+    "weightClass": "Leve (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Defesa / quebra-escudo",
+    "weightClass": "Pesado (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Bump / reimpulso +50%",
+    "weightClass": "Leve (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Ancoragem / contenção",
+    "weightClass": "Pesado (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Carga / reação",
+    "weightClass": "Médio (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Redirecionamento orbital",
+    "weightClass": "Leve (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  },
+  {
+    "role": "Reposicionamento de fase",
+    "weightClass": "Leve (hipótese)",
+    "massFactor": null,
+    "collisionRadius": {
+      "$ref": "C.radius"
+    },
+    "launchMultiplier": 1,
+    "maxSpeed": {
+      "$ref": "C.maxSpeed"
+    },
+    "pushImpulse": 180,
+    "impactStyle": "ricochet",
+    "calibration": "Pendente de vídeo e medição"
+  }
+]

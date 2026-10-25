@@ -1,0 +1,13 @@
+{
+  "outrosMonstros": "30 simulações iguais",
+  "atributosDosOutrosMonstros": "inalterados",
+  "vortex": "6 passos iguais ao protótipo",
+  "inimigo": {
+    "dano": 42,
+    "deslocamento": 180
+  },
+  "aliado": "puxado sem dano",
+  "ancora": "permanece no lugar",
+  "termino": "vórtice removido em 3 s",
+  "vitoria": "resultado encerra vórtices"
+}

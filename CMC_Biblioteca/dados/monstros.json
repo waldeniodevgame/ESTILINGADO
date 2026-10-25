@@ -1,0 +1,162 @@
+[
+  {
+    "key": "0",
+    "name": "Fornalha",
+    "attack": 24,
+    "hp": 110,
+    "color": "#ff925e",
+    "skill": "Explosão por contato",
+    "short": "Até 50 · raio de 5 criaturas",
+    "desc": "Ao tocar um inimigo, explode no centro do alvo. Causa até 50 de dano no centro, com redução linear até zero no limite de 5 raios de criatura. Atinge criaturas inimigas dentro da área."
+  },
+  {
+    "key": "1",
+    "name": "Voltagem",
+    "attack": 18,
+    "hp": 110,
+    "color": "#ffe168",
+    "skill": "Descarga",
+    "short": "Raio de 10",
+    "desc": "Descarga: Raio de 10. Especial com recarga de três turnos próprios."
+  },
+  {
+    "key": "2",
+    "name": "Glacial",
+    "attack": 16,
+    "hp": 120,
+    "color": "#72dfff",
+    "skill": "Congelamento progressivo",
+    "short": "Gelo +15/20/30 · força −15/20%",
+    "desc": "Congelamento progressivo: ao cruzar 1, 2 ou 3 aliados, cada inimigo atingido recebe +15, +20 ou +30 de dano de gelo e perde 15%, 15% ou 20% da força no próximo lançamento. Especial do capitão: marca o alvo e aumenta o empurrão em 25%."
+  },
+  {
+    "key": "3",
+    "name": "Marcelo",
+    "attack": 28,
+    "hp": 150,
+    "color": "#dbaa79",
+    "skill": "Impacto pesado",
+    "short": "Colisão + martelada",
+    "desc": "Impacto pesado: colisão forte e martelada atrasada; o rival permanece imóvel. Especial com recarga de três turnos próprios."
+  },
+  {
+    "key": "4",
+    "name": "Turbina",
+    "attack": 17,
+    "hp": 110,
+    "color": "#95f3c6",
+    "skill": "Aceleração",
+    "short": "Velocidade +15%",
+    "desc": "Aceleração: Velocidade +15%. Especial com recarga de três turnos próprios."
+  },
+  {
+    "key": "5",
+    "name": "Rebatedor",
+    "attack": 20,
+    "hp": 120,
+    "color": "#aa9dff",
+    "skill": "Carga cinética",
+    "short": "Ricochete +4, máximo +12",
+    "desc": "Carga cinética: Ricochete +4, máximo +12. Especial com recarga de três turnos próprios."
+  },
+  {
+    "key": "6",
+    "name": "Ímã",
+    "attack": 15,
+    "hp": 130,
+    "color": "#ee87b9",
+    "skill": "Atração",
+    "short": "Agrupa inimigos",
+    "desc": "Atração: Agrupa inimigos. Especial com recarga de três turnos próprios."
+  },
+  {
+    "key": "7",
+    "name": "Broca",
+    "attack": 23,
+    "hp": 115,
+    "color": "#f0bc56",
+    "skill": "Perfuração",
+    "short": "Atravessa primeiro inimigo",
+    "desc": "Perfuração: Atravessa primeiro inimigo. Especial com recarga de três turnos próprios."
+  },
+  {
+    "key": "8",
+    "name": "Prisma",
+    "attack": 19,
+    "hp": 110,
+    "color": "#d5b5ff",
+    "skill": "Feixe",
+    "short": "Atinge alvo atrás",
+    "desc": "Feixe: Atinge alvo atrás. Especial com recarga de três turnos próprios."
+  },
+  {
+    "key": "9",
+    "name": "Pulso",
+    "attack": 12,
+    "hp": 120,
+    "color": "#70e7a1",
+    "skill": "Reparo",
+    "short": "Cura 15",
+    "desc": "Reparo: Cura 15. Especial com recarga de três turnos próprios."
+  },
+  {
+    "key": "10",
+    "name": "Muralha",
+    "attack": 21,
+    "hp": 150,
+    "color": "#b7c6da",
+    "skill": "Quebra-escudo",
+    "short": "Remove 15 de escudo",
+    "desc": "Quebra-escudo: Remove 15 de escudo. Especial com recarga de três turnos próprios."
+  },
+  {
+    "key": "11",
+    "name": "Eco",
+    "attack": 16,
+    "hp": 100,
+    "color": "#ed9fdf",
+    "skill": "Bump ressonante",
+    "short": "Bump +50% após impacto",
+    "desc": "Bump ressonante: depois que o lançador colidir com outro monstro, tocar Eco redireciona o lançamento e devolve +50% de força. Vale para aliados e inimigos; Eco não ativa o bump quando é o lançador. Especial: marca o alvo para repetir dano."
+  },
+  {
+    "key": "12",
+    "name": "Âncora",
+    "attack": 18,
+    "hp": 145,
+    "color": "#7095aa",
+    "skill": "Morteiro · vórtice",
+    "short": "Núcleo de sucção",
+    "desc": "Escolha um ponto da arena para criar o vórtice. Âncora permanece no lugar; aliados são puxados sem dano e inimigos arrastados recebem dano periódico."
+  },
+  {
+    "key": "13",
+    "name": "Reator",
+    "attack": 20,
+    "hp": 120,
+    "color": "#c4f46c",
+    "skill": "Reação cinética",
+    "short": "Converte ricochetes em área",
+    "desc": "Especial: detona uma área ao fim do lançamento, com dano baseado nos ricochetes (máximo 18). Assistência: concede uma carga ao lançador. Recarga: três turnos próprios."
+  },
+  {
+    "key": "14",
+    "name": "Órbita",
+    "attack": 16,
+    "hp": 115,
+    "color": "#b099ff",
+    "skill": "Desvio orbital",
+    "short": "Deslocamento lateral",
+    "desc": "Especial: empurra o alvo lateralmente à trajetória. Assistência: aproxima o inimigo mais próximo da linha do lançador. Recarga: três turnos próprios."
+  },
+  {
+    "key": "15",
+    "name": "Fenda",
+    "attack": 19,
+    "hp": 105,
+    "color": "#ee7bc7",
+    "skill": "Salto de fase",
+    "short": "Reposiciona o lançamento",
+    "desc": "Especial: após o primeiro impacto, salta para o outro lado do alvo, uma vez por tiro. Assistência: +6 no próximo impacto. Recarga: três turnos próprios."
+  }
+]

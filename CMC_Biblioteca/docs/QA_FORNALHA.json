@@ -1,0 +1,20 @@
+{
+  "build": "Rev4",
+  "scenarios": [
+    {"aliadosAtravessados": 0, "bonusPercent": 0, "danoContato": 20, "danoExplosaoCentro": 50, "resultado": "passou"},
+    {"aliadosAtravessados": 1, "bonusPercent": 15, "danoContato": 20, "danoExplosaoCentro": 58, "resultado": "passou"},
+    {"aliadosAtravessados": 2, "bonusPercent": 30, "danoContato": 20, "danoExplosaoCentro": 65, "resultado": "passou"},
+    {"aliadosAtravessados": 3, "bonusPercent": 50, "danoContato": 20, "danoExplosaoCentro": 75, "resultado": "passou"}
+  ],
+  "checks": {
+    "multiplosInimigosUmaVez": "passou",
+    "inimigoEntrandoNaLava": "passou",
+    "inimigoSaindoDaLava": "passou",
+    "morteDaFornalhaRemoveLava": "passou",
+    "proximoTurnoDaFornalhaRemoveLava": "passou",
+    "reinicioCreateGameSemLavaAnterior": "passou",
+    "outrosMonstrosRegressao": "passou",
+    "navegadorMobile390": "passou",
+    "errosJavascript": []
+  }
+}

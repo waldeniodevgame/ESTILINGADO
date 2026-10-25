@@ -1,0 +1,22 @@
+[
+  {
+    "viewport": 1366,
+    "toggle": "2/2",
+    "trocaParaSobrecarga": "OK",
+    "raio": 95,
+    "IAaguardaTermino": "OK",
+    "pausa": "OK",
+    "trocaDeTurnoUnica": "OK",
+    "errors": []
+  },
+  {
+    "viewport": 390,
+    "toggle": "2/2",
+    "trocaParaSobrecarga": "OK",
+    "raio": 95,
+    "IAaguardaTermino": "OK",
+    "pausa": "OK",
+    "trocaDeTurnoUnica": "OK",
+    "errors": []
+  }
+]

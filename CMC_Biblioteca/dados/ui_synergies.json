@@ -1,0 +1,50 @@
+[
+  {
+    "ids": [
+      0,
+      6
+    ],
+    "name": "Explosão concentrada",
+    "desc": "Ímã agrupa; Fornalha atinge a área."
+  },
+  {
+    "ids": [
+      1,
+      11
+    ],
+    "name": "Circuito em cadeia",
+    "desc": "Voltagem causa descarga; Eco repete a assistência."
+  },
+  {
+    "ids": [
+      2,
+      3
+    ],
+    "name": "Impacto nas paredes",
+    "desc": "Glacial prepara o alvo; Marcelo empurra."
+  },
+  {
+    "ids": [
+      4,
+      5
+    ],
+    "name": "Ricochete carregado",
+    "desc": "Turbina acelera; Rebatedor aproveita as paredes."
+  },
+  {
+    "ids": [
+      7,
+      8
+    ],
+    "name": "Linha de perfuração",
+    "desc": "Broca atravessa a frente; Prisma alcança outro alvo."
+  },
+  {
+    "ids": [
+      9,
+      10
+    ],
+    "name": "Fortaleza",
+    "desc": "Pulso cura; Muralha protege o lançador."
+  }
+]

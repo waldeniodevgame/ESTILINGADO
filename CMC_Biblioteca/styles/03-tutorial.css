@@ -1,0 +1,12 @@
+
+.story-art-combo{width:min(100%,480px);padding:18px 12px;display:flex;align-items:center;justify-content:center;gap:7px;background:radial-gradient(ellipse at 50% 55%,#a2e7c21b,transparent 68%)}
+.story-combo-unit{width:31%;min-width:0;display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;padding:8px 4px;border:1px solid #ffffff16;border-radius:15px;background:#0d191833}
+.story-combo-unit canvas{width:min(100%,116px);height:auto;filter:drop-shadow(0 12px 15px #0009)}
+.story-combo-unit strong{color:var(--text);font-size:10px;letter-spacing:1px}.story-combo-unit small{color:#aebdb4;font-size:8px;line-height:1.2}
+.story-combo-unit.support{border-color:#e9bf8355;background:#e9bf830a}.story-combo-unit.target{border-color:#ed9bbd55;background:#ed9bbd0a}
+.story-combo-arrow{color:var(--gold);font-size:18px;text-shadow:0 0 12px #e9bf8377;flex:none}
+@keyframes story-arrive{from{opacity:.35;transform:translateY(9px) scale(.992)}to{opacity:1;transform:translateY(0) scale(1)}}
+.story-card.story-enter{animation:story-arrive .3s ease-out}.tutorial-dialog{position:relative;z-index:6}.tutorial-dialog:not([hidden]){animation:story-arrive .24s ease-out}
+@media(prefers-reduced-motion:reduce){.story-card.story-enter,.tutorial-dialog:not([hidden]){animation:none}}
+@media(max-width:700px){.story-art-combo{height:25dvh;min-height:145px;padding:8px 5px;gap:3px}.story-combo-unit{padding:5px 2px;border-radius:10px}.story-combo-unit strong{font-size:8px}.story-combo-unit small{font-size:7px}.story-combo-arrow{font-size:14px}}
+@media(max-width:390px){.story-art-combo{height:22dvh;min-height:125px}.story-combo-unit canvas{width:min(100%,82px)}}

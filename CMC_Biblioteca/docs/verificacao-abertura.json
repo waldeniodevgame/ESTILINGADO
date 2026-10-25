@@ -1,0 +1,228 @@
+[
+  {
+    "kind": "original/CMC_REATOR_FISICA_ADERENCIA_FINAL.html",
+    "errors": [],
+    "title": "ESTILINGADO — Guia de movimento, combos e impacto",
+    "engine": true,
+    "canvas": [
+      1920,
+      1200
+    ],
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "buttons": [
+      {
+        "id": "soundBtn",
+        "text": ""
+      },
+      {
+        "id": "pauseBtn",
+        "text": ""
+      },
+      {
+        "id": "fullBtn",
+        "text": ""
+      },
+      {
+        "id": "helpBtn",
+        "text": ""
+      },
+      {
+        "id": "",
+        "text": "GlacialGelo +15/20/30 · força −15/20%"
+      },
+      {
+        "id": "",
+        "text": "MarceloColisão + martelada"
+      },
+      {
+        "id": "",
+        "text": "VoltagemRaio de 10"
+      },
+      {
+        "id": "",
+        "text": "EcoBump +50% após impacto"
+      },
+      {
+        "id": "healBtn",
+        "text": "✚Cura+20 PV ao aliado mais ferido2 ◇"
+      },
+      {
+        "id": "focusBtn",
+        "text": "◎Sobrecarga+8 no primeiro impacto2 ◇"
+      },
+      {
+        "id": "specialBtn",
+        "text": "Especial: Congelamento progressivo · pro"
+      },
+      {
+        "id": "",
+        "text": "Carga · melhorar especial"
+      },
+      {
+        "id": "",
+        "text": "Vetor · 2"
+      },
+      {
+        "id": "",
+        "text": "Circuito · 3"
+      },
+      {
+        "id": "",
+        "text": "Parede · 3"
+      },
+      {
+        "id": "",
+        "text": "Protocolo · 5"
+      },
+      {
+        "id": "modeTrainBtn",
+        "text": "✦Aprenda a jogarEscolha um monstro e abr"
+      },
+      {
+        "id": "modeGameBtn",
+        "text": "⚔Jogo livreMonte sua equipe e entre em u"
+      },
+      {
+        "id": "restartBtn",
+        "text": "↻ Nova partida"
+      },
+      {
+        "id": "guideBtn",
+        "text": "Como jogar ↗"
+      },
+      {
+        "id": "",
+        "text": "GlacialGelo +15/20/30 · força −15/20%"
+      },
+      {
+        "id": "",
+        "text": "MarceloColisão + martelada"
+      },
+      {
+        "id": "",
+        "text": "VoltagemRaio de 10"
+      },
+      {
+        "id": "",
+        "text": "EcoBump +50% após impacto"
+      }
+    ]
+  },
+  {
+    "kind": "dist/CMC_Modular.html",
+    "errors": [],
+    "title": "ESTILINGADO — Guia de movimento, combos e impacto",
+    "engine": true,
+    "canvas": [
+      1920,
+      1200
+    ],
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "buttons": [
+      {
+        "id": "soundBtn",
+        "text": ""
+      },
+      {
+        "id": "pauseBtn",
+        "text": ""
+      },
+      {
+        "id": "fullBtn",
+        "text": ""
+      },
+      {
+        "id": "helpBtn",
+        "text": ""
+      },
+      {
+        "id": "",
+        "text": "GlacialGelo +15/20/30 · força −15/20%"
+      },
+      {
+        "id": "",
+        "text": "MarceloColisão + martelada"
+      },
+      {
+        "id": "",
+        "text": "VoltagemRaio de 10"
+      },
+      {
+        "id": "",
+        "text": "EcoBump +50% após impacto"
+      },
+      {
+        "id": "healBtn",
+        "text": "✚Cura+20 PV ao aliado mais ferido2 ◇"
+      },
+      {
+        "id": "focusBtn",
+        "text": "◎Sobrecarga+8 no primeiro impacto2 ◇"
+      },
+      {
+        "id": "specialBtn",
+        "text": "Especial: Congelamento progressivo · pro"
+      },
+      {
+        "id": "",
+        "text": "Carga · melhorar especial"
+      },
+      {
+        "id": "",
+        "text": "Vetor · 2"
+      },
+      {
+        "id": "",
+        "text": "Circuito · 3"
+      },
+      {
+        "id": "",
+        "text": "Parede · 3"
+      },
+      {
+        "id": "",
+        "text": "Protocolo · 5"
+      },
+      {
+        "id": "modeTrainBtn",
+        "text": "✦Aprenda a jogarEscolha um monstro e abr"
+      },
+      {
+        "id": "modeGameBtn",
+        "text": "⚔Jogo livreMonte sua equipe e entre em u"
+      },
+      {
+        "id": "restartBtn",
+        "text": "↻ Nova partida"
+      },
+      {
+        "id": "guideBtn",
+        "text": "Como jogar ↗"
+      },
+      {
+        "id": "",
+        "text": "GlacialGelo +15/20/30 · força −15/20%"
+      },
+      {
+        "id": "",
+        "text": "MarceloColisão + martelada"
+      },
+      {
+        "id": "",
+        "text": "VoltagemRaio de 10"
+      },
+      {
+        "id": "",
+        "text": "EcoBump +50% após impacto"
+      }
+    ]
+  }
+]

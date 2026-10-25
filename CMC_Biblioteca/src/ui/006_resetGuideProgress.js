@@ -1,0 +1,50 @@
+  function resetGuideProgress(){
+    tutorialProgress={introSeen:true,aim:false,combo:false,captain:false,special:false};
+    guidedDone={aim:false,combo:false,captain:false,special:false,notified:false};writeGuideProgress();
+  }
+  const isModal = () => modals.some(d => d.open);
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let game = E.createGame(), scene = 'menu', paused = false, drag = null, preview = null;
+  let selectedInspectorId='0-0';
+  let guidedPractice = false, guidedDone = guidedDoneFromSave();
+  let firstTutorialOnly=false, tutorialStage="marcelo", tutorialDialogPhase=null, tutorialRun={collision:false,hammer:false,combo:false,botDamage:false,lightning:0,lightningTiers:[],lightningDamage:[],lightningTargets:[],frost:[],frostCharges:[],echoBumps:[],echoPasses:[],furnaceBlasts:[],drillRanks:[],drillDamage:[],prismPortal:false};
+  let tutorialSeedSerial=0;
+  const voltageTutorialStages={{DATA:ui_voltageTutorialStages}};
+  const glacialTutorialStages={{DATA:ui_glacialTutorialStages}};
+  const echoTutorialStages={{DATA:ui_echoTutorialStages}};
+  const furnaceTutorialStages={{DATA:ui_furnaceTutorialStages}};
+  const drillTutorialStages={{DATA:ui_drillTutorialStages}};
+   const prismTutorialStages={{DATA:ui_prismTutorialStages}};
+  const turbineTutorialStages={{DATA:ui_turbineTutorialStages}};
+  const anchorTutorialStages={{DATA:ui_anchorTutorialStages}};
+  const turbineTutorial=()=>turbineTutorialStages.includes(tutorialStage);
+  const anchorTutorial=()=>anchorTutorialStages.includes(tutorialStage);
+  const genericTutorialStages={{DATA:ui_genericTutorialStages}};
+  const genericTutorial=()=>genericTutorialStages.includes(tutorialStage);
+  const voltageTutorial=()=>voltageTutorialStages.includes(tutorialStage);
+  const glacialTutorial=()=>glacialTutorialStages.includes(tutorialStage);
+  const echoTutorial=()=>echoTutorialStages.includes(tutorialStage);
+  const furnaceTutorial=()=>furnaceTutorialStages.includes(tutorialStage);
+  const drillTutorial=()=>drillTutorialStages.includes(tutorialStage);
+   const prismTutorial=()=>prismTutorialStages.includes(tutorialStage);
+  const tutorialActorId=()=>tutorialStage==="voltage3"?"0-3":"0-0";
+  const tutorialSupportIds=()=>{
+    if(tutorialStage==="voltage1"||tutorialStage==="glacial1")return ["0-1"];
+    if(tutorialStage==="voltage2"||tutorialStage==="glacial2")return ["0-1","0-2"];
+    if(tutorialStage==="voltage3")return ["0-0","0-1","0-2"];
+    if(tutorialStage==="glacial3")return ["0-1","0-2","0-3"];
+    if(furnaceTutorial())return [];
+    if(anchorTutorial())return ["0-1"];
+    if(genericTutorial())return [];
+    if(turbineTutorial())return tutorialStage==="turbine1"?["0-1"]:tutorialStage==="turbine2"?["0-1","0-2"]:["0-1","0-2","0-3"];
+    if(prismTutorial())return [];
+    if(drillTutorial())return tutorialStage==="drill1"?["0-1"]:tutorialStage==="drill2"?["0-1","0-2"]:["0-1","0-2","0-3"];
+     if(echoTutorial())return ["0-1"];
+    return ["0-1"];
+  };
+  const resetTutorialRun=()=>{tutorialRun={collision:false,hammer:false,combo:false,botDamage:false,lightning:0,lightningTiers:[],lightningDamage:[],lightningTargets:[],frost:[],frostCharges:[],echoBumps:[],echoPasses:[],furnaceBlasts:[],drillRanks:[],drillDamage:[],prismPortal:false};};
+  let impactHold=0, impactSlowRemaining=0, impactSlowRate=.34, cameraPunch=null, anchorTargeting=false, anchorAim=null;
+  let seenEvents = game.events.length, effects = [], logs = [], comboBanner = null;
+  let accumulator = 0, lastFrame = 0, visualTime = 0, aiToken = 0, aiDelay = 0, aiAim = null;
+  let sound = false, audio = null, toastTimer = null, shake = 0;
+  try { sound = localStorage.getItem('elo-sound') === 'true'; } catch (_) {}
