@@ -24,3 +24,10 @@
 2. Registrar resultado no checklist.
 3. Corrigir somente falhas reproduzíveis.
 4. Escolher um monstro para a próxima rodada de definição, implementação e QA.
+
+## Rodada câmera PC — 2026-10-26 16:01
+- CAM-01 concluído: cópia criada em uilds/camera-captura-2026-10-26_16-01-58/TESTE26gordon.html.
+- Cópia validada com 
+ode --check.
+- CAM-02 a CAM-19 permanecem pendentes; não houve alteração de câmera ou mecânica.
+

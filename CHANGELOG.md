@@ -57,3 +57,9 @@
 - Corrigido o dano de parede/bumpeamento aplicado a unidades da equipe do lançador durante o próprio lançamento.
 - Versionada a biblioteca modular com tabelas JSON, CSS, JavaScript, assets, compilador e documentação.
 - Adicionados índice, checklist e registro de progresso para guiar as próximas rodadas.
+
+## CAM-01 — Cópia de captura de câmera
+- Criada cópia isolada da base TESTgordon/TESTE26gordon.html em uilds/camera-captura-2026-10-26_16-01-58/.
+- Registrado ambiente PC inicial em environment-pc.json.
+- Nenhuma mecânica ou configuração da base foi alterada.
+
