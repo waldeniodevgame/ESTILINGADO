@@ -1,1 +1,29 @@
-# Tela 08 — Replay Tático: Controles Compactos\n\n**Status:** Em revisão. Complementa os ícones e painel lateral já aprovados.\n\n## Decisão: tabuleiro primeiro\n\nA proporção aprovada do tabuleiro no tablet permanece intacta. Os controles adicionais não usam mais três réguas de largura total: viram uma faixa de navegação baixa e dois docks contextuais alinhados à direita.\n\n## Geometria compacta\n\n- **Faixa de transporte:** 32 px de altura, logo abaixo do tabuleiro.\n- **Dock da jogada:** 28 px de altura, alinhado no canto inferior direito.\n- **Dock de filtros:** 28 px de altura, ao lado do dock da jogada.\n- Espaço entre grupos: 4 px.\n- Alvos: 28 px visuais, com área interativa expandida para 38–44 px.\n- Ícones: 16 px, traço linear de 2 px e espaçamento de 3 px.\n\n## Faixa 1 — tempo do replay\n\n`evento anterior` · `reproduzir/pausar` · `próximo evento` · `reiniciar` · `velocidade 1×` · timeline fina com pontos de evento e tempo atual.\n\n## Dock 2 — jogada atual\n\n`monstro atual` · `trajetória` · `impacto` · `habilidade` · `poder do Capitão`.\n\nEsses controles apenas destacam a informação correspondente no replay.\n\n## Dock 3 — filtros\n\n`equipe aliada` · `equipe adversária` · `todos os times` · `efeitos` · `filtro`.\n\nHá somente um filtro ativo por vez. O funil abre, aplica ou limpa opções; itens raramente usados podem ficar dentro de um botão de reticências.\n\n## Estados e descobribilidade\n\n- Seleção: anel ciano fino, sem círculos grandes preenchidos.\n- Hover: elevação de 1 px e brilho discreto.\n- Desativado: opacidade baixa.\n- Dica: rótulo curto apenas em hover ou toque prolongado.\n- Divisórias aparecem entre grupos, não entre cada ícone.\n\n## Painel lateral\n\n`Eventos da Batalha` permanece estreito, com três eventos recentes, indicador de rolagem sincronizado e timeline curta. A ficha do monstro continua disponível por hover ou toque.\n\n## Fora de escopo\n\nNada nesses controles altera física, resultado, posições, câmera base ou recompensas.\n
+# Tela 08 - Replay Tatico: Campo Ampliado e Tres Barras
+
+Status: Em revisao.
+
+## Campo maior
+
+O campo tatico de replay e treino ocupa a maior area central do tablet e preserva proporcao e bordas fisicas. O painel lateral fica estreito. Nenhuma barra cobre o campo. Todas as tres ficam abaixo dele.
+
+## Barra 1 - transporte
+
+Tem exatamente cinco botoes: evento anterior, play ou pausa, proximo evento, reiniciar e velocidade 1x. Depois deles fica uma timeline fina com cursor, marcadores e tempo.
+
+## Barra 2 - player deslizavel
+
+Tem indicador da unidade atual, trilha longa, marcador arrastavel do monstro ativo, pontos de eventos e contador de jogada como 14/30. Nao repete controles de play.
+
+## Barra 3 - matriz de analise
+
+Duas linhas, seguindo a referencia visual. Linha superior: jogada atual, trajetoria, colisao, habilidade, poder do Capitao e foco de camera. Linha inferior: aliado, adversario, todos, efeitos do Capitao, buffs ou debuffs, filtro, escudo, aumento, energia, reducao e condicao.
+
+Icones lineares pequenos. Separadores dividem grupos. Selecao usa anel ciano. Tooltip curto aparece no hover ou toque prolongado.
+
+## Lateral: Eventos da Batalha
+
+Funciona como relatorio dos movimentos analisados: tres eventos, cada um com horario, icone, acao e condicao. Exemplo: 12:14 Nevoa empurrou Prisma - condicao: impacto lateral. O evento ativo fica em ciano. Lista, timeline e slider de jogadas ficam sincronizados.
+
+## Fora de escopo
+
+As ferramentas analisam o replay, sem alterar fisica, camera-base, posicoes, resultado ou recompensas.
