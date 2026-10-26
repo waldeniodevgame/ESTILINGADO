@@ -2,71 +2,71 @@
   {
     "title": "Como vencer",
     "unit": 0,
-    "text": "Você vence ao zerar a vida do capitão rival ou derrotar todas as quatro unidades inimigas. Cada unidade sua que cai também remove 20 PV do seu capitão.",
-    "tip": "Acompanhe as barras de vida dos dois capitães no HUD.",
+    "text": "VocÃª vence ao zerar a vida do capitÃ£o rival ou derrotar todas as quatro unidades inimigas. Cada unidade sua que cai tambÃ©m remove 20 PV do seu capitÃ£o.",
+    "tip": "Acompanhe as barras de vida dos dois capitÃ£es no HUD.",
     "tag": "OBJETIVO"
   },
   {
     "title": "Monte uma equipe de quatro",
     "unit": 3,
-    "text": "Cada unidade tem ataque, vida e um especial próprio. Escolha quatro no catálogo e toque em uma carta para ver sua ficha. Duplas específicas ativam sinergias.",
-    "tip": "As sinergias de formação somam bônus de impacto até o limite indicado na tela de equipe.",
+    "text": "Cada unidade tem ataque, vida e um especial prÃ³prio. Escolha quatro no catÃ¡logo e toque em uma carta para ver sua ficha. Duplas especÃ­ficas ativam sinergias.",
+    "tip": "As sinergias de formaÃ§Ã£o somam bÃ´nus de impacto atÃ© o limite indicado na tela de equipe.",
     "tag": "EQUIPE"
   },
   {
     "title": "Um disparo por vez",
     "unit": 11,
-    "text": "A partida alterna entre você e o adversário a cada jogada. A unidade ativa é escolhida pelo rodízio; na próxima vez da sua equipe, ele avança para a próxima unidade viva.",
-    "tip": "A seta e o aro verde mostram quem está ativo. Unidades derrotadas saem do rodízio.",
+    "text": "A partida alterna entre vocÃª e o adversÃ¡rio a cada jogada. A unidade ativa Ã© escolhida pelo rodÃ­zio; na prÃ³xima vez da sua equipe, ele avanÃ§a para a prÃ³xima unidade viva.",
+    "tip": "A seta e o aro verde mostram quem estÃ¡ ativo. Unidades derrotadas saem do rodÃ­zio.",
     "tag": "TURNOS"
   },
   {
     "title": "Mire com o toque",
     "unit": 2,
-    "text": "Toque na unidade destacada, puxe o dedo para trás na direção oposta ao disparo e solte. A linha pontilhada mostra uma previsão da rota e a barra indica a força do arrasto.",
-    "tip": "Arrasto curto dá menos força. Se a mira não servir, solte fora da arena ou toque em cancelar.",
+    "text": "Toque na unidade destacada, puxe o dedo para trÃ¡s na direÃ§Ã£o oposta ao disparo e solte. A linha pontilhada mostra uma previsÃ£o da rota e a barra indica a forÃ§a do arrasto.",
+    "tip": "Arrasto curto dÃ¡ menos forÃ§a. Se a mira nÃ£o servir, solte fora da arena ou toque em cancelar.",
     "tag": "MIRA"
   },
   {
     "title": "Leia os ricochetes e impactos",
     "unit": 5,
-    "text": "As bordas claras limitam o campo e fazem o lançamento ricochetear. As faixas vermelhas causam dano quando um inimigo empurrado bate nelas. Um tiro pode atingir mais de um alvo.",
-    "tip": "O ataque base vem da ficha da unidade. Posição e rota decidem quantos contatos você consegue.",
+    "text": "As bordas claras limitam o campo e fazem o lanÃ§amento ricochetear. As faixas vermelhas causam dano quando um inimigo empurrado bate nelas. Um tiro pode atingir mais de um alvo.",
+    "tip": "O ataque base vem da ficha da unidade. PosiÃ§Ã£o e rota decidem quantos contatos vocÃª consegue.",
     "tag": "MOVIMENTO"
   },
   {
     "title": "Use os aliados para formar elos",
     "unit": 6,
-    "text": "Trace a rota através de um aliado antes de chegar ao rival. O aliado ativa sua assistência e ataca ou prepara um efeito. Cada aliado participa no máximo uma vez por disparo.",
-    "tip": "A prévia da mira indica quantos aliados estão na rota. Os efeitos dependem da unidade que você escolheu.",
+    "text": "Trace a rota atravÃ©s de um aliado antes de chegar ao rival. O aliado ativa sua assistÃªncia e ataca ou prepara um efeito. Cada aliado participa no mÃ¡ximo uma vez por disparo.",
+    "tip": "A prÃ©via da mira indica quantos aliados estÃ£o na rota. Os efeitos dependem da unidade que vocÃª escolheu.",
     "tag": "COMBOS"
   },
   {
-    "title": "Gaste energia do capitão",
+    "title": "Gaste energia do capitÃ£o",
     "unit": 9,
-    "text": "Você começa com 3 de energia. Depois recebe +2 no início de cada turno seu, até 6. Antes do disparo, use uma habilidade do capitão: Cura custa 2 e recupera até 20 PV; Sobrecarga custa 2 e soma 8 ao primeiro impacto.",
-    "tip": "Vetor (2), Circuito (3), Parede (3) e Protocolo (5) mostram o custo no botão. Só uma habilidade do capitão por turno.",
-    "tag": "CAPITÃO"
+    "text": "VocÃª comeÃ§a com 3 de energia. Depois recebe +2 no inÃ­cio de cada turno seu, atÃ© 6. Antes do disparo, use uma habilidade do capitÃ£o: Cura custa 2 e recupera atÃ© 20 PV; Sobrecarga custa 2 e soma 8 ao primeiro impacto.",
+    "tip": "Vetor (2), Circuito (3), Parede (3) e Protocolo (5) mostram o custo no botÃ£o. SÃ³ uma habilidade do capitÃ£o por turno.",
+    "tag": "CAPITÃƒO"
   },
   {
     "title": "Ative o especial de cada unidade",
     "unit": 7,
-    "text": "O botão de especial muda conforme a unidade ativa. Ele pode atravessar, marcar, empurrar, curar ou atingir outros alvos, de acordo com a ficha. O especial recarrega após três turnos próprios completos.",
-    "tip": "O especial da unidade é separado da habilidade do capitão; use os dois no mesmo turno se ambos estiverem disponíveis.",
+    "text": "O botÃ£o de especial muda conforme a unidade ativa. Ele pode atravessar, marcar, empurrar, curar ou atingir outros alvos, de acordo com a ficha. O especial recarrega apÃ³s trÃªs turnos prÃ³prios completos.",
+    "tip": "O especial da unidade Ã© separado da habilidade do capitÃ£o; use os dois no mesmo turno se ambos estiverem disponÃ­veis.",
     "tag": "PODERES"
   },
   {
     "title": "Entenda dano, escudos e combos",
     "unit": 10,
-    "text": "Escudos absorvem dano antes da vida. Eventos de dano na mesma jogada elevam o multiplicador em 10%, até +40%. O V7 limita o dano por disparo a 70 por unidade e 45 por capitão; o Marcelo pode chegar a 70 com os dois impactos.",
-    "tip": "Os efeitos e números são valores de teste desta versão; confira os números flutuantes e o registro de jogadas.",
+    "text": "Escudos absorvem dano antes da vida. Eventos de dano na mesma jogada elevam o multiplicador em 10%, atÃ© +40%. O V7 limita o dano por disparo a 70 por unidade e 45 por capitÃ£o; o Marcelo pode chegar a 70 com os dois impactos.",
+    "tip": "Os efeitos e nÃºmeros sÃ£o valores de teste desta versÃ£o; confira os nÃºmeros flutuantes e o registro de jogadas.",
     "tag": "DANO"
   },
   {
     "title": "Agora pratique na arena",
     "unit": 13,
-    "text": "O treino abre uma partida contra a IA no modo Explorador, usando este mesmo campo, as mesmas unidades e a física do V7. Cumpra os quatro desafios no quadro de estado durante a partida.",
-    "tip": "Arraste para mirar, tente um combo, use uma habilidade do capitão e depois um especial.",
-    "tag": "PRÁTICA"
+    "text": "O treino abre uma partida contra a IA no modo Explorador, usando este mesmo campo, as mesmas unidades e a fÃ­sica do V7. Cumpra os quatro desafios no quadro de estado durante a partida.",
+    "tip": "Arraste para mirar, tente um combo, use uma habilidade do capitÃ£o e depois um especial.",
+    "tag": "PRÃTICA"
   }
 ]

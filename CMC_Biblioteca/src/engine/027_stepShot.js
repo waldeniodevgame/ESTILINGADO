@@ -1,4 +1,4 @@
-  function stepShot(g) {
+﻿  function stepShot(g) {
     if (g.phase !== 'moving' || !g.shot || g.shot.done) return false;
     const s = g.shot, a = unit(g, s.actorId);
     if (!a || !a.alive) { s.done = true; return false; }
@@ -9,7 +9,7 @@
       const reach=(PHYSICS_PROFILES[moving?.type]?.collisionRadius??C.radius)+(PHYSICS_PROFILES[echo?.type]?.collisionRadius??C.radius);
       if(!echo||!moving||distance(moving,echo)>reach+1)delete s.echoPassLocks[pair];
     }
-    /* Um líder também pode atingir um inimigo estacionário dentro de sua área. */
+    /* Um lÃ­der tambÃ©m pode atingir um inimigo estacionÃ¡rio dentro de sua Ã¡rea. */
     for (const l of g.leaders) if (l.hp > 0 && !s.guardUsed[l.team]) {
       const target = alive(g, 1 - l.team).filter(u => distance(u, l) <= C.guardRadius).sort((x, y) => distance(x, l) - distance(y, l) || x.id.localeCompare(y.id))[0];
       if (target) triggerGuard(g, l.team, target);
@@ -44,9 +44,9 @@
       if(u.y<C.top+C.radius){u.y=C.top+C.radius;u.vy=Math.abs(u.vy)*C.wallBounce;wall='top';}
       if(u.y>C.bottom-C.radius){u.y=C.bottom-C.radius;u.vy=-Math.abs(u.vy)*C.wallBounce;wall='bottom';}
       const danger=wall&&((wall==='left'||wall==='right')?u.y>=240&&u.y<=360:u.x>=420&&u.x<=540);
-      if(wall&&(danger||g.wall)){
+      if(wall&&(danger||g.wall)&&u.team!==a.team){
         const key=u.id+wall;s.wallHits=s.wallHits||{};
-        if((s.wallHits[key]||0)<2){s.wallHits[key]=(s.wallHits[key]||0)+1;applyDamage(g,u,12+(g.specialization==='strategist'&&!s.strategistUsed?4:0),a.id,'wall');s.strategistUsed=true;s.comboCount++;event(g,'combo',{actor:a.id,target:u.id,count:s.comboCount,x:u.x,y:u.y,toX:u.x,toY:u.y});}
+        if((s.wallHits[key]||0)<2){s.wallHits[key]=(s.wallHits[key]||0)+1;const wallDamage=(F.wallDamage??12)*(g.wall?2:1);applyDamage(g,u,wallDamage,a.id,'wall');s.comboCount++;event(g,'wall-hit',{actor:a.id,target:u.id,damage:wallDamage,doubled:!!g.wall,wall,x:u.x,y:u.y});event(g,'combo',{actor:a.id,target:u.id,count:s.comboCount,x:u.x,y:u.y,toX:u.x,toY:u.y});}
       }
       const damp=Math.pow(C.damping,C.dt*60);u.vx*=damp;u.vy*=damp;
       if(Math.hypot(u.vx,u.vy)<C.stopSpeed)u.vx=u.vy=0;
@@ -185,3 +185,4 @@
     if (!a.alive || (!s.hammerPending && speed < C.stopSpeed && alive(g,1-a.team).every(u=>Math.hypot(u.vx||0,u.vy||0)<C.stopSpeed)) || s.elapsed >= C.maxSeconds || s.bounces >= C.maxBounces) s.done = true;
     return !s.done;
   }
+

@@ -14,6 +14,15 @@
       if (l.energy < C.focusCost || g.focus) return false;
       l.energy -= C.focusCost; g.focus = true;
       event(g, 'skill', { team: g.team, key });
+    } else if (key === 'max') {
+      const costs=F.captainCosts,damage=F.protocolDamage??50;
+      if(l.energy<costs[key])return false;
+      l.energy-=costs[key];
+      const enemies=alive(g,1-g.team),enemyLeader=g.leaders[1-g.team];
+      for(const enemy of enemies)applyDamage(g,enemy,damage,l.id,'protocol');
+      applyDamage(g,enemyLeader,damage,l.id,'protocol');
+      settleDeaths(g);checkVictory(g);
+      event(g,'skill',{team:g.team,key,damage,targetCount:enemies.length,leaderTarget:enemyLeader.id});
     } else {const costs=F.captainCosts;if(!costs[key]||l.energy<costs[key])return false;l.energy-=costs[key];g[key]=true;}
     g.usedSkills.push(key);
     return true;

@@ -13,6 +13,9 @@
     "max": 5
   },
   "pushScale": 0.85,
+  "vectorSpeedMultiplier": 2,
+  "wallDamage": 12,
+  "protocolDamage": 50,
   "specialBoost": 1.25,
   "formationCap": 0.15,
   "formationPairs": [
@@ -137,3 +140,4 @@
     ]
   }
 }
+

@@ -7,6 +7,7 @@
     const slowPercent=clamp(Number(a.slowNextForce)||0,0,80);
     if(slowPercent>0){v.vx*=1-slowPercent/100;v.vy*=1-slowPercent/100;a.slowNextForce=0;event(g,'slow-consumed',{target:a.id,percent:slowPercent,x:a.x,y:a.y});}
     if(a.slowNext){v.vx*=F.anchorSlow;v.vy*=F.anchorSlow;a.slowNext=false;}
+    if(g.vector){v.vx*=F.vectorSpeedMultiplier??2;v.vy*=F.vectorSpeedMultiplier??2;g.vector=false;event(g,'vector-consumed',{actor:a.id,multiplier:F.vectorSpeedMultiplier??2,x:a.x,y:a.y});}
     g.phase = 'moving';
     g.shot = { actorId: a.id, vx: v.vx, vy: v.vy, elapsed: 0, ticks: 0, bounces: 0,
       hitIds: [], comboIds: [], furnaceAllyIds: [], furnaceAllyCount: 0, comboCount: 0, glacialRank: 0, drillRank: 0, turbineRank: 0, turbineImpact: false, echoBumpIds: [], echoPassLocks: {}, guardUsed: [false, false],
