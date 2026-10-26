@@ -1,1 +1,0 @@
-# Verificação de acesso\n\nArquivo temporário criado pelo Toqi em 2026-10-26 somente para confirmar permissão de escrita no repositório. Pode ser removido após a validação.
