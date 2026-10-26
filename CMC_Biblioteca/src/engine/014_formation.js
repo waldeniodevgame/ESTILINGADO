@@ -1,0 +1,1 @@
+  function formation(g,team){const ids=alive(g,team).map(u=>u.type);let n=0;for(const pair of F.formationPairs)if(pair.every(i=>ids.includes(i)))n++;return 1+Math.min(F.formationCap,n*F.formationPerPair);}

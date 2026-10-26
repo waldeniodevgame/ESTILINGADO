@@ -21,3 +21,7 @@ MemoryCaptures/
 .env
 .env.*
 !.env.example
+
+# As builds HTML de teste deste projeto são versionadas.
+!builds/
+!builds/*.html

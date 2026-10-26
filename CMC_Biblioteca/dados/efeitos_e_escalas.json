@@ -1,0 +1,139 @@
+{
+  "reactorExtraHP": 100,
+  "captainInset": 0.165,
+  "initialEnergy": 3,
+  "reactorTurns": 3,
+  "damageGrowthSteps": 4,
+  "hammerMonsterCap": 90,
+  "captainHeal": 20,
+  "captainCosts": {
+    "vector": 2,
+    "circuit": 3,
+    "wall": 3,
+    "max": 5
+  },
+  "pushScale": 0.85,
+  "specialBoost": 1.25,
+  "formationCap": 0.15,
+  "formationPairs": [
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      11
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "focusDamage": 8,
+  "frostDamage": [
+    0,
+    15,
+    20,
+    30
+  ],
+  "frostSlow": [
+    0,
+    15,
+    15,
+    20
+  ],
+  "lightningCount": [
+    0,
+    2,
+    3,
+    5
+  ],
+  "lightningDamage": [
+    0,
+    15,
+    20,
+    30
+  ],
+  "turbineMultiplier": [
+    1,
+    1.15,
+    1.3,
+    1.5
+  ],
+  "turbinePercent": [
+    0,
+    15,
+    30,
+    50
+  ],
+  "drillForcePercent": [
+    0,
+    20,
+    0,
+    0
+  ],
+  "drillDamagePercent": [
+    0,
+    0,
+    25,
+    30
+  ],
+  "drillDamageMultiplier": [
+    1,
+    1,
+    1.25,
+    1.3
+  ],
+  "drillForceMultiplier": [
+    1,
+    1.2,
+    1,
+    1
+  ],
+  "portalRadius": 5,
+  "portalDamage": 50,
+  "anchorSlow": 0.5,
+  "turnEnergy": 2,
+  "damageGrowthPerEvent": 0.1,
+  "monsterDamageCap": 70,
+  "hammerCaptainCap": 70,
+  "captainDamageCap": 45,
+  "formationPerPair": 0.1,
+  "specials": {
+    "furnaceRadius": 92,
+    "impactDamage": 12,
+    "chainDamage": 10,
+    "turbineMultiplier": 1.15,
+    "bounceDamageCap": 12,
+    "magnetRadius": 160,
+    "magnetImpulse": 60,
+    "repairHeal": 15,
+    "shieldBreak": 15,
+    "echoFallback": 10,
+    "orbitImpulse": 220,
+    "phaseDistance": 65,
+    "bounceDamage": 4,
+    "echoMultiplier": 0.5
+  },
+  "furnace": {
+    "contactDamage": 10,
+    "lavaRadius": 88,
+    "lavaDamage": 15,
+    "lavaDurationOwnTurns": 1,
+    "explosionDurationSeconds": 0.42,
+    "allyComboBonusPercent": [
+      0,
+      15,
+      30,
+      50
+    ]
+  }
+}

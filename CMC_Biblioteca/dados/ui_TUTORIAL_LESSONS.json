@@ -1,0 +1,207 @@
+{
+  "0": {
+    "summary": "Veja a explosão de contato com dano decrescente e alcance reduzido.",
+    "stages": [
+      {
+        "id": "furnace1",
+        "title": "Explosão radial · até 50",
+        "detail": "Dano cai com a distância; alcance de 5 raios de criatura."
+      }
+    ]
+  },
+  "1": {
+    "summary": "Treine cada posição da Voltagem e veja os raios atingirem bots de exemplo.",
+    "stages": [
+      {
+        "id": "voltage1",
+        "title": "Primeiro aliado · 2 raios",
+        "detail": "Primeiro elo: dois raios de 15 de dano."
+      },
+      {
+        "id": "voltage2",
+        "title": "Segundo aliado · 3 raios",
+        "detail": "Segundo elo: três raios de 20 de dano."
+      },
+      {
+        "id": "voltage3",
+        "title": "Combo 3× · 5 raios",
+        "detail": "Último lançamento: cinco raios de 30 de dano."
+      }
+    ]
+  },
+  "2": {
+    "summary": "Compare o dano de gelo e a redução de força conforme o número de aliados atravessados.",
+    "stages": [
+      {
+        "id": "glacial1",
+        "title": "Um aliado · +15 de gelo",
+        "detail": "Reduz 15% da força no próximo lançamento."
+      },
+      {
+        "id": "glacial2",
+        "title": "Dois aliados · +20 de gelo",
+        "detail": "Reduz 15% da força no próximo lançamento."
+      },
+      {
+        "id": "glacial3",
+        "title": "Três aliados · +30 de gelo",
+        "detail": "Reduz 20% da força no próximo lançamento."
+      }
+    ]
+  },
+  "3": {
+    "summary": "Veja a perfuração atravessar aliados e fortalecer a primeira colisão contra o inimigo.",
+    "stages": [
+      {
+        "id": "marcelo",
+        "title": "Colisão e martelada",
+        "detail": "Mira, passagem por aliado e os dois impactos."
+      }
+    ]
+  },
+  "4": {
+    "summary": "Aprenda a aceleração progressiva e o impacto que dobra a velocidade da Turbina.",
+    "stages": [
+      {
+        "id": "turbine1",
+        "title": "Um aliado · +15%",
+        "detail": "Primeiro elo e impacto com velocidade dobrada."
+      },
+      {
+        "id": "turbine2",
+        "title": "Dois aliados · +30%",
+        "detail": "Segundo elo de aceleração."
+      },
+      {
+        "id": "turbine3",
+        "title": "Três aliados · +50%",
+        "detail": "Terceiro elo e impacto máximo."
+      }
+    ]
+  },
+  "5": {
+    "summary": "Tutorial de Rebatedor.",
+    "stages": [
+      {
+        "id": "generic5",
+        "title": "Carga cinética",
+        "detail": "Pratique ricochetes e carga."
+      }
+    ]
+  },
+  "6": {
+    "summary": "Tutorial de Ímã.",
+    "stages": [
+      {
+        "id": "generic6",
+        "title": "Atração",
+        "detail": "Agrupe inimigos antes do impacto."
+      }
+    ]
+  },
+  "7": {
+    "summary": "Treine a Broca atravessando 1, 2 ou 3 aliados antes da primeira colisão.",
+    "stages": [
+      {
+        "id": "drill1",
+        "title": "Um aliado · +20% de força",
+        "detail": "Aumenta a força de impacto antes do primeiro inimigo."
+      },
+      {
+        "id": "drill2",
+        "title": "Dois aliados · +25% de dano",
+        "detail": "Aumenta o dano da primeira colisão."
+      },
+      {
+        "id": "drill3",
+        "title": "Três aliados · +30% de dano",
+        "detail": "Maior bônus de dano na primeira colisão."
+      }
+    ]
+  },
+  "8": {
+    "summary": "Aprenda a abrir um portal, teletransportar o Prisma e causar dano radial no ponto escolhido.",
+    "stages": [
+      {
+        "id": "prism1",
+        "title": "Portal · dano radial",
+        "detail": "Arraste até o destino, veja o raio e solte para teletransportar."
+      }
+    ]
+  },
+  "9": {
+    "summary": "Tutorial de Pulso.",
+    "stages": [
+      {
+        "id": "generic9",
+        "title": "Reparo",
+        "detail": "Cure e proteja um aliado."
+      }
+    ]
+  },
+  "10": {
+    "summary": "Tutorial de Muralha.",
+    "stages": [
+      {
+        "id": "generic10",
+        "title": "Quebra-escudo",
+        "detail": "Reduza escudos e proteja a equipe."
+      }
+    ]
+  },
+  "11": {
+    "summary": "Aprenda o bump de +50% depois do impacto e a exceção em que Eco é o próprio lançador.",
+    "stages": [
+      {
+        "id": "echo1",
+        "title": "Bump · +50% de impulso",
+        "detail": "Após colidir com um monstro, Eco reimpulsiona aliados ou inimigos."
+      },
+      {
+        "id": "echo2",
+        "title": "Eco lançado · exceção",
+        "detail": "O próprio Eco não recebe o bump."
+      }
+    ]
+  },
+  "12": {
+    "summary": "Escolha o núcleo do vórtice; Âncora permanece no lugar.",
+    "stages": [
+      {
+        "id": "anchor1",
+        "title": "Morteiro · vórtice",
+        "detail": "Use Morteiro e clique na arena. Aliados são puxados sem dano."
+      }
+    ]
+  },
+  "13": {
+    "summary": "Tutorial de Reator.",
+    "stages": [
+      {
+        "id": "generic13",
+        "title": "Reator armado",
+        "detail": "Mantenha o Reator vivo por três turnos."
+      }
+    ]
+  },
+  "14": {
+    "summary": "Tutorial de Órbita.",
+    "stages": [
+      {
+        "id": "generic14",
+        "title": "Desvio orbital",
+        "detail": "Reposicione o alvo lateralmente."
+      }
+    ]
+  },
+  "15": {
+    "summary": "Tutorial de Fenda.",
+    "stages": [
+      {
+        "id": "generic15",
+        "title": "Salto de fase",
+        "detail": "Reposicione após o primeiro impacto."
+      }
+    ]
+  }
+}

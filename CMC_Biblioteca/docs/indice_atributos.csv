@@ -1,0 +1,1151 @@
+﻿arquivo,caminho,valor
+dados/ui_genericTutorialStages.json,[0],"""generic0"""
+dados/ui_genericTutorialStages.json,[1],"""generic1"""
+dados/ui_genericTutorialStages.json,[2],"""generic2"""
+dados/ui_genericTutorialStages.json,[3],"""generic5"""
+dados/ui_genericTutorialStages.json,[4],"""generic6"""
+dados/ui_genericTutorialStages.json,[5],"""generic9"""
+dados/ui_genericTutorialStages.json,[6],"""generic10"""
+dados/ui_genericTutorialStages.json,[7],"""generic13"""
+dados/ui_genericTutorialStages.json,[8],"""generic14"""
+dados/ui_genericTutorialStages.json,[9],"""generic15"""
+dados/monstros.json,[0].key,"""0"""
+dados/monstros.json,[0].name,"""Fornalha"""
+dados/monstros.json,[0].attack,24
+dados/monstros.json,[0].hp,110
+dados/monstros.json,[0].color,"""#ff925e"""
+dados/monstros.json,[0].skill,"""Explosão por contato"""
+dados/monstros.json,[0].short,"""Até 50 · raio de 5 criaturas"""
+dados/monstros.json,[0].desc,"""Ao tocar um inimigo, explode no centro do alvo. Causa até 50 de dano no centro, com redução linear até zero no limite de 5 raios de criatura. Atinge criaturas inimigas dentro da área."""
+dados/monstros.json,[1].key,"""1"""
+dados/monstros.json,[1].name,"""Voltagem"""
+dados/monstros.json,[1].attack,18
+dados/monstros.json,[1].hp,110
+dados/monstros.json,[1].color,"""#ffe168"""
+dados/monstros.json,[1].skill,"""Descarga"""
+dados/monstros.json,[1].short,"""Raio de 10"""
+dados/monstros.json,[1].desc,"""Descarga: Raio de 10. Especial com recarga de três turnos próprios."""
+dados/monstros.json,[2].key,"""2"""
+dados/monstros.json,[2].name,"""Glacial"""
+dados/monstros.json,[2].attack,16
+dados/monstros.json,[2].hp,120
+dados/monstros.json,[2].color,"""#72dfff"""
+dados/monstros.json,[2].skill,"""Congelamento progressivo"""
+dados/monstros.json,[2].short,"""Gelo +15/20/30 · força −15/20%"""
+dados/monstros.json,[2].desc,"""Congelamento progressivo: ao cruzar 1, 2 ou 3 aliados, cada inimigo atingido recebe +15, +20 ou +30 de dano de gelo e perde 15%, 15% ou 20% da força no próximo lançamento. Especial do capitão: marca o alvo e aumenta o empurrão em 25%."""
+dados/monstros.json,[3].key,"""3"""
+dados/monstros.json,[3].name,"""Marcelo"""
+dados/monstros.json,[3].attack,28
+dados/monstros.json,[3].hp,150
+dados/monstros.json,[3].color,"""#dbaa79"""
+dados/monstros.json,[3].skill,"""Impacto pesado"""
+dados/monstros.json,[3].short,"""Colisão + martelada"""
+dados/monstros.json,[3].desc,"""Impacto pesado: colisão forte e martelada atrasada; o rival permanece imóvel. Especial com recarga de três turnos próprios."""
+dados/monstros.json,[4].key,"""4"""
+dados/monstros.json,[4].name,"""Turbina"""
+dados/monstros.json,[4].attack,17
+dados/monstros.json,[4].hp,110
+dados/monstros.json,[4].color,"""#95f3c6"""
+dados/monstros.json,[4].skill,"""Aceleração"""
+dados/monstros.json,[4].short,"""Velocidade +15%"""
+dados/monstros.json,[4].desc,"""Aceleração: Velocidade +15%. Especial com recarga de três turnos próprios."""
+dados/monstros.json,[5].key,"""5"""
+dados/monstros.json,[5].name,"""Rebatedor"""
+dados/monstros.json,[5].attack,20
+dados/monstros.json,[5].hp,120
+dados/monstros.json,[5].color,"""#aa9dff"""
+dados/monstros.json,[5].skill,"""Carga cinética"""
+dados/monstros.json,[5].short,"""Ricochete +4, máximo +12"""
+dados/monstros.json,[5].desc,"""Carga cinética: Ricochete +4, máximo +12. Especial com recarga de três turnos próprios."""
+dados/monstros.json,[6].key,"""6"""
+dados/monstros.json,[6].name,"""Ímã"""
+dados/monstros.json,[6].attack,15
+dados/monstros.json,[6].hp,130
+dados/monstros.json,[6].color,"""#ee87b9"""
+dados/monstros.json,[6].skill,"""Atração"""
+dados/monstros.json,[6].short,"""Agrupa inimigos"""
+dados/monstros.json,[6].desc,"""Atração: Agrupa inimigos. Especial com recarga de três turnos próprios."""
+dados/monstros.json,[7].key,"""7"""
+dados/monstros.json,[7].name,"""Broca"""
+dados/monstros.json,[7].attack,23
+dados/monstros.json,[7].hp,115
+dados/monstros.json,[7].color,"""#f0bc56"""
+dados/monstros.json,[7].skill,"""Perfuração"""
+dados/monstros.json,[7].short,"""Atravessa primeiro inimigo"""
+dados/monstros.json,[7].desc,"""Perfuração: Atravessa primeiro inimigo. Especial com recarga de três turnos próprios."""
+dados/monstros.json,[8].key,"""8"""
+dados/monstros.json,[8].name,"""Prisma"""
+dados/monstros.json,[8].attack,19
+dados/monstros.json,[8].hp,110
+dados/monstros.json,[8].color,"""#d5b5ff"""
+dados/monstros.json,[8].skill,"""Feixe"""
+dados/monstros.json,[8].short,"""Atinge alvo atrás"""
+dados/monstros.json,[8].desc,"""Feixe: Atinge alvo atrás. Especial com recarga de três turnos próprios."""
+dados/monstros.json,[9].key,"""9"""
+dados/monstros.json,[9].name,"""Pulso"""
+dados/monstros.json,[9].attack,12
+dados/monstros.json,[9].hp,120
+dados/monstros.json,[9].color,"""#70e7a1"""
+dados/monstros.json,[9].skill,"""Reparo"""
+dados/monstros.json,[9].short,"""Cura 15"""
+dados/monstros.json,[9].desc,"""Reparo: Cura 15. Especial com recarga de três turnos próprios."""
+dados/monstros.json,[10].key,"""10"""
+dados/monstros.json,[10].name,"""Muralha"""
+dados/monstros.json,[10].attack,21
+dados/monstros.json,[10].hp,150
+dados/monstros.json,[10].color,"""#b7c6da"""
+dados/monstros.json,[10].skill,"""Quebra-escudo"""
+dados/monstros.json,[10].short,"""Remove 15 de escudo"""
+dados/monstros.json,[10].desc,"""Quebra-escudo: Remove 15 de escudo. Especial com recarga de três turnos próprios."""
+dados/monstros.json,[11].key,"""11"""
+dados/monstros.json,[11].name,"""Eco"""
+dados/monstros.json,[11].attack,16
+dados/monstros.json,[11].hp,100
+dados/monstros.json,[11].color,"""#ed9fdf"""
+dados/monstros.json,[11].skill,"""Bump ressonante"""
+dados/monstros.json,[11].short,"""Bump +50% após impacto"""
+dados/monstros.json,[11].desc,"""Bump ressonante: depois que o lançador colidir com outro monstro, tocar Eco redireciona o lançamento e devolve +50% de força. Vale para aliados e inimigos; Eco não ativa o bump quando é o lançador. Especial: marca o alvo para repetir dano."""
+dados/monstros.json,[12].key,"""12"""
+dados/monstros.json,[12].name,"""Âncora"""
+dados/monstros.json,[12].attack,18
+dados/monstros.json,[12].hp,145
+dados/monstros.json,[12].color,"""#7095aa"""
+dados/monstros.json,[12].skill,"""Morteiro · vórtice"""
+dados/monstros.json,[12].short,"""Núcleo de sucção"""
+dados/monstros.json,[12].desc,"""Escolha um ponto da arena para criar o vórtice. Âncora permanece no lugar; aliados são puxados sem dano e inimigos arrastados recebem dano periódico."""
+dados/monstros.json,[13].key,"""13"""
+dados/monstros.json,[13].name,"""Reator"""
+dados/monstros.json,[13].attack,20
+dados/monstros.json,[13].hp,120
+dados/monstros.json,[13].color,"""#c4f46c"""
+dados/monstros.json,[13].skill,"""Reação cinética"""
+dados/monstros.json,[13].short,"""Converte ricochetes em área"""
+dados/monstros.json,[13].desc,"""Especial: detona uma área ao fim do lançamento, com dano baseado nos ricochetes (máximo 18). Assistência: concede uma carga ao lançador. Recarga: três turnos próprios."""
+dados/monstros.json,[14].key,"""14"""
+dados/monstros.json,[14].name,"""Órbita"""
+dados/monstros.json,[14].attack,16
+dados/monstros.json,[14].hp,115
+dados/monstros.json,[14].color,"""#b099ff"""
+dados/monstros.json,[14].skill,"""Desvio orbital"""
+dados/monstros.json,[14].short,"""Deslocamento lateral"""
+dados/monstros.json,[14].desc,"""Especial: empurra o alvo lateralmente à trajetória. Assistência: aproxima o inimigo mais próximo da linha do lançador. Recarga: três turnos próprios."""
+dados/monstros.json,[15].key,"""15"""
+dados/monstros.json,[15].name,"""Fenda"""
+dados/monstros.json,[15].attack,19
+dados/monstros.json,[15].hp,105
+dados/monstros.json,[15].color,"""#ee7bc7"""
+dados/monstros.json,[15].skill,"""Salto de fase"""
+dados/monstros.json,[15].short,"""Reposiciona o lançamento"""
+dados/monstros.json,[15].desc,"""Especial: após o primeiro impacto, salta para o outro lado do alvo, uma vez por tiro. Assistência: +6 no próximo impacto. Recarga: três turnos próprios."""
+dados/fisica_global.json,minDrag,10
+dados/fisica_global.json,maxDrag,160
+dados/fisica_global.json,maxSpeed,1350
+dados/fisica_global.json,deceleration,225
+dados/fisica_global.json,damping,0.986
+dados/fisica_global.json,wallBounce,0.88
+dados/fisica_global.json,enemyBounce,0.88
+dados/fisica_global.json,stopSpeed,5.1
+dados/fisica_global.json,dt.$divide[0],1
+dados/fisica_global.json,dt.$divide[1],120
+dados/fisica_global.json,maxSeconds,10
+dados/fisica_global.json,maxBounces,40
+dados/formacao.json,[0][0],-80
+dados/formacao.json,[0][1],-150
+dados/formacao.json,[1][0],120
+dados/formacao.json,[1][1],-72
+dados/formacao.json,[2][0],-70
+dados/formacao.json,[2][1],154
+dados/formacao.json,[3][0],130
+dados/formacao.json,[3][1],158
+dados/fisica_monstros.json,[0].role,"""Explosão radial por contato"""
+dados/fisica_monstros.json,[0].weightClass,"""Leve"""
+dados/fisica_monstros.json,[0].massFactor,null
+dados/fisica_monstros.json,[0].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[0].launchMultiplier,0.8
+dados/fisica_monstros.json,[0].maxSpeed.$multiply[0].$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[0].maxSpeed.$multiply[1],0.8
+dados/fisica_monstros.json,[0].pushImpulse,105
+dados/fisica_monstros.json,[0].impactStyle,"""blast-on-contact"""
+dados/fisica_monstros.json,[0].blastMaxDamage,10
+dados/fisica_monstros.json,[0].blastRadius,5
+dados/fisica_monstros.json,[0].calibration,"""Leve; velocidade máxima 80%; gruda em aliados e ricocheteia em inimigos"""
+dados/fisica_monstros.json,[1].role,"""Corrente elétrica"""
+dados/fisica_monstros.json,[1].weightClass,"""Leve (hipótese)"""
+dados/fisica_monstros.json,[1].massFactor,null
+dados/fisica_monstros.json,[1].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[1].launchMultiplier,1
+dados/fisica_monstros.json,[1].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[1].pushImpulse,180
+dados/fisica_monstros.json,[1].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[1].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[2].role,"""Congelamento e redução da força"""
+dados/fisica_monstros.json,[2].weightClass,"""Médio (hipótese)"""
+dados/fisica_monstros.json,[2].massFactor,null
+dados/fisica_monstros.json,[2].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[2].launchMultiplier,1
+dados/fisica_monstros.json,[2].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[2].pushImpulse,180
+dados/fisica_monstros.json,[2].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[2].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[3].role,"""Colisão forte + martelada atrasada"""
+dados/fisica_monstros.json,[3].weightClass,"""Pesado (hipótese)"""
+dados/fisica_monstros.json,[3].massFactor,null
+dados/fisica_monstros.json,[3].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[3].launchMultiplier,1
+dados/fisica_monstros.json,[3].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[3].pushImpulse,0
+dados/fisica_monstros.json,[3].impactStyle,"""two-hit-hammer"""
+dados/fisica_monstros.json,[3].impactDamageMultiplier,1.7
+dados/fisica_monstros.json,[3].hammerDamageMultiplier,0.6
+dados/fisica_monstros.json,[3].hammerDelay,0.32
+dados/fisica_monstros.json,[3].hammerImpulse,0
+dados/fisica_monstros.json,[3].calibration,"""Etapa focada: dois impactos, alvo imóvel e pausa de 0,32 s; valores ainda ajustáveis"""
+dados/fisica_monstros.json,[4].role,"""Mobilidade / aceleração"""
+dados/fisica_monstros.json,[4].weightClass,"""Leve"""
+dados/fisica_monstros.json,[4].massFactor,null
+dados/fisica_monstros.json,[4].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[4].launchMultiplier,1
+dados/fisica_monstros.json,[4].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[4].pushImpulse,180
+dados/fisica_monstros.json,[4].impactStyle,"""turbine-impact"""
+dados/fisica_monstros.json,[4].calibration,"""1 aliado +15%; 2 aliados +30%; 3 aliados +50%; colisão dobra a velocidade"""
+dados/fisica_monstros.json,[5].role,"""Ricochete / carga cinética"""
+dados/fisica_monstros.json,[5].weightClass,"""Médio (hipótese)"""
+dados/fisica_monstros.json,[5].massFactor,null
+dados/fisica_monstros.json,[5].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[5].launchMultiplier,1
+dados/fisica_monstros.json,[5].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[5].pushImpulse,180
+dados/fisica_monstros.json,[5].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[5].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[6].role,"""Agrupamento / atração"""
+dados/fisica_monstros.json,[6].weightClass,"""Médio (hipótese)"""
+dados/fisica_monstros.json,[6].massFactor,null
+dados/fisica_monstros.json,[6].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[6].launchMultiplier,1
+dados/fisica_monstros.json,[6].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[6].pushImpulse,180
+dados/fisica_monstros.json,[6].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[6].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[7].role,"""Perfuração de linha"""
+dados/fisica_monstros.json,[7].weightClass,"""Médio (hipótese)"""
+dados/fisica_monstros.json,[7].massFactor,null
+dados/fisica_monstros.json,[7].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[7].launchMultiplier,1
+dados/fisica_monstros.json,[7].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[7].pushImpulse,180
+dados/fisica_monstros.json,[7].impactStyle,"""piercing-impact"""
+dados/fisica_monstros.json,[7].calibration,"""1 aliado: +20% de força de impacto; 2 aliados: +25% de dano de colisão; 3 aliados: +30% de dano de colisão"""
+dados/fisica_monstros.json,[8].role,"""Feixe / alcance"""
+dados/fisica_monstros.json,[8].weightClass,"""Leve"""
+dados/fisica_monstros.json,[8].massFactor,null
+dados/fisica_monstros.json,[8].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[8].launchMultiplier,1
+dados/fisica_monstros.json,[8].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[8].pushImpulse,180
+dados/fisica_monstros.json,[8].impactStyle,"""prismatic-portal"""
+dados/fisica_monstros.json,[8].calibration,"""Teleporte por clique e arrasto; dano radial proporcional à explosão da Fornalha"""
+dados/fisica_monstros.json,[9].role,"""Suporte / reparo"""
+dados/fisica_monstros.json,[9].weightClass,"""Leve (hipótese)"""
+dados/fisica_monstros.json,[9].massFactor,null
+dados/fisica_monstros.json,[9].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[9].launchMultiplier,1
+dados/fisica_monstros.json,[9].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[9].pushImpulse,180
+dados/fisica_monstros.json,[9].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[9].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[10].role,"""Defesa / quebra-escudo"""
+dados/fisica_monstros.json,[10].weightClass,"""Pesado (hipótese)"""
+dados/fisica_monstros.json,[10].massFactor,null
+dados/fisica_monstros.json,[10].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[10].launchMultiplier,1
+dados/fisica_monstros.json,[10].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[10].pushImpulse,180
+dados/fisica_monstros.json,[10].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[10].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[11].role,"""Bump / reimpulso +50%"""
+dados/fisica_monstros.json,[11].weightClass,"""Leve (hipótese)"""
+dados/fisica_monstros.json,[11].massFactor,null
+dados/fisica_monstros.json,[11].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[11].launchMultiplier,1
+dados/fisica_monstros.json,[11].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[11].pushImpulse,180
+dados/fisica_monstros.json,[11].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[11].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[12].role,"""Ancoragem / contenção"""
+dados/fisica_monstros.json,[12].weightClass,"""Pesado (hipótese)"""
+dados/fisica_monstros.json,[12].massFactor,null
+dados/fisica_monstros.json,[12].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[12].launchMultiplier,1
+dados/fisica_monstros.json,[12].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[12].pushImpulse,180
+dados/fisica_monstros.json,[12].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[12].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[13].role,"""Carga / reação"""
+dados/fisica_monstros.json,[13].weightClass,"""Médio (hipótese)"""
+dados/fisica_monstros.json,[13].massFactor,null
+dados/fisica_monstros.json,[13].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[13].launchMultiplier,1
+dados/fisica_monstros.json,[13].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[13].pushImpulse,180
+dados/fisica_monstros.json,[13].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[13].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[14].role,"""Redirecionamento orbital"""
+dados/fisica_monstros.json,[14].weightClass,"""Leve (hipótese)"""
+dados/fisica_monstros.json,[14].massFactor,null
+dados/fisica_monstros.json,[14].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[14].launchMultiplier,1
+dados/fisica_monstros.json,[14].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[14].pushImpulse,180
+dados/fisica_monstros.json,[14].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[14].calibration,"""Pendente de vídeo e medição"""
+dados/fisica_monstros.json,[15].role,"""Reposicionamento de fase"""
+dados/fisica_monstros.json,[15].weightClass,"""Leve (hipótese)"""
+dados/fisica_monstros.json,[15].massFactor,null
+dados/fisica_monstros.json,[15].collisionRadius.$ref,"""C.radius"""
+dados/fisica_monstros.json,[15].launchMultiplier,1
+dados/fisica_monstros.json,[15].maxSpeed.$ref,"""C.maxSpeed"""
+dados/fisica_monstros.json,[15].pushImpulse,180
+dados/fisica_monstros.json,[15].impactStyle,"""ricochet"""
+dados/fisica_monstros.json,[15].calibration,"""Pendente de vídeo e medição"""
+dados/nuvem.json,provider,"""firebase"""
+dados/nuvem.json,enabled,false
+dados/nuvem.json,projectId,""""""
+dados/nuvem.json,apiKey,""""""
+dados/nuvem.json,authDomain,""""""
+dados/nuvem.json,storageBucket,""""""
+dados/nuvem.json,messagingSenderId,""""""
+dados/nuvem.json,appId,""""""
+dados/nuvem.json,anonymousLogin,true
+dados/nuvem.json,googleLogin,false
+dados/nuvem.json,collection,"""players"""
+dados/ui_glacialTutorialStages.json,[0],"""glacial1"""
+dados/ui_glacialTutorialStages.json,[1],"""glacial2"""
+dados/ui_glacialTutorialStages.json,[2],"""glacial3"""
+dados/ui_guideStepKeys.json,[0],"""aim"""
+dados/ui_guideStepKeys.json,[1],"""combo"""
+dados/ui_guideStepKeys.json,[2],"""captain"""
+dados/ui_guideStepKeys.json,[3],"""special"""
+dados/efeitos_e_escalas.json,reactorExtraHP,100
+dados/efeitos_e_escalas.json,captainInset,0.165
+dados/efeitos_e_escalas.json,initialEnergy,3
+dados/efeitos_e_escalas.json,reactorTurns,3
+dados/efeitos_e_escalas.json,damageGrowthSteps,4
+dados/efeitos_e_escalas.json,hammerMonsterCap,90
+dados/efeitos_e_escalas.json,captainHeal,20
+dados/efeitos_e_escalas.json,captainCosts.vector,2
+dados/efeitos_e_escalas.json,captainCosts.circuit,3
+dados/efeitos_e_escalas.json,captainCosts.wall,3
+dados/efeitos_e_escalas.json,captainCosts.max,5
+dados/efeitos_e_escalas.json,pushScale,0.85
+dados/efeitos_e_escalas.json,specialBoost,1.25
+dados/efeitos_e_escalas.json,formationCap,0.15
+dados/efeitos_e_escalas.json,formationPairs[0][0],0
+dados/efeitos_e_escalas.json,formationPairs[0][1],6
+dados/efeitos_e_escalas.json,formationPairs[1][0],1
+dados/efeitos_e_escalas.json,formationPairs[1][1],11
+dados/efeitos_e_escalas.json,formationPairs[2][0],2
+dados/efeitos_e_escalas.json,formationPairs[2][1],3
+dados/efeitos_e_escalas.json,formationPairs[3][0],4
+dados/efeitos_e_escalas.json,formationPairs[3][1],5
+dados/efeitos_e_escalas.json,formationPairs[4][0],7
+dados/efeitos_e_escalas.json,formationPairs[4][1],8
+dados/efeitos_e_escalas.json,focusDamage,8
+dados/efeitos_e_escalas.json,frostDamage[0],0
+dados/efeitos_e_escalas.json,frostDamage[1],15
+dados/efeitos_e_escalas.json,frostDamage[2],20
+dados/efeitos_e_escalas.json,frostDamage[3],30
+dados/efeitos_e_escalas.json,frostSlow[0],0
+dados/efeitos_e_escalas.json,frostSlow[1],15
+dados/efeitos_e_escalas.json,frostSlow[2],15
+dados/efeitos_e_escalas.json,frostSlow[3],20
+dados/efeitos_e_escalas.json,lightningCount[0],0
+dados/efeitos_e_escalas.json,lightningCount[1],2
+dados/efeitos_e_escalas.json,lightningCount[2],3
+dados/efeitos_e_escalas.json,lightningCount[3],5
+dados/efeitos_e_escalas.json,lightningDamage[0],0
+dados/efeitos_e_escalas.json,lightningDamage[1],15
+dados/efeitos_e_escalas.json,lightningDamage[2],20
+dados/efeitos_e_escalas.json,lightningDamage[3],30
+dados/efeitos_e_escalas.json,turbineMultiplier[0],1
+dados/efeitos_e_escalas.json,turbineMultiplier[1],1.15
+dados/efeitos_e_escalas.json,turbineMultiplier[2],1.3
+dados/efeitos_e_escalas.json,turbineMultiplier[3],1.5
+dados/efeitos_e_escalas.json,turbinePercent[0],0
+dados/efeitos_e_escalas.json,turbinePercent[1],15
+dados/efeitos_e_escalas.json,turbinePercent[2],30
+dados/efeitos_e_escalas.json,turbinePercent[3],50
+dados/efeitos_e_escalas.json,drillForcePercent[0],0
+dados/efeitos_e_escalas.json,drillForcePercent[1],20
+dados/efeitos_e_escalas.json,drillForcePercent[2],0
+dados/efeitos_e_escalas.json,drillForcePercent[3],0
+dados/efeitos_e_escalas.json,drillDamagePercent[0],0
+dados/efeitos_e_escalas.json,drillDamagePercent[1],0
+dados/efeitos_e_escalas.json,drillDamagePercent[2],25
+dados/efeitos_e_escalas.json,drillDamagePercent[3],30
+dados/efeitos_e_escalas.json,drillDamageMultiplier[0],1
+dados/efeitos_e_escalas.json,drillDamageMultiplier[1],1
+dados/efeitos_e_escalas.json,drillDamageMultiplier[2],1.25
+dados/efeitos_e_escalas.json,drillDamageMultiplier[3],1.3
+dados/efeitos_e_escalas.json,drillForceMultiplier[0],1
+dados/efeitos_e_escalas.json,drillForceMultiplier[1],1.2
+dados/efeitos_e_escalas.json,drillForceMultiplier[2],1
+dados/efeitos_e_escalas.json,drillForceMultiplier[3],1
+dados/efeitos_e_escalas.json,portalRadius,5
+dados/efeitos_e_escalas.json,portalDamage,50
+dados/efeitos_e_escalas.json,anchorSlow,0.5
+dados/efeitos_e_escalas.json,turnEnergy,2
+dados/efeitos_e_escalas.json,damageGrowthPerEvent,0.1
+dados/efeitos_e_escalas.json,monsterDamageCap,70
+dados/efeitos_e_escalas.json,hammerCaptainCap,70
+dados/efeitos_e_escalas.json,captainDamageCap,45
+dados/efeitos_e_escalas.json,formationPerPair,0.1
+dados/efeitos_e_escalas.json,specials.furnaceRadius,92
+dados/efeitos_e_escalas.json,specials.impactDamage,12
+dados/efeitos_e_escalas.json,specials.chainDamage,10
+dados/efeitos_e_escalas.json,specials.turbineMultiplier,1.15
+dados/efeitos_e_escalas.json,specials.bounceDamageCap,12
+dados/efeitos_e_escalas.json,specials.magnetRadius,160
+dados/efeitos_e_escalas.json,specials.magnetImpulse,60
+dados/efeitos_e_escalas.json,specials.repairHeal,15
+dados/efeitos_e_escalas.json,specials.shieldBreak,15
+dados/efeitos_e_escalas.json,specials.echoFallback,10
+dados/efeitos_e_escalas.json,specials.orbitImpulse,220
+dados/efeitos_e_escalas.json,specials.phaseDistance,65
+dados/efeitos_e_escalas.json,specials.bounceDamage,4
+dados/efeitos_e_escalas.json,specials.echoMultiplier,0.5
+dados/efeitos_e_escalas.json,furnace.contactDamage,10
+dados/efeitos_e_escalas.json,furnace.lavaRadius,88
+dados/efeitos_e_escalas.json,furnace.lavaDamage,15
+dados/efeitos_e_escalas.json,furnace.lavaDurationOwnTurns,1
+dados/efeitos_e_escalas.json,furnace.explosionDurationSeconds,0.42
+dados/efeitos_e_escalas.json,furnace.allyComboBonusPercent[0],0
+dados/efeitos_e_escalas.json,furnace.allyComboBonusPercent[1],15
+dados/efeitos_e_escalas.json,furnace.allyComboBonusPercent[2],30
+dados/efeitos_e_escalas.json,furnace.allyComboBonusPercent[3],50
+dados/progresso.json,monsterReward,20
+dados/progresso.json,captainReward,30
+dados/efeitos_visuais.json,textLife,1.1
+dados/efeitos_visuais.json,ringLife,0.55
+dados/efeitos_visuais.json,beamLife,0.6
+dados/efeitos_visuais.json,hammerLife,0.58
+dados/ui_synergies.json,[0].ids[0],0
+dados/ui_synergies.json,[0].ids[1],6
+dados/ui_synergies.json,[0].name,"""Explosão concentrada"""
+dados/ui_synergies.json,[0].desc,"""Ímã agrupa; Fornalha atinge a área."""
+dados/ui_synergies.json,[1].ids[0],1
+dados/ui_synergies.json,[1].ids[1],11
+dados/ui_synergies.json,[1].name,"""Circuito em cadeia"""
+dados/ui_synergies.json,[1].desc,"""Voltagem causa descarga; Eco repete a assistência."""
+dados/ui_synergies.json,[2].ids[0],2
+dados/ui_synergies.json,[2].ids[1],3
+dados/ui_synergies.json,[2].name,"""Impacto nas paredes"""
+dados/ui_synergies.json,[2].desc,"""Glacial prepara o alvo; Marcelo empurra."""
+dados/ui_synergies.json,[3].ids[0],4
+dados/ui_synergies.json,[3].ids[1],5
+dados/ui_synergies.json,[3].name,"""Ricochete carregado"""
+dados/ui_synergies.json,[3].desc,"""Turbina acelera; Rebatedor aproveita as paredes."""
+dados/ui_synergies.json,[4].ids[0],7
+dados/ui_synergies.json,[4].ids[1],8
+dados/ui_synergies.json,[4].name,"""Linha de perfuração"""
+dados/ui_synergies.json,[4].desc,"""Broca atravessa a frente; Prisma alcança outro alvo."""
+dados/ui_synergies.json,[5].ids[0],9
+dados/ui_synergies.json,[5].ids[1],10
+dados/ui_synergies.json,[5].name,"""Fortaleza"""
+dados/ui_synergies.json,[5].desc,"""Pulso cura; Muralha protege o lançador."""
+dados/combos.json,[0].key,"""furnace"""
+dados/combos.json,[0].name,"""Brasa"""
+dados/combos.json,[0].summary,"""causa 10 de dano e prepara +8 no próximo impacto."""
+dados/combos.json,[0].damage,10
+dados/combos.json,[0].bonus,8
+dados/combos.json,[1].key,"""voltage"""
+dados/combos.json,[1].name,"""Descarga elétrica"""
+dados/combos.json,[1].summary,"""dispara raios conforme a posição: 2×15, 3×20 ou 5×30."""
+dados/combos.json,[1].damage,0
+dados/combos.json,[2].key,"""glacial"""
+dados/combos.json,[2].name,"""Marca glacial"""
+dados/combos.json,[2].summary,"""causa 8 de dano, marca o rival e aumenta em 25% o próximo empurrão."""
+dados/combos.json,[2].damage,8
+dados/combos.json,[3].key,"""marcelo"""
+dados/combos.json,[3].name,"""Proteção do Marcelo"""
+dados/combos.json,[3].summary,"""concede 15 de escudo ao lançador."""
+dados/combos.json,[3].damage,0
+dados/combos.json,[3].shield,15
+dados/combos.json,[4].key,"""turbine"""
+dados/combos.json,[4].name,"""Aceleração"""
+dados/combos.json,[4].summary,"""1 aliado: +15% de velocidade; 2 aliados: +30%; 3 aliados: +50%. Ao colidir, Turbina dobra a velocidade atual."""
+dados/combos.json,[4].damage,0
+dados/combos.json,[4].multiplier,1.15
+dados/combos.json,[5].key,"""rebater"""
+dados/combos.json,[5].name,"""Carga cinética"""
+dados/combos.json,[5].summary,"""causa 10 de dano e prepara +6 no próximo impacto."""
+dados/combos.json,[5].damage,10
+dados/combos.json,[5].bonus,6
+dados/combos.json,[6].key,"""magnet"""
+dados/combos.json,[6].name,"""Atração"""
+dados/combos.json,[6].summary,"""puxa o inimigo mais próximo 55 unidades em direção ao lançador."""
+dados/combos.json,[6].damage,0
+dados/combos.json,[6].impulse,55
+dados/combos.json,[7].key,"""drill"""
+dados/combos.json,[7].name,"""Perfuração"""
+dados/combos.json,[7].summary,"""1 aliado concede +20% de força de impacto; 2 aliados dão +25% de dano de colisão; 3 aliados dão +30%."""
+dados/combos.json,[7].damage,0
+dados/combos.json,[8].key,"""prism"""
+dados/combos.json,[8].name,"""Portal prismático"""
+dados/combos.json,[8].summary,"""Clique e arraste até o destino; solte para teletransportar e causar dano radial proporcional à Fornalha."""
+dados/combos.json,[8].damage,0
+dados/combos.json,[9].key,"""repair"""
+dados/combos.json,[9].name,"""Reparo"""
+dados/combos.json,[9].summary,"""cura 10 PV e concede 8 de escudo ao lançador."""
+dados/combos.json,[9].damage,0
+dados/combos.json,[9].heal,10
+dados/combos.json,[9].shield,8
+dados/combos.json,[10].key,"""bulwark"""
+dados/combos.json,[10].name,"""Quebra-escudo"""
+dados/combos.json,[10].summary,"""concede 20 de escudo ao lançador."""
+dados/combos.json,[10].damage,0
+dados/combos.json,[10].shield,20
+dados/combos.json,[11].key,"""echo"""
+dados/combos.json,[11].name,"""Bump ressonante"""
+dados/combos.json,[11].summary,"""após o primeiro impacto, redireciona quem toca Eco e devolve +50% de força."""
+dados/combos.json,[11].damage,0
+dados/combos.json,[11].multiplier,1.5
+dados/combos.json,[12].key,"""anchor"""
+dados/combos.json,[12].name,"""Vetor"""
+dados/combos.json,[12].summary,"""aumenta em 25% o próximo empurrão do lançador."""
+dados/combos.json,[12].damage,0
+dados/combos.json,[13].key,"""reactor"""
+dados/combos.json,[13].name,"""Reação cinética"""
+dados/combos.json,[13].summary,"""Possui vida elevada, fica preso ao primeiro monstro atingido e, após três turnos vivo, explode ao lado do capitão."""
+dados/combos.json,[13].damage,0
+dados/combos.json,[14].$hole,true
+dados/combos.json,[15].key,"""orbit"""
+dados/combos.json,[15].name,"""Desvio orbital"""
+dados/combos.json,[15].summary,"""desloca o inimigo mais próximo 100 unidades em direção ao lançador."""
+dados/combos.json,[15].damage,0
+dados/combos.json,[15].impulse,100
+dados/combos.json,[16].key,"""phase"""
+dados/combos.json,[16].name,"""Salto de fase"""
+dados/combos.json,[16].summary,"""prepara +6 de dano para o próximo impacto."""
+dados/combos.json,[16].damage,0
+dados/combos.json,[16].bonus,6
+dados/ancora_vortex.json,radiusInCreatureRadii,6
+dados/ancora_vortex.json,durationSeconds,3
+dados/ancora_vortex.json,damagePerTick,7
+dados/ancora_vortex.json,damageIntervalSeconds,0.5
+dados/ancora_vortex.json,pullSpeed,60
+dados/ancora_vortex.json,coreStopDistance,2
+dados/ancora_vortex.json,cooldownOwnTurns,1
+dados/ui_voltageTutorialStages.json,[0],"""voltage1"""
+dados/ui_voltageTutorialStages.json,[1],"""voltage2"""
+dados/ui_voltageTutorialStages.json,[2],"""voltage3"""
+dados/ui_drillTutorialStages.json,[0],"""drill1"""
+dados/ui_drillTutorialStages.json,[1],"""drill2"""
+dados/ui_drillTutorialStages.json,[2],"""drill3"""
+dados/ui_TUTORIAL_LESSONS.json,0.summary,"""Veja a explosão de contato com dano decrescente e alcance reduzido."""
+dados/ui_TUTORIAL_LESSONS.json,0.stages[0].id,"""furnace1"""
+dados/ui_TUTORIAL_LESSONS.json,0.stages[0].title,"""Explosão radial · até 50"""
+dados/ui_TUTORIAL_LESSONS.json,0.stages[0].detail,"""Dano cai com a distância; alcance de 5 raios de criatura."""
+dados/ui_TUTORIAL_LESSONS.json,1.summary,"""Treine cada posição da Voltagem e veja os raios atingirem bots de exemplo."""
+dados/ui_TUTORIAL_LESSONS.json,1.stages[0].id,"""voltage1"""
+dados/ui_TUTORIAL_LESSONS.json,1.stages[0].title,"""Primeiro aliado · 2 raios"""
+dados/ui_TUTORIAL_LESSONS.json,1.stages[0].detail,"""Primeiro elo: dois raios de 15 de dano."""
+dados/ui_TUTORIAL_LESSONS.json,1.stages[1].id,"""voltage2"""
+dados/ui_TUTORIAL_LESSONS.json,1.stages[1].title,"""Segundo aliado · 3 raios"""
+dados/ui_TUTORIAL_LESSONS.json,1.stages[1].detail,"""Segundo elo: três raios de 20 de dano."""
+dados/ui_TUTORIAL_LESSONS.json,1.stages[2].id,"""voltage3"""
+dados/ui_TUTORIAL_LESSONS.json,1.stages[2].title,"""Combo 3× · 5 raios"""
+dados/ui_TUTORIAL_LESSONS.json,1.stages[2].detail,"""Último lançamento: cinco raios de 30 de dano."""
+dados/ui_TUTORIAL_LESSONS.json,2.summary,"""Compare o dano de gelo e a redução de força conforme o número de aliados atravessados."""
+dados/ui_TUTORIAL_LESSONS.json,2.stages[0].id,"""glacial1"""
+dados/ui_TUTORIAL_LESSONS.json,2.stages[0].title,"""Um aliado · +15 de gelo"""
+dados/ui_TUTORIAL_LESSONS.json,2.stages[0].detail,"""Reduz 15% da força no próximo lançamento."""
+dados/ui_TUTORIAL_LESSONS.json,2.stages[1].id,"""glacial2"""
+dados/ui_TUTORIAL_LESSONS.json,2.stages[1].title,"""Dois aliados · +20 de gelo"""
+dados/ui_TUTORIAL_LESSONS.json,2.stages[1].detail,"""Reduz 15% da força no próximo lançamento."""
+dados/ui_TUTORIAL_LESSONS.json,2.stages[2].id,"""glacial3"""
+dados/ui_TUTORIAL_LESSONS.json,2.stages[2].title,"""Três aliados · +30 de gelo"""
+dados/ui_TUTORIAL_LESSONS.json,2.stages[2].detail,"""Reduz 20% da força no próximo lançamento."""
+dados/ui_TUTORIAL_LESSONS.json,3.summary,"""Veja a perfuração atravessar aliados e fortalecer a primeira colisão contra o inimigo."""
+dados/ui_TUTORIAL_LESSONS.json,3.stages[0].id,"""marcelo"""
+dados/ui_TUTORIAL_LESSONS.json,3.stages[0].title,"""Colisão e martelada"""
+dados/ui_TUTORIAL_LESSONS.json,3.stages[0].detail,"""Mira, passagem por aliado e os dois impactos."""
+dados/ui_TUTORIAL_LESSONS.json,4.summary,"""Aprenda a aceleração progressiva e o impacto que dobra a velocidade da Turbina."""
+dados/ui_TUTORIAL_LESSONS.json,4.stages[0].id,"""turbine1"""
+dados/ui_TUTORIAL_LESSONS.json,4.stages[0].title,"""Um aliado · +15%"""
+dados/ui_TUTORIAL_LESSONS.json,4.stages[0].detail,"""Primeiro elo e impacto com velocidade dobrada."""
+dados/ui_TUTORIAL_LESSONS.json,4.stages[1].id,"""turbine2"""
+dados/ui_TUTORIAL_LESSONS.json,4.stages[1].title,"""Dois aliados · +30%"""
+dados/ui_TUTORIAL_LESSONS.json,4.stages[1].detail,"""Segundo elo de aceleração."""
+dados/ui_TUTORIAL_LESSONS.json,4.stages[2].id,"""turbine3"""
+dados/ui_TUTORIAL_LESSONS.json,4.stages[2].title,"""Três aliados · +50%"""
+dados/ui_TUTORIAL_LESSONS.json,4.stages[2].detail,"""Terceiro elo e impacto máximo."""
+dados/ui_TUTORIAL_LESSONS.json,5.summary,"""Tutorial de Rebatedor."""
+dados/ui_TUTORIAL_LESSONS.json,5.stages[0].id,"""generic5"""
+dados/ui_TUTORIAL_LESSONS.json,5.stages[0].title,"""Carga cinética"""
+dados/ui_TUTORIAL_LESSONS.json,5.stages[0].detail,"""Pratique ricochetes e carga."""
+dados/ui_TUTORIAL_LESSONS.json,6.summary,"""Tutorial de Ímã."""
+dados/ui_TUTORIAL_LESSONS.json,6.stages[0].id,"""generic6"""
+dados/ui_TUTORIAL_LESSONS.json,6.stages[0].title,"""Atração"""
+dados/ui_TUTORIAL_LESSONS.json,6.stages[0].detail,"""Agrupe inimigos antes do impacto."""
+dados/ui_TUTORIAL_LESSONS.json,7.summary,"""Treine a Broca atravessando 1, 2 ou 3 aliados antes da primeira colisão."""
+dados/ui_TUTORIAL_LESSONS.json,7.stages[0].id,"""drill1"""
+dados/ui_TUTORIAL_LESSONS.json,7.stages[0].title,"""Um aliado · +20% de força"""
+dados/ui_TUTORIAL_LESSONS.json,7.stages[0].detail,"""Aumenta a força de impacto antes do primeiro inimigo."""
+dados/ui_TUTORIAL_LESSONS.json,7.stages[1].id,"""drill2"""
+dados/ui_TUTORIAL_LESSONS.json,7.stages[1].title,"""Dois aliados · +25% de dano"""
+dados/ui_TUTORIAL_LESSONS.json,7.stages[1].detail,"""Aumenta o dano da primeira colisão."""
+dados/ui_TUTORIAL_LESSONS.json,7.stages[2].id,"""drill3"""
+dados/ui_TUTORIAL_LESSONS.json,7.stages[2].title,"""Três aliados · +30% de dano"""
+dados/ui_TUTORIAL_LESSONS.json,7.stages[2].detail,"""Maior bônus de dano na primeira colisão."""
+dados/ui_TUTORIAL_LESSONS.json,8.summary,"""Aprenda a abrir um portal, teletransportar o Prisma e causar dano radial no ponto escolhido."""
+dados/ui_TUTORIAL_LESSONS.json,8.stages[0].id,"""prism1"""
+dados/ui_TUTORIAL_LESSONS.json,8.stages[0].title,"""Portal · dano radial"""
+dados/ui_TUTORIAL_LESSONS.json,8.stages[0].detail,"""Arraste até o destino, veja o raio e solte para teletransportar."""
+dados/ui_TUTORIAL_LESSONS.json,9.summary,"""Tutorial de Pulso."""
+dados/ui_TUTORIAL_LESSONS.json,9.stages[0].id,"""generic9"""
+dados/ui_TUTORIAL_LESSONS.json,9.stages[0].title,"""Reparo"""
+dados/ui_TUTORIAL_LESSONS.json,9.stages[0].detail,"""Cure e proteja um aliado."""
+dados/ui_TUTORIAL_LESSONS.json,10.summary,"""Tutorial de Muralha."""
+dados/ui_TUTORIAL_LESSONS.json,10.stages[0].id,"""generic10"""
+dados/ui_TUTORIAL_LESSONS.json,10.stages[0].title,"""Quebra-escudo"""
+dados/ui_TUTORIAL_LESSONS.json,10.stages[0].detail,"""Reduza escudos e proteja a equipe."""
+dados/ui_TUTORIAL_LESSONS.json,11.summary,"""Aprenda o bump de +50% depois do impacto e a exceção em que Eco é o próprio lançador."""
+dados/ui_TUTORIAL_LESSONS.json,11.stages[0].id,"""echo1"""
+dados/ui_TUTORIAL_LESSONS.json,11.stages[0].title,"""Bump · +50% de impulso"""
+dados/ui_TUTORIAL_LESSONS.json,11.stages[0].detail,"""Após colidir com um monstro, Eco reimpulsiona aliados ou inimigos."""
+dados/ui_TUTORIAL_LESSONS.json,11.stages[1].id,"""echo2"""
+dados/ui_TUTORIAL_LESSONS.json,11.stages[1].title,"""Eco lançado · exceção"""
+dados/ui_TUTORIAL_LESSONS.json,11.stages[1].detail,"""O próprio Eco não recebe o bump."""
+dados/ui_TUTORIAL_LESSONS.json,12.summary,"""Escolha o núcleo do vórtice; Âncora permanece no lugar."""
+dados/ui_TUTORIAL_LESSONS.json,12.stages[0].id,"""anchor1"""
+dados/ui_TUTORIAL_LESSONS.json,12.stages[0].title,"""Morteiro · vórtice"""
+dados/ui_TUTORIAL_LESSONS.json,12.stages[0].detail,"""Use Morteiro e clique na arena. Aliados são puxados sem dano."""
+dados/ui_TUTORIAL_LESSONS.json,13.summary,"""Tutorial de Reator."""
+dados/ui_TUTORIAL_LESSONS.json,13.stages[0].id,"""generic13"""
+dados/ui_TUTORIAL_LESSONS.json,13.stages[0].title,"""Reator armado"""
+dados/ui_TUTORIAL_LESSONS.json,13.stages[0].detail,"""Mantenha o Reator vivo por três turnos."""
+dados/ui_TUTORIAL_LESSONS.json,14.summary,"""Tutorial de Órbita."""
+dados/ui_TUTORIAL_LESSONS.json,14.stages[0].id,"""generic14"""
+dados/ui_TUTORIAL_LESSONS.json,14.stages[0].title,"""Desvio orbital"""
+dados/ui_TUTORIAL_LESSONS.json,14.stages[0].detail,"""Reposicione o alvo lateralmente."""
+dados/ui_TUTORIAL_LESSONS.json,15.summary,"""Tutorial de Fenda."""
+dados/ui_TUTORIAL_LESSONS.json,15.stages[0].id,"""generic15"""
+dados/ui_TUTORIAL_LESSONS.json,15.stages[0].title,"""Salto de fase"""
+dados/ui_TUTORIAL_LESSONS.json,15.stages[0].detail,"""Reposicione após o primeiro impacto."""
+dados/ui_tutorialTeams.json,marcelo[0],3
+dados/ui_tutorialTeams.json,marcelo[1],2
+dados/ui_tutorialTeams.json,marcelo[2],1
+dados/ui_tutorialTeams.json,marcelo[3],11
+dados/ui_tutorialTeams.json,voltage1[0],4
+dados/ui_tutorialTeams.json,voltage1[1],1
+dados/ui_tutorialTeams.json,voltage1[2],2
+dados/ui_tutorialTeams.json,voltage1[3],3
+dados/ui_tutorialTeams.json,voltage2[0],4
+dados/ui_tutorialTeams.json,voltage2[1],0
+dados/ui_tutorialTeams.json,voltage2[2],1
+dados/ui_tutorialTeams.json,voltage2[3],3
+dados/ui_tutorialTeams.json,voltage3[0],0
+dados/ui_tutorialTeams.json,voltage3[1],2
+dados/ui_tutorialTeams.json,voltage3[2],1
+dados/ui_tutorialTeams.json,voltage3[3],4
+dados/ui_tutorialTeams.json,glacial1[0],2
+dados/ui_tutorialTeams.json,glacial1[1],3
+dados/ui_tutorialTeams.json,glacial1[2],4
+dados/ui_tutorialTeams.json,glacial1[3],9
+dados/ui_tutorialTeams.json,glacial2[0],2
+dados/ui_tutorialTeams.json,glacial2[1],3
+dados/ui_tutorialTeams.json,glacial2[2],4
+dados/ui_tutorialTeams.json,glacial2[3],9
+dados/ui_tutorialTeams.json,glacial3[0],2
+dados/ui_tutorialTeams.json,glacial3[1],3
+dados/ui_tutorialTeams.json,glacial3[2],4
+dados/ui_tutorialTeams.json,glacial3[3],9
+dados/ui_tutorialTeams.json,echo1[0],4
+dados/ui_tutorialTeams.json,echo1[1],11
+dados/ui_tutorialTeams.json,echo1[2],0
+dados/ui_tutorialTeams.json,echo1[3],9
+dados/ui_tutorialTeams.json,echo2[0],11
+dados/ui_tutorialTeams.json,echo2[1],11
+dados/ui_tutorialTeams.json,echo2[2],0
+dados/ui_tutorialTeams.json,echo2[3],9
+dados/ui_tutorialTeams.json,drill1[0],7
+dados/ui_tutorialTeams.json,drill1[1],1
+dados/ui_tutorialTeams.json,drill1[2],2
+dados/ui_tutorialTeams.json,drill1[3],3
+dados/ui_tutorialTeams.json,drill2[0],7
+dados/ui_tutorialTeams.json,drill2[1],1
+dados/ui_tutorialTeams.json,drill2[2],2
+dados/ui_tutorialTeams.json,drill2[3],3
+dados/ui_tutorialTeams.json,drill3[0],7
+dados/ui_tutorialTeams.json,drill3[1],1
+dados/ui_tutorialTeams.json,drill3[2],2
+dados/ui_tutorialTeams.json,drill3[3],3
+dados/ui_tutorialTeams.json,prism1[0],8
+dados/ui_tutorialTeams.json,prism1[1],1
+dados/ui_tutorialTeams.json,prism1[2],2
+dados/ui_tutorialTeams.json,prism1[3],3
+dados/ui_tutorialTeams.json,turbine1[0],4
+dados/ui_tutorialTeams.json,turbine1[1],1
+dados/ui_tutorialTeams.json,turbine1[2],2
+dados/ui_tutorialTeams.json,turbine1[3],3
+dados/ui_tutorialTeams.json,turbine2[0],4
+dados/ui_tutorialTeams.json,turbine2[1],1
+dados/ui_tutorialTeams.json,turbine2[2],2
+dados/ui_tutorialTeams.json,turbine2[3],3
+dados/ui_tutorialTeams.json,turbine3[0],4
+dados/ui_tutorialTeams.json,turbine3[1],1
+dados/ui_tutorialTeams.json,turbine3[2],2
+dados/ui_tutorialTeams.json,turbine3[3],3
+dados/ui_tutorialTeams.json,generic0[0],0
+dados/ui_tutorialTeams.json,generic0[1],6
+dados/ui_tutorialTeams.json,generic0[2],4
+dados/ui_tutorialTeams.json,generic0[3],5
+dados/ui_tutorialTeams.json,generic1[0],1
+dados/ui_tutorialTeams.json,generic1[1],6
+dados/ui_tutorialTeams.json,generic1[2],4
+dados/ui_tutorialTeams.json,generic1[3],5
+dados/ui_tutorialTeams.json,generic2[0],2
+dados/ui_tutorialTeams.json,generic2[1],6
+dados/ui_tutorialTeams.json,generic2[2],4
+dados/ui_tutorialTeams.json,generic2[3],5
+dados/ui_tutorialTeams.json,generic5[0],5
+dados/ui_tutorialTeams.json,generic5[1],6
+dados/ui_tutorialTeams.json,generic5[2],4
+dados/ui_tutorialTeams.json,generic5[3],5
+dados/ui_tutorialTeams.json,generic6[0],6
+dados/ui_tutorialTeams.json,generic6[1],1
+dados/ui_tutorialTeams.json,generic6[2],4
+dados/ui_tutorialTeams.json,generic6[3],5
+dados/ui_tutorialTeams.json,generic9[0],9
+dados/ui_tutorialTeams.json,generic9[1],10
+dados/ui_tutorialTeams.json,generic9[2],4
+dados/ui_tutorialTeams.json,generic9[3],5
+dados/ui_tutorialTeams.json,generic10[0],10
+dados/ui_tutorialTeams.json,generic10[1],9
+dados/ui_tutorialTeams.json,generic10[2],4
+dados/ui_tutorialTeams.json,generic10[3],5
+dados/ui_tutorialTeams.json,anchor1[0],12
+dados/ui_tutorialTeams.json,anchor1[1],6
+dados/ui_tutorialTeams.json,anchor1[2],4
+dados/ui_tutorialTeams.json,anchor1[3],5
+dados/ui_tutorialTeams.json,anchor2[0],12
+dados/ui_tutorialTeams.json,anchor2[1],6
+dados/ui_tutorialTeams.json,anchor2[2],4
+dados/ui_tutorialTeams.json,anchor2[3],5
+dados/ui_tutorialTeams.json,generic13[0],13
+dados/ui_tutorialTeams.json,generic13[1],6
+dados/ui_tutorialTeams.json,generic13[2],4
+dados/ui_tutorialTeams.json,generic13[3],5
+dados/ui_tutorialTeams.json,generic14[0],14
+dados/ui_tutorialTeams.json,generic14[1],6
+dados/ui_tutorialTeams.json,generic14[2],4
+dados/ui_tutorialTeams.json,generic14[3],5
+dados/ui_tutorialTeams.json,generic15[0],15
+dados/ui_tutorialTeams.json,generic15[1],6
+dados/ui_tutorialTeams.json,generic15[2],4
+dados/ui_tutorialTeams.json,generic15[3],5
+dados/ui_tutorialTeams.json,furnace1[0],0
+dados/ui_tutorialTeams.json,furnace1[1],6
+dados/ui_tutorialTeams.json,furnace1[2],4
+dados/ui_tutorialTeams.json,furnace1[3],5
+dados/ui_storySlides.json,[0].kicker,"""CAPÍTULO 1 · BOAS-VINDAS"""
+dados/ui_storySlides.json,[0].title,"""Bem-vindo, Invocador!"""
+dados/ui_storySlides.json,[0].text,"""Estelle vai acompanhar seu primeiro combate. Vamos conhecer as criaturas, aprender a mirar e ver como um aliado transforma um disparo em combo."""
+dados/ui_storySlides.json,[0].note,"""O guia mantém cada regra em uma etapa curta e repetível."""
+dados/ui_storySlides.json,[0].art,"""guide"""
+dados/ui_storySlides.json,[1].kicker,"""CAPÍTULO 2 · PERSONAGEM"""
+dados/ui_storySlides.json,[1].title,"""Este é o Marcelo."""
+dados/ui_storySlides.json,[1].text,"""Marcelo tem um golpe próprio em dois tempos: colisão forte, pausa e martelada. Ao atravessar um aliado, também ativa o combo daquela criatura; o alvo do golpe fica parado."""
+dados/ui_storySlides.json,[1].note,"""Os dois impactos ficam separados para você enxergar o peso e a reação do martelo."""
+dados/ui_storySlides.json,[1].art,"""unit"""
+dados/ui_storySlides.json,[1].unit,3
+dados/ui_storySlides.json,[1].role,"""Colisão forte · martelada atrasada"""
+dados/ui_storySlides.json,[2].kicker,"""CAPÍTULO 3 · MOVIMENTO"""
+dados/ui_storySlides.json,[2].title,"""Puxe para mirar. Solte para lançar."""
+dados/ui_storySlides.json,[2].text,"""Arraste a criatura para trás, na direção oposta ao alvo. A linha pontilhada marca o caminho. Marcelo ativa o combo da aliada ao passar por ela e para somente ao alcançar o bot."""
+dados/ui_storySlides.json,[2].note,"""No impacto, a imagem segura por um instante e aproxima a câmera; depois vem a segunda pancada."""
+dados/ui_storySlides.json,[2].art,"""unit"""
+dados/ui_storySlides.json,[2].unit,3
+dados/ui_storySlides.json,[2].role,"""Arrasto · trajetória · dois impactos"""
+dados/ui_storySlides.json,[3].kicker,"""CAPÍTULO 4 · VOLTAGEM"""
+dados/ui_storySlides.json,[3].title,"""Atravesse Voltagem para descarregar raios."""
+dados/ui_storySlides.json,[3].text,"""Voltagem é a aliada de combo. Quando outro monstro cruza sua posição, ela dispara raios contra inimigos aleatórios: no primeiro elo são 2 raios de 15; no segundo, 3 de 20; no terceiro elo do último monstro da rotação, 5 de 30."""
+dados/ui_storySlides.json,[3].note,"""No treino, Turbina atravessa a Voltagem; bots separados deixam visível cada alvo e cada dano."""
+dados/ui_storySlides.json,[3].art,"""combo"""
+dados/ui_storySlides.json,[3].launch,4
+dados/ui_storySlides.json,[3].support,1
+dados/ui_storySlides.json,[3].target,2
+dados/ui_storySlides.json,[3].launchRole,"""monstro lançado"""
+dados/ui_storySlides.json,[3].supportRole,"""aliada · raios aleatórios"""
+dados/ui_storySlides.json,[3].targetRole,"""bots inimigos"""
+dados/ui_storySlides.json,[4].kicker,"""CAPÍTULO 5 · TREINO EM ETAPAS"""
+dados/ui_storySlides.json,[4].title,"""Vamos testar cada elo com bots."""
+dados/ui_storySlides.json,[4].text,"""A primeira arena mostra o Marcelo e seus dois impactos. Depois, três práticas isoladas ensinam o primeiro, o segundo e o terceiro elo da Voltagem. A terceira usa o último monstro da rotação para ativar o combo 3×."""
+dados/ui_storySlides.json,[4].note,"""Cada explicação pode ser pulada, repetida ou avançada. O tutorial permanece aberto para você testar tudo de novo."""
+dados/ui_storySlides.json,[4].art,"""combo"""
+dados/ui_storySlides.json,[4].launch,4
+dados/ui_storySlides.json,[4].support,1
+dados/ui_storySlides.json,[4].target,2
+dados/ui_storySlides.json,[4].launchRole,"""1º / 2º / último"""
+dados/ui_storySlides.json,[4].supportRole,"""Voltagem · habilidade"""
+dados/ui_storySlides.json,[4].targetRole,"""bots de treino"""
+dados/ui_formations.json,marcelo.0-0[0],340
+dados/ui_formations.json,marcelo.0-0[1],480
+dados/ui_formations.json,marcelo.0-1[0],340
+dados/ui_formations.json,marcelo.0-1[1],390
+dados/ui_formations.json,marcelo.0-2[0],130
+dados/ui_formations.json,marcelo.0-2[1],465
+dados/ui_formations.json,marcelo.0-3[0],555
+dados/ui_formations.json,marcelo.0-3[1],465
+dados/ui_formations.json,marcelo.1-0[0],340
+dados/ui_formations.json,marcelo.1-0[1],240
+dados/ui_formations.json,marcelo.1-1[0],90
+dados/ui_formations.json,marcelo.1-1[1],145
+dados/ui_formations.json,marcelo.1-2[0],590
+dados/ui_formations.json,marcelo.1-2[1],145
+dados/ui_formations.json,marcelo.1-3[0],590
+dados/ui_formations.json,marcelo.1-3[1],300
+dados/ui_formations.json,voltage1.0-0[0],340
+dados/ui_formations.json,voltage1.0-0[1],490
+dados/ui_formations.json,voltage1.0-1[0],340
+dados/ui_formations.json,voltage1.0-1[1],405
+dados/ui_formations.json,voltage1.0-2[0],145
+dados/ui_formations.json,voltage1.0-2[1],455
+dados/ui_formations.json,voltage1.0-3[0],535
+dados/ui_formations.json,voltage1.0-3[1],455
+dados/ui_formations.json,voltage1.1-0[0],340
+dados/ui_formations.json,voltage1.1-0[1],220
+dados/ui_formations.json,voltage1.1-1[0],130
+dados/ui_formations.json,voltage1.1-1[1],160
+dados/ui_formations.json,voltage1.1-2[0],550
+dados/ui_formations.json,voltage1.1-2[1],155
+dados/ui_formations.json,voltage1.1-3[0],590
+dados/ui_formations.json,voltage1.1-3[1],300
+dados/ui_formations.json,voltage2.0-0[0],340
+dados/ui_formations.json,voltage2.0-0[1],490
+dados/ui_formations.json,voltage2.0-1[0],340
+dados/ui_formations.json,voltage2.0-1[1],420
+dados/ui_formations.json,voltage2.0-2[0],340
+dados/ui_formations.json,voltage2.0-2[1],350
+dados/ui_formations.json,voltage2.0-3[0],165
+dados/ui_formations.json,voltage2.0-3[1],465
+dados/ui_formations.json,voltage2.1-0[0],340
+dados/ui_formations.json,voltage2.1-0[1],220
+dados/ui_formations.json,voltage2.1-1[0],130
+dados/ui_formations.json,voltage2.1-1[1],160
+dados/ui_formations.json,voltage2.1-2[0],550
+dados/ui_formations.json,voltage2.1-2[1],155
+dados/ui_formations.json,voltage2.1-3[0],590
+dados/ui_formations.json,voltage2.1-3[1],300
+dados/ui_formations.json,voltage3.0-0[0],340
+dados/ui_formations.json,voltage3.0-0[1],430
+dados/ui_formations.json,voltage3.0-1[0],340
+dados/ui_formations.json,voltage3.0-1[1],355
+dados/ui_formations.json,voltage3.0-2[0],340
+dados/ui_formations.json,voltage3.0-2[1],280
+dados/ui_formations.json,voltage3.0-3[0],340
+dados/ui_formations.json,voltage3.0-3[1],500
+dados/ui_formations.json,voltage3.1-0[0],340
+dados/ui_formations.json,voltage3.1-0[1],190
+dados/ui_formations.json,voltage3.1-1[0],115
+dados/ui_formations.json,voltage3.1-1[1],145
+dados/ui_formations.json,voltage3.1-2[0],565
+dados/ui_formations.json,voltage3.1-2[1],145
+dados/ui_formations.json,voltage3.1-3[0],590
+dados/ui_formations.json,voltage3.1-3[1],300
+dados/ui_formations.json,glacial1.0-0[0],340
+dados/ui_formations.json,glacial1.0-0[1],490
+dados/ui_formations.json,glacial1.0-1[0],340
+dados/ui_formations.json,glacial1.0-1[1],405
+dados/ui_formations.json,glacial1.0-2[0],145
+dados/ui_formations.json,glacial1.0-2[1],455
+dados/ui_formations.json,glacial1.0-3[0],535
+dados/ui_formations.json,glacial1.0-3[1],455
+dados/ui_formations.json,glacial1.1-0[0],340
+dados/ui_formations.json,glacial1.1-0[1],220
+dados/ui_formations.json,glacial1.1-1[0],130
+dados/ui_formations.json,glacial1.1-1[1],160
+dados/ui_formations.json,glacial1.1-2[0],550
+dados/ui_formations.json,glacial1.1-2[1],155
+dados/ui_formations.json,glacial1.1-3[0],590
+dados/ui_formations.json,glacial1.1-3[1],300
+dados/ui_formations.json,glacial2.0-0[0],340
+dados/ui_formations.json,glacial2.0-0[1],490
+dados/ui_formations.json,glacial2.0-1[0],340
+dados/ui_formations.json,glacial2.0-1[1],420
+dados/ui_formations.json,glacial2.0-2[0],340
+dados/ui_formations.json,glacial2.0-2[1],350
+dados/ui_formations.json,glacial2.0-3[0],165
+dados/ui_formations.json,glacial2.0-3[1],465
+dados/ui_formations.json,glacial2.1-0[0],340
+dados/ui_formations.json,glacial2.1-0[1],220
+dados/ui_formations.json,glacial2.1-1[0],130
+dados/ui_formations.json,glacial2.1-1[1],160
+dados/ui_formations.json,glacial2.1-2[0],550
+dados/ui_formations.json,glacial2.1-2[1],155
+dados/ui_formations.json,glacial2.1-3[0],590
+dados/ui_formations.json,glacial2.1-3[1],300
+dados/ui_formations.json,glacial3.0-0[0],340
+dados/ui_formations.json,glacial3.0-0[1],490
+dados/ui_formations.json,glacial3.0-1[0],340
+dados/ui_formations.json,glacial3.0-1[1],420
+dados/ui_formations.json,glacial3.0-2[0],340
+dados/ui_formations.json,glacial3.0-2[1],350
+dados/ui_formations.json,glacial3.0-3[0],340
+dados/ui_formations.json,glacial3.0-3[1],280
+dados/ui_formations.json,glacial3.1-0[0],340
+dados/ui_formations.json,glacial3.1-0[1],220
+dados/ui_formations.json,glacial3.1-1[0],130
+dados/ui_formations.json,glacial3.1-1[1],160
+dados/ui_formations.json,glacial3.1-2[0],550
+dados/ui_formations.json,glacial3.1-2[1],155
+dados/ui_formations.json,glacial3.1-3[0],590
+dados/ui_formations.json,glacial3.1-3[1],300
+dados/ui_formations.json,echo1.0-0[0],340
+dados/ui_formations.json,echo1.0-0[1],490
+dados/ui_formations.json,echo1.0-1[0],340
+dados/ui_formations.json,echo1.0-1[1],531
+dados/ui_formations.json,echo1.0-2[0],145
+dados/ui_formations.json,echo1.0-2[1],455
+dados/ui_formations.json,echo1.0-3[0],535
+dados/ui_formations.json,echo1.0-3[1],455
+dados/ui_formations.json,echo1.1-0[0],340
+dados/ui_formations.json,echo1.1-0[1],220
+dados/ui_formations.json,echo1.1-1[0],130
+dados/ui_formations.json,echo1.1-1[1],160
+dados/ui_formations.json,echo1.1-2[0],550
+dados/ui_formations.json,echo1.1-2[1],155
+dados/ui_formations.json,echo1.1-3[0],590
+dados/ui_formations.json,echo1.1-3[1],300
+dados/ui_formations.json,echo2.0-0[0],340
+dados/ui_formations.json,echo2.0-0[1],490
+dados/ui_formations.json,echo2.0-1[0],340
+dados/ui_formations.json,echo2.0-1[1],531
+dados/ui_formations.json,echo2.0-2[0],145
+dados/ui_formations.json,echo2.0-2[1],455
+dados/ui_formations.json,echo2.0-3[0],535
+dados/ui_formations.json,echo2.0-3[1],455
+dados/ui_formations.json,echo2.1-0[0],340
+dados/ui_formations.json,echo2.1-0[1],220
+dados/ui_formations.json,echo2.1-1[0],130
+dados/ui_formations.json,echo2.1-1[1],160
+dados/ui_formations.json,echo2.1-2[0],550
+dados/ui_formations.json,echo2.1-2[1],155
+dados/ui_formations.json,echo2.1-3[0],590
+dados/ui_formations.json,echo2.1-3[1],300
+dados/ui_formations.json,furnace1.0-0[0],340
+dados/ui_formations.json,furnace1.0-0[1],490
+dados/ui_formations.json,furnace1.0-1[0],130
+dados/ui_formations.json,furnace1.0-1[1],420
+dados/ui_formations.json,furnace1.0-2[0],530
+dados/ui_formations.json,furnace1.0-2[1],430
+dados/ui_formations.json,furnace1.0-3[0],590
+dados/ui_formations.json,furnace1.0-3[1],420
+dados/ui_formations.json,furnace1.1-0[0],340
+dados/ui_formations.json,furnace1.1-0[1],220
+dados/ui_formations.json,furnace1.1-1[0],414
+dados/ui_formations.json,furnace1.1-1[1],220
+dados/ui_formations.json,furnace1.1-2[0],422
+dados/ui_formations.json,furnace1.1-2[1],246
+dados/ui_formations.json,furnace1.1-3[0],260
+dados/ui_formations.json,furnace1.1-3[1],264
+dados/ui_formations.json,anchor1.0-0[0],340
+dados/ui_formations.json,anchor1.0-0[1],490
+dados/ui_formations.json,anchor1.0-1[0],340
+dados/ui_formations.json,anchor1.0-1[1],405
+dados/ui_formations.json,anchor1.0-2[0],145
+dados/ui_formations.json,anchor1.0-2[1],455
+dados/ui_formations.json,anchor1.0-3[0],535
+dados/ui_formations.json,anchor1.0-3[1],455
+dados/ui_formations.json,anchor1.1-0[0],340
+dados/ui_formations.json,anchor1.1-0[1],220
+dados/ui_formations.json,anchor1.1-1[0],130
+dados/ui_formations.json,anchor1.1-1[1],160
+dados/ui_formations.json,anchor1.1-2[0],550
+dados/ui_formations.json,anchor1.1-2[1],155
+dados/ui_formations.json,anchor1.1-3[0],590
+dados/ui_formations.json,anchor1.1-3[1],300
+dados/ui_formations.json,anchor2.0-0[0],340
+dados/ui_formations.json,anchor2.0-0[1],490
+dados/ui_formations.json,anchor2.0-1[0],340
+dados/ui_formations.json,anchor2.0-1[1],420
+dados/ui_formations.json,anchor2.0-2[0],340
+dados/ui_formations.json,anchor2.0-2[1],350
+dados/ui_formations.json,anchor2.0-3[0],165
+dados/ui_formations.json,anchor2.0-3[1],465
+dados/ui_formations.json,anchor2.1-0[0],340
+dados/ui_formations.json,anchor2.1-0[1],220
+dados/ui_formations.json,anchor2.1-1[0],130
+dados/ui_formations.json,anchor2.1-1[1],160
+dados/ui_formations.json,anchor2.1-2[0],550
+dados/ui_formations.json,anchor2.1-2[1],155
+dados/ui_formations.json,anchor2.1-3[0],590
+dados/ui_formations.json,anchor2.1-3[1],300
+dados/ui_formations.json,drill1.0-0[0],340
+dados/ui_formations.json,drill1.0-0[1],490
+dados/ui_formations.json,drill1.0-1[0],340
+dados/ui_formations.json,drill1.0-1[1],405
+dados/ui_formations.json,drill1.0-2[0],145
+dados/ui_formations.json,drill1.0-2[1],455
+dados/ui_formations.json,drill1.0-3[0],535
+dados/ui_formations.json,drill1.0-3[1],455
+dados/ui_formations.json,drill1.1-0[0],340
+dados/ui_formations.json,drill1.1-0[1],220
+dados/ui_formations.json,drill1.1-1[0],130
+dados/ui_formations.json,drill1.1-1[1],160
+dados/ui_formations.json,drill1.1-2[0],550
+dados/ui_formations.json,drill1.1-2[1],155
+dados/ui_formations.json,drill1.1-3[0],590
+dados/ui_formations.json,drill1.1-3[1],300
+dados/ui_formations.json,drill2.0-0[0],340
+dados/ui_formations.json,drill2.0-0[1],490
+dados/ui_formations.json,drill2.0-1[0],340
+dados/ui_formations.json,drill2.0-1[1],420
+dados/ui_formations.json,drill2.0-2[0],340
+dados/ui_formations.json,drill2.0-2[1],350
+dados/ui_formations.json,drill2.0-3[0],165
+dados/ui_formations.json,drill2.0-3[1],465
+dados/ui_formations.json,drill2.1-0[0],340
+dados/ui_formations.json,drill2.1-0[1],220
+dados/ui_formations.json,drill2.1-1[0],130
+dados/ui_formations.json,drill2.1-1[1],160
+dados/ui_formations.json,drill2.1-2[0],550
+dados/ui_formations.json,drill2.1-2[1],155
+dados/ui_formations.json,drill2.1-3[0],590
+dados/ui_formations.json,drill2.1-3[1],300
+dados/ui_formations.json,drill3.0-0[0],340
+dados/ui_formations.json,drill3.0-0[1],490
+dados/ui_formations.json,drill3.0-1[0],340
+dados/ui_formations.json,drill3.0-1[1],420
+dados/ui_formations.json,drill3.0-2[0],340
+dados/ui_formations.json,drill3.0-2[1],350
+dados/ui_formations.json,drill3.0-3[0],340
+dados/ui_formations.json,drill3.0-3[1],280
+dados/ui_formations.json,drill3.1-0[0],340
+dados/ui_formations.json,drill3.1-0[1],220
+dados/ui_formations.json,drill3.1-1[0],130
+dados/ui_formations.json,drill3.1-1[1],160
+dados/ui_formations.json,drill3.1-2[0],550
+dados/ui_formations.json,drill3.1-2[1],155
+dados/ui_formations.json,drill3.1-3[0],590
+dados/ui_formations.json,drill3.1-3[1],300
+dados/ui_turbineTutorialStages.json,[0],"""turbine1"""
+dados/ui_turbineTutorialStages.json,[1],"""turbine2"""
+dados/ui_turbineTutorialStages.json,[2],"""turbine3"""
+dados/capitao.json,leaderRadius,23
+dados/capitao.json,guardRadius,73
+dados/capitao.json,leaderHP,300
+dados/capitao.json,lossPerDeath,20
+dados/capitao.json,guardDamage,16
+dados/capitao.json,maxEnergy,6
+dados/capitao.json,healCost,2
+dados/capitao.json,focusCost,2
+dados/capitao.json,healAmount,22
+dados/ui_lessons.json,[0].title,"""Como vencer"""
+dados/ui_lessons.json,[0].unit,0
+dados/ui_lessons.json,[0].text,"""Você vence ao zerar a vida do capitão rival ou derrotar todas as quatro unidades inimigas. Cada unidade sua que cai também remove 20 PV do seu capitão."""
+dados/ui_lessons.json,[0].tip,"""Acompanhe as barras de vida dos dois capitães no HUD."""
+dados/ui_lessons.json,[0].tag,"""OBJETIVO"""
+dados/ui_lessons.json,[1].title,"""Monte uma equipe de quatro"""
+dados/ui_lessons.json,[1].unit,3
+dados/ui_lessons.json,[1].text,"""Cada unidade tem ataque, vida e um especial próprio. Escolha quatro no catálogo e toque em uma carta para ver sua ficha. Duplas específicas ativam sinergias."""
+dados/ui_lessons.json,[1].tip,"""As sinergias de formação somam bônus de impacto até o limite indicado na tela de equipe."""
+dados/ui_lessons.json,[1].tag,"""EQUIPE"""
+dados/ui_lessons.json,[2].title,"""Um disparo por vez"""
+dados/ui_lessons.json,[2].unit,11
+dados/ui_lessons.json,[2].text,"""A partida alterna entre você e o adversário a cada jogada. A unidade ativa é escolhida pelo rodízio; na próxima vez da sua equipe, ele avança para a próxima unidade viva."""
+dados/ui_lessons.json,[2].tip,"""A seta e o aro verde mostram quem está ativo. Unidades derrotadas saem do rodízio."""
+dados/ui_lessons.json,[2].tag,"""TURNOS"""
+dados/ui_lessons.json,[3].title,"""Mire com o toque"""
+dados/ui_lessons.json,[3].unit,2
+dados/ui_lessons.json,[3].text,"""Toque na unidade destacada, puxe o dedo para trás na direção oposta ao disparo e solte. A linha pontilhada mostra uma previsão da rota e a barra indica a força do arrasto."""
+dados/ui_lessons.json,[3].tip,"""Arrasto curto dá menos força. Se a mira não servir, solte fora da arena ou toque em cancelar."""
+dados/ui_lessons.json,[3].tag,"""MIRA"""
+dados/ui_lessons.json,[4].title,"""Leia os ricochetes e impactos"""
+dados/ui_lessons.json,[4].unit,5
+dados/ui_lessons.json,[4].text,"""As bordas claras limitam o campo e fazem o lançamento ricochetear. As faixas vermelhas causam dano quando um inimigo empurrado bate nelas. Um tiro pode atingir mais de um alvo."""
+dados/ui_lessons.json,[4].tip,"""O ataque base vem da ficha da unidade. Posição e rota decidem quantos contatos você consegue."""
+dados/ui_lessons.json,[4].tag,"""MOVIMENTO"""
+dados/ui_lessons.json,[5].title,"""Use os aliados para formar elos"""
+dados/ui_lessons.json,[5].unit,6
+dados/ui_lessons.json,[5].text,"""Trace a rota através de um aliado antes de chegar ao rival. O aliado ativa sua assistência e ataca ou prepara um efeito. Cada aliado participa no máximo uma vez por disparo."""
+dados/ui_lessons.json,[5].tip,"""A prévia da mira indica quantos aliados estão na rota. Os efeitos dependem da unidade que você escolheu."""
+dados/ui_lessons.json,[5].tag,"""COMBOS"""
+dados/ui_lessons.json,[6].title,"""Gaste energia do capitão"""
+dados/ui_lessons.json,[6].unit,9
+dados/ui_lessons.json,[6].text,"""Você começa com 3 de energia. Depois recebe +2 no início de cada turno seu, até 6. Antes do disparo, use uma habilidade do capitão: Cura custa 2 e recupera até 20 PV; Sobrecarga custa 2 e soma 8 ao primeiro impacto."""
+dados/ui_lessons.json,[6].tip,"""Vetor (2), Circuito (3), Parede (3) e Protocolo (5) mostram o custo no botão. Só uma habilidade do capitão por turno."""
+dados/ui_lessons.json,[6].tag,"""CAPITÃO"""
+dados/ui_lessons.json,[7].title,"""Ative o especial de cada unidade"""
+dados/ui_lessons.json,[7].unit,7
+dados/ui_lessons.json,[7].text,"""O botão de especial muda conforme a unidade ativa. Ele pode atravessar, marcar, empurrar, curar ou atingir outros alvos, de acordo com a ficha. O especial recarrega após três turnos próprios completos."""
+dados/ui_lessons.json,[7].tip,"""O especial da unidade é separado da habilidade do capitão; use os dois no mesmo turno se ambos estiverem disponíveis."""
+dados/ui_lessons.json,[7].tag,"""PODERES"""
+dados/ui_lessons.json,[8].title,"""Entenda dano, escudos e combos"""
+dados/ui_lessons.json,[8].unit,10
+dados/ui_lessons.json,[8].text,"""Escudos absorvem dano antes da vida. Eventos de dano na mesma jogada elevam o multiplicador em 10%, até +40%. O V7 limita o dano por disparo a 70 por unidade e 45 por capitão; o Marcelo pode chegar a 70 com os dois impactos."""
+dados/ui_lessons.json,[8].tip,"""Os efeitos e números são valores de teste desta versão; confira os números flutuantes e o registro de jogadas."""
+dados/ui_lessons.json,[8].tag,"""DANO"""
+dados/ui_lessons.json,[9].title,"""Agora pratique na arena"""
+dados/ui_lessons.json,[9].unit,13
+dados/ui_lessons.json,[9].text,"""O treino abre uma partida contra a IA no modo Explorador, usando este mesmo campo, as mesmas unidades e a física do V7. Cumpra os quatro desafios no quadro de estado durante a partida."""
+dados/ui_lessons.json,[9].tip,"""Arraste para mirar, tente um combo, use uma habilidade do capitão e depois um especial."""
+dados/ui_lessons.json,[9].tag,"""PRÁTICA"""
+dados/ui_furnaceTutorialStages.json,[0],"""furnace1"""
+dados/ui_echoTutorialStages.json,[0],"""echo1"""
+dados/ui_echoTutorialStages.json,[1],"""echo2"""
+dados/ui_TUTORIAL_CARD_ORDER.json,[0],3
+dados/ui_TUTORIAL_CARD_ORDER.json,[1],7
+dados/ui_TUTORIAL_CARD_ORDER.json,[2],8
+dados/ui_TUTORIAL_CARD_ORDER.json,[3],4
+dados/ui_TUTORIAL_CARD_ORDER.json,[4],1
+dados/ui_TUTORIAL_CARD_ORDER.json,[5],2
+dados/ui_TUTORIAL_CARD_ORDER.json,[6],11
+dados/ui_TUTORIAL_CARD_ORDER.json,[7],0
+dados/ui_TUTORIAL_CARD_ORDER.json,[8],5
+dados/ui_TUTORIAL_CARD_ORDER.json,[9],6
+dados/ui_TUTORIAL_CARD_ORDER.json,[10],9
+dados/ui_TUTORIAL_CARD_ORDER.json,[11],10
+dados/ui_TUTORIAL_CARD_ORDER.json,[12],12
+dados/ui_TUTORIAL_CARD_ORDER.json,[13],13
+dados/ui_TUTORIAL_CARD_ORDER.json,[14],14
+dados/ui_TUTORIAL_CARD_ORDER.json,[15],15
+dados/ui_prismTutorialStages.json,[0],"""prism1"""
+dados/arena.json,width,960
+dados/arena.json,height,600
+dados/arena.json,left,24
+dados/arena.json,right,936
+dados/arena.json,top,24
+dados/arena.json,bottom,576
+dados/arena.json,horizontalScale.$divide[0],912
+dados/arena.json,horizontalScale.$divide[1],632
+dados/arena.json,radius,19
+dados/ui_anchorTutorialStages.json,[0],"""anchor1"""
+dados/ui_tones.json,launch[0],250
+dados/ui_tones.json,launch[1],420
+dados/ui_tones.json,launch[2],0.1
+dados/ui_tones.json,hit[0],125
+dados/ui_tones.json,hit[1],55
+dados/ui_tones.json,hit[2],0.12
+dados/ui_tones.json,combo[0],520
+dados/ui_tones.json,combo[1],850
+dados/ui_tones.json,combo[2],0.18
+dados/ui_tones.json,heal[0],440
+dados/ui_tones.json,heal[1],660
+dados/ui_tones.json,heal[2],0.25
+dados/ui_tones.json,guard[0],200
+dados/ui_tones.json,guard[1],320
+dados/ui_tones.json,guard[2],0.14
+dados/ui_tones.json,death[0],130
+dados/ui_tones.json,death[1],45
+dados/ui_tones.json,death[2],0.25
+dados/ui_tones.json,win[0],440
+dados/ui_tones.json,win[1],880
+dados/ui_tones.json,win[2],0.45
+dados/ui_tones.json,click[0],350
+dados/ui_tones.json,click[1],400
+dados/ui_tones.json,click[2],0.06
+dados/ui_tones.json,wall[0],200
+dados/ui_tones.json,wall[1],250
+dados/ui_tones.json,wall[2],0.035

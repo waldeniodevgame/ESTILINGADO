@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#10151b">
+  <title>ESTILINGADO — Guia de movimento, combos e impacto</title>
+  {{STYLE:styles/01-base.css}}
+{{STYLE:styles/02-ajustes.css}}
+{{STYLE:styles/03-tutorial.css}}
+{{STYLE:styles/04-reator.css}}
+</head>
+<body>
+<main class="app">
+  <header class="topbar">
+    <div class="brand"><div class="brand-symbol" aria-hidden="true"></div><div><strong>ELO ARENA</strong><small>Duelo de ricochetes</small></div></div>
+    <div class="top-tools"><span class="edition">Protótipo 0.1</span>
+      <button class="icon-btn" id="soundBtn" aria-label="Ativar som" title="Som" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M11 4 5 9H2v6h3l6 5V4Z"/><path id="soundWaves" d="m16 9 5 6m0-6-5 6"/></svg></button>
+      <button class="icon-btn" id="pauseBtn" aria-label="Pausar partida" title="Pausar (P)" disabled><svg viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></svg></button>
+      <button class="icon-btn" id="fullBtn" aria-label="Tela cheia" title="Tela cheia"><svg viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button>
+      <button class="icon-btn" id="helpBtn" aria-label="Como jogar" title="Como jogar"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5a2.5 2.5 0 0 1 5 0c0 2-2.5 2-2.5 4m0 3.5v.5"/></svg></button>
+    </div>
+  </header>
+  <section class="intro"><div><div class="eyebrow">Quatro criaturas. Uma trajetória.</div><h1>Faça cada quique contar.</h1><p>Encontre o ângulo. Ative seus aliados. Vença o duelo.</p></div><div class="match-chip"><i></i><span id="modeLabel">Você × IA</span></div></section>
+  <div class="layout">
+    <aside class="side side-left">
+      <section class="panel player">
+        <div class="panel-heading"><h2 class="team-label">Seu capitão</h2><span id="playerSide">EQUIPE JADE</span></div>
+        <div class="leader-head"><div class="leader-avatar" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="m12 2 8 7-3 11H7L4 9Z"/><path d="m12 5 4 7-4 5-4-5 4-7Zm0 12v5"/></svg></div><div><h3 id="playerName">Capitão Jade</h3><p>Proteja seu capitão para vencer</p></div></div>
+        <div class="stat-row"><span>PV do capitão</span><strong id="playerHP">220 / 220</strong></div><div class="bar"><div id="playerBar"></div></div>
+        <div class="energy-row"><small>Energia <b id="playerEnergy">1/5</b></small><div class="pips" id="playerPips" aria-hidden="true"></div></div>
+      </section>
+      <section class="panel squad-panel"><div class="panel-heading"><h2>Seu esquadrão</h2><span>RODÍZIO</span></div><div class="roster" id="playerRoster"></div></section>
+      <section class="panel creature-inspector" id="creatureInspector" aria-live="polite"><div class="panel-heading"><h2>Ficha da criatura</h2><span id="inspectTeam">EQUIPE JADE</span></div><div class="inspector-main"><canvas id="inspectPortrait" width="100" height="100" aria-hidden="true"></canvas><div class="inspector-name"><h3 id="inspectName">Marcelo</h3><strong id="inspectSkill">Impacto pesado</strong><p id="inspectDescription"></p></div></div><div class="inspector-stats"><div><span>PV</span><strong id="inspectHP">150 / 150</strong></div><div><span>Velocidade máx.</span><strong id="inspectSpeed">1350 px/s</strong></div><div><span>Ataque</span><strong id="inspectAttack">28 dano</strong></div><div><span>Tipo</span><strong id="inspectType">Colisão forte</strong></div></div></section>
+      <section class="panel skills-panel"><div class="panel-heading"><h2>Habilidades do capitão</h2><span>ANTES DO TIRO</span></div><div class="skill-buttons">
+        <button class="skill-btn" id="healBtn" disabled><span class="symbol">✚</span><span><strong>Cura</strong><small>+20 PV ao aliado mais ferido</small></span><span class="cost">2 ◇</span></button>
+        <button class="skill-btn" id="focusBtn" disabled><span class="symbol">◎</span><span><strong>Sobrecarga</strong><small>+8 no primeiro impacto</small></span><span class="cost">2 ◇</span></button>
+      <button class="skill-btn" id="specialBtn">Especial da unidade</button><button class="skill-btn" data-extra="charge">Carga · melhorar especial</button><button class="skill-btn" data-extra="vector">Vetor · 2</button><button class="skill-btn" data-extra="circuit">Circuito · 3</button><button class="skill-btn" data-extra="wall">Parede · 3</button><button class="skill-btn" data-extra="max">Protocolo · 5</button></div><p class="panel-note" id="skillsNote">+2 energia por turno; máximo 6. Uma habilidade do comandante por turno.</p></section>
+    </aside>
+    <section class="arena-column" aria-label="Arena de combate">
+      <div class="arena-top"><span id="roundLabel">ARENA 01 / REATOR DE COMBOS</span><strong id="turnLabel">PREPARE-SE</strong></div>
+      <div id="tutorialCoach" class="tutorial-coach" hidden role="status" aria-live="polite"><span class="tutorial-coach-icon" aria-hidden="true">✦</span><div><strong id="tutorialCoachTitle"></strong><small id="tutorialCoachText"></small></div></div>
+      <section id="tutorialDialog" class="tutorial-dialog" hidden role="dialog" aria-live="polite" aria-labelledby="tutorialDialogTitle">
+        <div class="tutorial-dialog-head"><span class="tutorial-dialog-avatar" aria-hidden="true">E</span><div><small>ESTELLE · CHECKLIST DE CAMPO</small><h3 id="tutorialDialogTitle"></h3></div></div>
+        <p id="tutorialDialogText"></p>
+        <div class="tutorial-dialog-actions"><button id="tutorialDialogPrimary" class="primary-btn" type="button"></button><button id="tutorialDialogSecondary" class="quiet-btn" type="button"></button></div>
+      </section>
+      <div class="arena-frame" id="arenaFrame"><canvas id="arena" width="1920" height="1200" tabindex="0" aria-label="Arraste o monstro destacado para trás e solte para atirar."></canvas><div id="tutorialHand" class="tutorial-hand" hidden aria-hidden="true">👇</div>
+        <div class="arena-overlay" id="welcomeOverlay" hidden><div class="welcome-card"><header class="selection-header"><div><div class="eyebrow">ESTILINGADO · Laboratório de combos</div><h2>Monte sua equipe.</h2><p>Escolha quatro unidades. Combine habilidades para preparar sua próxima jogada.</p></div><span class="selection-badge">SELEÇÃO GRATUITA</span></header><nav class="selection-tabs" aria-label="Tela inicial"><button id="selectionTab" aria-selected="true">Selecionar time</button><button id="tutorialTab" aria-selected="false">Tutorial</button></nav><div id="teamPicker"></div><section id="initialTutorial" hidden>
+  <div class="lesson-progress"><div><span id="lessonCount">LIÇÃO 01 / 10</span><strong id="lessonPercent">10%</strong></div><i><b id="lessonProgressBar"></b></i></div>
+  <div class="lesson-card"><div class="lesson-portrait-wrap"><canvas id="lessonPortrait" width="200" height="200" aria-hidden="true"></canvas><strong id="lessonUnitName">FORNALHA</strong></div><div class="lesson-copy"><div class="eyebrow" id="lessonKicker">REGRAS DA ARENA</div><h3 id="lessonTitle">Como vencer</h3><p id="lessonText"></p><div class="lesson-callout" id="lessonCallout"></div></div></div>
+  <div class="lesson-controls"><button id="lessonPrev" class="quiet-btn" type="button">← Anterior</button><button id="lessonNext" class="quiet-btn" type="button">Próxima lição →</button></div>
+  <button id="lessonPractice" class="primary-btn" type="button">CONTINUAR TREINO GUIADO →</button><button id="lessonReplay" class="quiet-btn" type="button">RECOMEÇAR TREINO DO INÍCIO ↺</button>
+  <small class="lesson-footnote">O treino usa o mesmo campo, mira, colisões e combos da partida.</small>
+  <details class="physics-roster"><summary>FICHAS DE FUNÇÃO E FÍSICA · 16 MONSTROS</summary><div class="physics-roster-wrap"><table><thead><tr><th>Monstro</th><th>Função no tabuleiro</th><th>Peso</th><th>Área de colisão</th><th>Velocidade máx.</th><th>Impulso no alvo</th><th>Dano base</th><th>Contato</th></tr></thead><tbody id="physicsRosterBody"></tbody></table></div><small class="physics-roster-note">Massa individual ainda será medida. 19 px e 1350 px/s são bases atuais do protótipo; Marcelo é o primeiro perfil em teste.</small></details>
+</section><footer class="selection-footer"><div class="selection-settings"><label>Modo<select id="modeSelect"><option value="ai">Contra a IA</option><option value="local">2 jogadores locais</option></select></label><label>Dificuldade<select id="difficultySelect"><option value="tactical">Tático</option><option value="relaxed">Explorador</option></select></label><label>Comandante<select id="specialization"><option value="strategist">Estrategista · Parede +4</option><option value="engineer">Engenheiro · Escudo +5</option><option value="conductor">Condutor · Energia nos combos</option></select></label></div><button class="primary-btn" id="startBtn">INICIAR BATALHA →</button></footer><small class="under-start">Arraste para trás e solte na arena · Mouse ou toque</small></div></div>
+        <div class="arena-overlay" id="pauseOverlay" hidden><div class="welcome-card"><div class="eyebrow">Um instante para pensar</div><h2>Partida pausada.</h2><p>A arena espera por você.</p><div class="overlay-buttons"><button class="primary-btn" id="resumeBtn">Continuar partida →</button><button class="quiet-btn" id="pauseHelpBtn">Ver instruções</button><button class="quiet-btn" id="pauseRestartBtn">Nova partida</button></div></div></div>
+        <div class="arena-overlay" id="resultOverlay" hidden><div class="welcome-card"><div class="orbit-emblem" aria-hidden="true"><div class="orb"></div></div><div class="eyebrow" id="resultEyebrow">DUelo encerrado</div><h2 id="resultTitle">Vitória!</h2><p id="resultText"></p><div class="result-score"><div><strong id="resultTurns">0</strong>turnos</div><div><strong id="resultCombo">0</strong>melhor combo</div></div><div class="overlay-buttons"><button class="primary-btn" id="againBtn">Jogar novamente →</button><button class="quiet-btn" id="menuBtn">Escolher modo</button></div></div></div>
+      </div>
+
+<div id="modeSelectOverlay" class="mode-select-overlay" role="dialog" aria-modal="true" aria-labelledby="modeSelectTitle">
+  <div class="mode-select-card"><div class="mode-select-emblem" aria-hidden="true"><i></i><b></b><i></i></div><div class="mode-select-kicker">ESTILINGADO · ARENA DE TREINO</div><h1 id="modeSelectTitle">Escolha como jogar</h1><p>Escolha entre aprender as mecânicas ou entrar em uma partida.</p><div class="mode-select-options">
+    <button id="modeTrainBtn" class="mode-option mode-training" type="button"><span class="mode-option-icon">✦</span><span><strong>Aprenda a jogar</strong><small>Escolha um monstro e abra uma lição de treino.</small></span><b aria-hidden="true">→</b></button>
+    <button id="modeGameBtn" class="mode-option mode-match" type="button"><span class="mode-option-icon">⚔</span><span><strong>Jogo livre</strong><small>Monte sua equipe e entre em uma partida.</small></span><b aria-hidden="true">→</b></button></div><small class="mode-select-foot">O tutorial ficará aberto até você decidir que terminou.</small></div>
+</div>
+<div id="tutorialSelectOverlay" class="tutorial-select-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="tutorialSelectTitle">
+  <section class="tutorial-select-card">
+    <header class="tutorial-select-toolbar"><button id="tutorialSelectionBack" class="tutorial-back-btn" type="button">← Modos</button><span>ESTILINGADO · GUIA DE MONSTROS</span><button id="tutorialSelectionClose" class="tutorial-close-btn" type="button" aria-label="Voltar aos modos">×</button></header>
+    <div id="tutorialRosterPage" class="tutorial-select-page">
+      <div class="tutorial-select-heading"><div class="eyebrow">TREINO POR PERSONAGEM</div><h1 id="tutorialSelectTitle">Aprenda a jogar</h1><p>Escolha um monstro para abrir os tutoriais dele. A sequência atual segue Marcelo, Voltagem, Glacial, Eco e Fornalha.</p></div>
+      <div id="tutorialMonsterGrid" class="tutorial-monster-grid" role="list" aria-label="Monstros e tutoriais disponíveis"></div>
+    </div>
+    <div id="tutorialCharacterPage" class="tutorial-select-page" hidden>
+      <div class="tutorial-character-summary"><canvas id="tutorialSelectedPortrait" width="128" height="128" aria-hidden="true"></canvas><div><div class="eyebrow">TUTORIAIS DO PERSONAGEM</div><h2 id="tutorialSelectedName"></h2><strong id="tutorialSelectedSkill"></strong><p id="tutorialSelectedDescription"></p></div></div>
+      <div class="tutorial-stage-heading"><h3>Escolha uma lição</h3><span id="tutorialStageCount"></span></div>
+      <div id="tutorialStageGrid" class="tutorial-stage-grid"></div>
+    </div>
+  </section>
+</div>
+<div id="openingOverlay" class="story-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="storyTitle">
+  <div class="story-topline"><span>ESTILINGADO · TREINO DE CAMPO</span><button id="storySkip" type="button">Pular abertura</button></div>
+  <div class="story-card">
+    <div class="story-art">
+      <div class="story-art-guide" id="storyGuideArt"><img alt="Estelle, guia do treinamento" src="{{ASSET:assets/60302d366550da98.png}}"></div>
+      <div class="story-art-unit" id="storyUnitArt" hidden><canvas id="storyUnitPortrait" width="240" height="240" aria-label="Retrato de Marcelo"></canvas><div><strong id="storyUnitName">MARCELO</strong><small id="storyUnitRole">Impacto forte · martelada</small></div></div>
+      <div class="story-art-combo" id="storyComboArt" hidden><div class="story-combo-unit"><canvas id="storyComboLaunch" width="100" height="100"></canvas><strong id="storyComboLaunchName">TURBINA</strong><small id="storyComboLaunchRole">lançador</small></div><span class="story-combo-arrow">→</span><div class="story-combo-unit support"><canvas id="storyComboSupport" width="100" height="100"></canvas><strong id="storyComboSupportName">VOLTAGEM</strong><small id="storyComboSupportRole">aliada de combo</small></div><span class="story-combo-arrow">↗</span><div class="story-combo-unit target"><canvas id="storyComboTarget" width="100" height="100"></canvas><strong id="storyComboTargetName">BOT</strong><small id="storyComboTargetRole">alvo de exemplo</small></div></div>
+      <span class="story-art-caption">GUIA DE COMBATE</span>
+    </div>
+    <div class="story-copy">
+      <div class="eyebrow" id="storyKicker">CAPÍTULO 1 · BOAS-VINDAS</div>
+      <div class="story-progress"><span id="storyPage">01 / 04</span><i><b id="storyProgressBar"></b></i></div>
+      <h1 id="storyTitle">Vamos aprender a arena.</h1>
+      <p id="storyText">Cada combate começa antes do disparo. Primeiro vamos entender o campo e os controles.</p>
+      <div class="story-note" id="storyNote">Toque em continuar para ver a abertura ou pule para escolher sua equipe.</div>
+      <div class="story-controls"><button id="storyPrev" class="quiet-btn" type="button">← Voltar</button><button id="storyNext" class="primary-btn" type="button">CONTINUAR →</button></div>
+    </div>
+  </div>
+</div>
+      <div class="arena-status" id="statusBox" role="status" aria-live="polite"><div class="status-mark" id="statusMark">↗</div><div class="status-copy"><strong id="statusTitle">Uma trajetória pode mudar tudo.</strong><small id="statusSub">Entre na arena para começar seu primeiro duelo.</small></div></div>
+      <div class="arena-actions"><button class="text-btn" id="restartBtn" disabled>↻ Nova partida</button><button class="text-btn cancel-btn" id="cancelBtn" hidden>Cancelar mira · Esc</button><button class="text-btn" id="guideBtn">Como jogar ↗</button></div>
+    </section>
+    <aside class="side side-right">
+      <section class="panel enemy"><div class="panel-heading"><h2 class="enemy-label">Adversário</h2><span>EQUIPE AMETISTA</span></div><div class="leader-head"><div class="leader-avatar" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="m12 2 8 7-3 11H7L4 9Z"/><path d="m12 5 4 7-4 5-4-5 4-7Zm0 12v5"/></svg></div><div><h3 id="enemyName">Capitão Ametista</h3><p id="enemyType">IA · Tático</p></div></div><div class="stat-row"><span>PV do capitão</span><strong id="enemyHP">220 / 220</strong></div><div class="bar"><div id="enemyBar"></div></div><div class="energy-row"><small>Energia <b id="enemyEnergy">0/5</b></small><div class="pips" id="enemyPips" aria-hidden="true"></div></div><div class="roster" id="enemyRoster" style="margin-top:15px"></div></section>
+      <section class="panel metric-panel"><div class="panel-heading"><h2>Melhor sequência</h2><span>NA PARTIDA</span></div><div class="metric"><div class="metric-number" id="comboMetric">00</div><div><strong>elos ativados</strong><p>Passe por aliados para<br>encadear seus ataques.</p></div></div></section>
+      <section class="panel log-panel"><div class="panel-heading"><h2>Últimas jogadas</h2><span>AO VIVO</span></div><div class="log-list" id="logList"><div class="log-item"><i></i><span>A arena está pronta. <strong>Encontre seu primeiro ângulo.</strong></span></div></div></section>
+      <section class="panel hint-panel"><div class="hint"><span class="hint-icon">✧</span><div><strong>O contato depende do monstro.</strong>Confira a ficha e a habilidade selecionadas: alguns ativam combos, outros têm efeitos próprios.</div></div></section>
+    </aside>
+  </div>
+  <footer class="bottom"><span>ELO ARENA · Criaturas e arte originais · HTML5 offline</span><span>Regras e valores provisórios para teste</span></footer>
+</main>
+<dialog id="helpDialog"><div class="dialog-top"><h2>Como jogar</h2><button id="closeHelp" class="close-btn">×</button></div><p>Arena ampliada, deslizamento gradual e impulso nos inimigos. Escolha quatro robôs sem custo. Arraste a unidade destacada para trás e solte. Toque aliados para ativar assistências; empurre inimigos contra os trechos vermelhos das paredes.</p><p>Comandante: uma habilidade por turno, conforme energia. Energia inicial 3, +2 por turno próprio, máximo 6. Especial da unidade: opcional antes do tiro; recarga de três turnos próprios completos.</p><p>Combos aumentam o dano em 10% por evento até 40%. Limite por tiro: 70 por unidade, 45 no comandante. Morte de unidade: −20 no comandante. Vitória: eliminar o esquadrão ou o comandante.</p><p>As duplas Fornalha/Ímã, Voltagem/Eco, Glacial/Marcelo, Turbina/Rebatedor e Broca/Prisma dão +10% no impacto, total máximo +15%.</p><div id="helpMonsters" class="help-grid"></div><p>Níveis são salvos neste navegador; atributos permanecem equalizados. As melhorias por nível serão calibradas após este teste.</p></dialog>
+<dialog id="monsterDialog" class="monster-dialog"><div class="dialog-top"><h2 id="monsterTitle">Fornalha</h2><button class="close-btn" id="closeMonster" aria-label="Fechar criatura">×</button></div><canvas id="monsterLarge" width="240" height="240"></canvas><div class="eyebrow" id="monsterSkill">Explosão</div><p id="monsterDescription"></p><div class="monster-facts"><span>Vida <b id="monsterMaxHP">78</b></span><span>Ataque <b id="monsterAttack">22</b></span></div><p class="help-footer">O monstro da vez é escolhido pelo rodízio.</p></dialog>
+<dialog id="restartDialog"><div class="dialog-top"><h2>Começar outro duelo?</h2><button class="close-btn" id="closeRestart" aria-label="Voltar à partida">×</button></div><p style="color:var(--muted);font-size:12px;margin:0 0 22px">A partida atual será encerrada. Você poderá escolher o modo novamente.</p><div class="overlay-buttons"><button class="primary-btn" id="confirmRestart">Escolher nova partida →</button><button class="quiet-btn" id="keepPlaying">Continuar este duelo</button></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<noscript><p class="fatal">Ative o JavaScript do navegador para jogar ESTILINGADO.</p></noscript>
+{{SCRIPT:0}}
+{{SCRIPT:1}}
+</body>
+</html>

@@ -1,52 +1,41 @@
-# Capsulemon Remasterizado
+# Legiões das Armadilhas — Capsulemon Remasterizado
 
-Projeto de reimplementação limpa ("clean-room") de um jogo de combate por turnos com movimentação por estilingue, colisões, dano por impacto e IA.
+Protótipo HTML5 de arena por turnos com lançamento por arrasto, colisões, combos e habilidades de criaturas. O repositório guarda a build testável e a biblioteca modular usada para editar atributos, CSS e funções sem depender de um único HTML gigantesco.
 
-## Estado atual
+## Começar por aqui
 
-- **V0.4.1 — Movimento:** aprovado em teste.
-- **V0.5 — Colisões:** fase atual de validação.
-- Protótipo atual: `prototype/v0.5.html`.
-
-## Regras já aprovadas
-
-- Seleção independente de P1 e P2.
-- Clique/toque na unidade, puxar para trás e soltar para lançar.
-- Força proporcional ao arrasto.
-- Trajetória prevista durante a mira.
-- Ricochete em paredes e obstáculos.
-- Atrito e desaceleração.
-- Turno termina somente quando todas as unidades param.
-- Colisão aliada transfere impulso e não causa dano.
-- Colisão contra inimigo causa dano baseado na intensidade do impacto.
-- Um contato contínuo não pode aplicar dano repetido a cada frame.
-- Unidade com 0 HP é eliminada da física e da seleção.
+1. Leia [Índice de desenvolvimento](docs/INDICE_DESENVOLVIMENTO.md).
+2. Para testar a build atual, abra [TESTE LULA 26 — Ímã corrigido](builds/TESTE%20LULA%2026%20-%20IM%C3%83%20DANO%20ALIADO%20CORRIGIDO.html) no navegador.
+3. Para editar atributos de forma modular, siga [CMC_Biblioteca/LEIA_PRIMEIRO.md](CMC_Biblioteca/LEIA_PRIMEIRO.md).
+4. Registre o resultado de cada rodada no [checklist](docs/CHECKLIST_DESENVOLVIMENTO.md).
 
 ## Estrutura
 
-```
-prototype/
-  v0.5.html
-docs/
-  MECANICAS_APROVADAS.md
-  ROADMAP.md
-  TESTES_V0.5.md
-CHANGELOG.md
-.gitignore
-```
+| Caminho | Uso |
+|---|---|
+| `builds/` | HTMLs completos para teste manual. |
+| `CMC_Biblioteca/dados/` | Tabelas JSON de criaturas, arena, física, capitães, efeitos e progresso. |
+| `CMC_Biblioteca/src/engine/` | Regras de turno, dano, colisão, IA e habilidades. |
+| `CMC_Biblioteca/src/ui/` | Mira, ponteiro, HUD, desenho, efeitos e telas. |
+| `CMC_Biblioteca/styles/` | CSS separado por responsabilidade. |
+| `CMC_Biblioteca/assets/` | Assets locais do projeto. |
+| `CMC_Biblioteca/compilar.py` | Gera `dist/CMC_Modular.html` a partir da biblioteca. |
+| `docs/` | Decisões, progresso, QA e checklist. |
 
-## Diretriz do projeto
+## Build atual de teste
 
-O projeto não reutiliza código, sprites, áudio ou outros assets proprietários do jogo de referência. A meta é reconstruir as mecânicas com código e identidade próprios.
+`builds/TESTE LULA 26 - IMÃ DANO ALIADO CORRIGIDO.html` parte da build `TESTE LULA 26 - ARRASTO CORRIGIDO.html`.
 
-## Próxima etapa
+A única alteração desta rodada impede que dano de parede/bumpeamento atinja uma unidade do mesmo time do lançador. A regra é baseada no time, portanto vale para todas as criaturas. O teste manual do Ímã ainda está pendente.
 
-Validar V0.5:
-1. colisão aliada;
-2. colisão inimiga;
-3. impacto lateral;
-4. ricochete;
-5. transferência de impulso;
-6. bloqueio de dano duplicado.
+## Atenção sobre as duas linhas de trabalho
 
-Depois da aprovação, seguir para combo/ataque cooperativo.
+A build em `builds/` é a referência mais recente para testar o jogo. `CMC_Biblioteca/` é a biblioteca editável preservada da linha modular anterior. Não recompile a biblioteca esperando substituir automaticamente a build de teste atual: a consolidação entre as duas linhas é uma tarefa pendente e está registrada no checklist.
+
+## Princípios de desenvolvimento
+
+- Uma alteração de mecânica por vez.
+- Sempre manter uma build HTML funcional para teste.
+- Aliados atravessados podem gerar combo, mas não recebem dano de colisão no turno do lançador.
+- Dano por impacto deve ocorrer uma vez por contato válido, sem repetição por frame.
+- Não marcar item como concluído sem teste executado.

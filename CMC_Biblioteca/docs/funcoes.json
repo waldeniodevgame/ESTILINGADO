@@ -1,0 +1,522 @@
+[
+  {
+    "funcao": "random",
+    "arquivo": "src/engine/001_random.js",
+    "linha": 1
+  },
+  {
+    "funcao": "createGame",
+    "arquivo": "src/engine/002_createGame.js",
+    "linha": 1
+  },
+  {
+    "funcao": "syncReactorAttachments",
+    "arquivo": "src/engine/003_syncReactorAttachments.js",
+    "linha": 1
+  },
+  {
+    "funcao": "detonateReactor",
+    "arquivo": "src/engine/004_detonateReactor.js",
+    "linha": 1
+  },
+  {
+    "funcao": "beginTurn",
+    "arquivo": "src/engine/005_beginTurn.js",
+    "linha": 1
+  },
+  {
+    "funcao": "applyDamage",
+    "arquivo": "src/engine/006_applyDamage.js",
+    "linha": 1
+  },
+  {
+    "funcao": "settleDeaths",
+    "arquivo": "src/engine/007_settleDeaths.js",
+    "linha": 1
+  },
+  {
+    "funcao": "checkVictory",
+    "arquivo": "src/engine/008_checkVictory.js",
+    "linha": 1
+  },
+  {
+    "funcao": "heal",
+    "arquivo": "src/engine/009_heal.js",
+    "linha": 1
+  },
+  {
+    "funcao": "useSkill",
+    "arquivo": "src/engine/010_useSkill.js",
+    "linha": 1
+  },
+  {
+    "funcao": "nearestEnemy",
+    "arquivo": "src/engine/011_nearestEnemy.js",
+    "linha": 1
+  },
+  {
+    "funcao": "displace",
+    "arquivo": "src/engine/012_displace.js",
+    "linha": 1
+  },
+  {
+    "funcao": "ability",
+    "arquivo": "src/engine/013_ability.js",
+    "linha": 1
+  },
+  {
+    "funcao": "formation",
+    "arquivo": "src/engine/014_formation.js",
+    "linha": 1
+  },
+  {
+    "funcao": "attack",
+    "arquivo": "src/engine/015_attack.js",
+    "linha": 1
+  },
+  {
+    "funcao": "planFurnaceExplosion",
+    "arquivo": "src/engine/016_planFurnaceExplosion.js",
+    "linha": 1
+  },
+  {
+    "funcao": "resolveFurnaceExplosion",
+    "arquivo": "src/engine/017_resolveFurnaceExplosion.js",
+    "linha": 1
+  },
+  {
+    "funcao": "emitVoltageRays",
+    "arquivo": "src/engine/018_emitVoltageRays.js",
+    "linha": 1
+  },
+  {
+    "funcao": "activateCombo",
+    "arquivo": "src/engine/019_activateCombo.js",
+    "linha": 1
+  },
+  {
+    "funcao": "triggerGuard",
+    "arquivo": "src/engine/020_triggerGuard.js",
+    "linha": 1
+  },
+  {
+    "funcao": "shotVector",
+    "arquivo": "src/engine/021_shotVector.js",
+    "linha": 1
+  },
+  {
+    "funcao": "startPortal",
+    "arquivo": "src/engine/022_startPortal.js",
+    "linha": 1
+  },
+  {
+    "funcao": "startShot",
+    "arquivo": "src/engine/023_startShot.js",
+    "linha": 1
+  },
+  {
+    "funcao": "circleEntry",
+    "arquivo": "src/engine/024_circleEntry.js",
+    "linha": 1
+  },
+  {
+    "funcao": "nextContact",
+    "arquivo": "src/engine/025_nextContact.js",
+    "linha": 1
+  },
+  {
+    "funcao": "add",
+    "arquivo": "src/engine/025_nextContact.js",
+    "linha": 3
+  },
+  {
+    "funcao": "separate",
+    "arquivo": "src/engine/026_separate.js",
+    "linha": 1
+  },
+  {
+    "funcao": "stepShot",
+    "arquivo": "src/engine/027_stepShot.js",
+    "linha": 1
+  },
+  {
+    "funcao": "finishShot",
+    "arquivo": "src/engine/028_finishShot.js",
+    "linha": 1
+  },
+  {
+    "funcao": "simulate",
+    "arquivo": "src/engine/029_simulate.js",
+    "linha": 1
+  },
+  {
+    "funcao": "preview",
+    "arquivo": "src/engine/030_preview.js",
+    "linha": 1
+  },
+  {
+    "funcao": "chooseAI",
+    "arquivo": "src/engine/031_chooseAI.js",
+    "linha": 1
+  },
+  {
+    "funcao": "castAnchorVortex",
+    "arquivo": "src/engine/ancora_vortex.js",
+    "linha": 1
+  },
+  {
+    "funcao": "stepWorld",
+    "arquivo": "src/engine/ancora_vortex.js",
+    "linha": 9
+  },
+  {
+    "funcao": "readGuideProgress",
+    "arquivo": "src/ui/001_readGuideProgress.js",
+    "linha": 1
+  },
+  {
+    "funcao": "writeGuideProgress",
+    "arquivo": "src/ui/002_writeGuideProgress.js",
+    "linha": 1
+  },
+  {
+    "funcao": "tutorialFinished",
+    "arquivo": "src/ui/003_tutorialFinished.js",
+    "linha": 1
+  },
+  {
+    "funcao": "guidedDoneFromSave",
+    "arquivo": "src/ui/004_guidedDoneFromSave.js",
+    "linha": 1
+  },
+  {
+    "funcao": "markGuideStep",
+    "arquivo": "src/ui/005_markGuideStep.js",
+    "linha": 1
+  },
+  {
+    "funcao": "resetGuideProgress",
+    "arquivo": "src/ui/006_resetGuideProgress.js",
+    "linha": 1
+  },
+  {
+    "funcao": "toast",
+    "arquivo": "src/ui/007_toast.js",
+    "linha": 1
+  },
+  {
+    "funcao": "unlockAudio",
+    "arquivo": "src/ui/008_unlockAudio.js",
+    "linha": 1
+  },
+  {
+    "funcao": "tone",
+    "arquivo": "src/ui/009_tone.js",
+    "linha": 1
+  },
+  {
+    "funcao": "updateSound",
+    "arquivo": "src/ui/010_updateSound.js",
+    "linha": 1
+  },
+  {
+    "funcao": "monsterArt",
+    "arquivo": "src/ui/011_monsterArt.js",
+    "linha": 1
+  },
+  {
+    "funcao": "drawPortrait",
+    "arquivo": "src/ui/012_drawPortrait.js",
+    "linha": 1
+  },
+  {
+    "funcao": "buildRosters",
+    "arquivo": "src/ui/013_buildRosters.js",
+    "linha": 1
+  },
+  {
+    "funcao": "selectInspector",
+    "arquivo": "src/ui/014_selectInspector.js",
+    "linha": 1
+  },
+  {
+    "funcao": "updateInspector",
+    "arquivo": "src/ui/015_updateInspector.js",
+    "linha": 1
+  },
+  {
+    "funcao": "buildHelp",
+    "arquivo": "src/ui/016_buildHelp.js",
+    "linha": 1
+  },
+  {
+    "funcao": "updateHUD",
+    "arquivo": "src/ui/017_updateHUD.js",
+    "linha": 1
+  },
+  {
+    "funcao": "buildPhysicsRoster",
+    "arquivo": "src/ui/018_buildPhysicsRoster.js",
+    "linha": 1
+  },
+  {
+    "funcao": "showFocusedTutorialDialog",
+    "arquivo": "src/ui/019_showFocusedTutorialDialog.js",
+    "linha": 1
+  },
+  {
+    "funcao": "closeFocusedTutorialDialog",
+    "arquivo": "src/ui/020_closeFocusedTutorialDialog.js",
+    "linha": 1
+  },
+  {
+    "funcao": "renderTutorialMonsterCards",
+    "arquivo": "src/ui/021_renderTutorialMonsterCards.js",
+    "linha": 1
+  },
+  {
+    "funcao": "showTutorialRoster",
+    "arquivo": "src/ui/022_showTutorialRoster.js",
+    "linha": 1
+  },
+  {
+    "funcao": "showTutorialCharacter",
+    "arquivo": "src/ui/023_showTutorialCharacter.js",
+    "linha": 1
+  },
+  {
+    "funcao": "openTutorialSelector",
+    "arquivo": "src/ui/024_openTutorialSelector.js",
+    "linha": 1
+  },
+  {
+    "funcao": "closeTutorialSelector",
+    "arquivo": "src/ui/025_closeTutorialSelector.js",
+    "linha": 1
+  },
+  {
+    "funcao": "onTutorialSelectionBack",
+    "arquivo": "src/ui/026_onTutorialSelectionBack.js",
+    "linha": 1
+  },
+  {
+    "funcao": "startTutorialStage",
+    "arquivo": "src/ui/027_startTutorialStage.js",
+    "linha": 1
+  },
+  {
+    "funcao": "startFocusedTutorial",
+    "arquivo": "src/ui/028_startFocusedTutorial.js",
+    "linha": 1
+  },
+  {
+    "funcao": "startComboTutorial",
+    "arquivo": "src/ui/029_startComboTutorial.js",
+    "linha": 1
+  },
+  {
+    "funcao": "nextTutorialStage",
+    "arquivo": "src/ui/030_nextTutorialStage.js",
+    "linha": 1
+  },
+  {
+    "funcao": "placeTutorialUnits",
+    "arquivo": "src/ui/031_placeTutorialUnits.js",
+    "linha": 1
+  },
+  {
+    "funcao": "updateTutorialCoach",
+    "arquivo": "src/ui/032_updateTutorialCoach.js",
+    "linha": 1
+  },
+  {
+    "funcao": "updateTutorialHand",
+    "arquivo": "src/ui/033_updateTutorialHand.js",
+    "linha": 1
+  },
+  {
+    "funcao": "addLog",
+    "arquivo": "src/ui/034_addLog.js",
+    "linha": 1
+  },
+  {
+    "funcao": "floating",
+    "arquivo": "src/ui/035_floating.js",
+    "linha": 1
+  },
+  {
+    "funcao": "ring",
+    "arquivo": "src/ui/036_ring.js",
+    "linha": 1
+  },
+  {
+    "funcao": "beam",
+    "arquivo": "src/ui/037_beam.js",
+    "linha": 1
+  },
+  {
+    "funcao": "hammerSwing",
+    "arquivo": "src/ui/038_hammerSwing.js",
+    "linha": 1
+  },
+  {
+    "funcao": "burst",
+    "arquivo": "src/ui/039_burst.js",
+    "linha": 1
+  },
+  {
+    "funcao": "startImpactCamera",
+    "arquivo": "src/ui/040_startImpactCamera.js",
+    "linha": 1
+  },
+  {
+    "funcao": "consumeEvents",
+    "arquivo": "src/ui/041_consumeEvents.js",
+    "linha": 1
+  },
+  {
+    "funcao": "startGame",
+    "arquivo": "src/ui/042_startGame.js",
+    "linha": 1
+  },
+  {
+    "funcao": "showMenu",
+    "arquivo": "src/ui/043_showMenu.js",
+    "linha": 1
+  },
+  {
+    "funcao": "showResult",
+    "arquivo": "src/ui/044_showResult.js",
+    "linha": 1
+  },
+  {
+    "funcao": "cancelAim",
+    "arquivo": "src/ui/045_cancelAim.js",
+    "linha": 1
+  },
+  {
+    "funcao": "togglePause",
+    "arquivo": "src/ui/046_togglePause.js",
+    "linha": 1
+  },
+  {
+    "funcao": "openHelp",
+    "arquivo": "src/ui/047_openHelp.js",
+    "linha": 1
+  },
+  {
+    "funcao": "openMonster",
+    "arquivo": "src/ui/048_openMonster.js",
+    "linha": 1
+  },
+  {
+    "funcao": "askRestart",
+    "arquivo": "src/ui/049_askRestart.js",
+    "linha": 1
+  },
+  {
+    "funcao": "humanTurn",
+    "arquivo": "src/ui/050_humanTurn.js",
+    "linha": 1
+  },
+  {
+    "funcao": "launch",
+    "arquivo": "src/ui/051_launch.js",
+    "linha": 1
+  },
+  {
+    "funcao": "humanSkill",
+    "arquivo": "src/ui/052_humanSkill.js",
+    "linha": 1
+  },
+  {
+    "funcao": "pointerPoint",
+    "arquivo": "src/ui/053_pointerPoint.js",
+    "linha": 1
+  },
+  {
+    "funcao": "drawField",
+    "arquivo": "src/ui/054_drawField.js",
+    "linha": 1
+  },
+  {
+    "funcao": "drawLeader",
+    "arquivo": "src/ui/055_drawLeader.js",
+    "linha": 1
+  },
+  {
+    "funcao": "drawUnits",
+    "arquivo": "src/ui/056_drawUnits.js",
+    "linha": 1
+  },
+  {
+    "funcao": "drawHammerLatch",
+    "arquivo": "src/ui/057_drawHammerLatch.js",
+    "linha": 1
+  },
+  {
+    "funcao": "drawAim",
+    "arquivo": "src/ui/057_drawHammerLatch.js",
+    "linha": 2
+  },
+  {
+    "funcao": "drawEffects",
+    "arquivo": "src/ui/058_drawEffects.js",
+    "linha": 1
+  },
+  {
+    "funcao": "render",
+    "arquivo": "src/ui/059_render.js",
+    "linha": 1
+  },
+  {
+    "funcao": "tutorialTag",
+    "arquivo": "src/ui/060_tutorialTag.js",
+    "linha": 1
+  },
+  {
+    "funcao": "drawTutorialGuide",
+    "arquivo": "src/ui/061_drawTutorialGuide.js",
+    "linha": 1
+  },
+  {
+    "funcao": "updateAI",
+    "arquivo": "src/ui/062_updateAI.js",
+    "linha": 1
+  },
+  {
+    "funcao": "frame",
+    "arquivo": "src/ui/063_frame.js",
+    "linha": 1
+  },
+  {
+    "funcao": "refreshPicker",
+    "arquivo": "src/ui/064_refreshPicker.js",
+    "linha": 1
+  },
+  {
+    "funcao": "renderLesson",
+    "arquivo": "src/ui/065_renderLesson.js",
+    "linha": 1
+  },
+  {
+    "funcao": "switchInitialTab",
+    "arquivo": "src/ui/066_switchInitialTab.js",
+    "linha": 1
+  },
+  {
+    "funcao": "openSetup",
+    "arquivo": "src/ui/067_openSetup.js",
+    "linha": 1
+  },
+  {
+    "funcao": "renderStory",
+    "arquivo": "src/ui/068_renderStory.js",
+    "linha": 1
+  },
+  {
+    "funcao": "drawAnchorVortices",
+    "arquivo": "src/ui/ancora_visual.js",
+    "linha": 1
+  }
+]

@@ -1,0 +1,3 @@
+pullSpeed 60 -> 6 recompilado: deslocamento real de 3 unidades em 0,5 s.
+Intervalo de dano 0 rejeitado pelo compilador.
+Tabela restaurada para pullSpeed=60 e recompilada.

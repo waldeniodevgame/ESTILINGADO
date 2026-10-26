@@ -1,0 +1,11 @@
+{
+  "leaderRadius": 23,
+  "guardRadius": 73,
+  "leaderHP": 300,
+  "lossPerDeath": 20,
+  "guardDamage": 16,
+  "maxEnergy": 6,
+  "healCost": 2,
+  "focusCost": 2,
+  "healAmount": 22
+}

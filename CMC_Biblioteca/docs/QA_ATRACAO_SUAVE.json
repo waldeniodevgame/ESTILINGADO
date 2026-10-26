@@ -1,0 +1,20 @@
+{
+  "parametros": "inalterados",
+  "fps": [
+    30,
+    60,
+    144
+  ],
+  "posicoesFinais": [
+    529.3093914575857,
+    529.3093914575854,
+    529.309391457586
+  ],
+  "deslocamentoDe80Unidades": 30.69060854241434,
+  "pulsos": "6 em 0,5; 1; 1,5; 2; 2,5; 3 s",
+  "inimigoNoNucleo": "recebe dano sem precisar mover",
+  "aliados": "sem dano",
+  "ancoraECapitaes": "imóveis",
+  "ataquesCombosColisoesExtras": "nenhum",
+  "turno": "somente após 3 s"
+}

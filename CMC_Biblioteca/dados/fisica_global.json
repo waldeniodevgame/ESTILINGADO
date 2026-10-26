@@ -1,0 +1,18 @@
+{
+  "minDrag": 10,
+  "maxDrag": 160,
+  "maxSpeed": 1350,
+  "deceleration": 225,
+  "damping": 0.986,
+  "wallBounce": 0.88,
+  "enemyBounce": 0.88,
+  "stopSpeed": 5.1,
+  "dt": {
+    "$divide": [
+      1,
+      120
+    ]
+  },
+  "maxSeconds": 10,
+  "maxBounces": 40
+}

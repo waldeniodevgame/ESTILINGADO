@@ -1,0 +1,9 @@
+{
+  "radiusInCreatureRadii": 6,
+  "durationSeconds": 3,
+  "damagePerTick": 7,
+  "damageIntervalSeconds": 0.5,
+  "pullSpeed": 60,
+  "coreStopDistance": 2,
+  "cooldownOwnTurns": 1
+}

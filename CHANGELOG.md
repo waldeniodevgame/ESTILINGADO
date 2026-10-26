@@ -50,3 +50,10 @@
 - IA simples.
 - Dano e turnos iniciais.
 
+
+## 2026-10-26 — Organização da base e correção do Ímã
+- Adicionada a build-base `TESTE LULA 26 - ARRASTO CORRIGIDO`.
+- Adicionada a build `TESTE LULA 26 - IMÃ DANO ALIADO CORRIGIDO`.
+- Corrigido o dano de parede/bumpeamento aplicado a unidades da equipe do lançador durante o próprio lançamento.
+- Versionada a biblioteca modular com tabelas JSON, CSS, JavaScript, assets, compilador e documentação.
+- Adicionados índice, checklist e registro de progresso para guiar as próximas rodadas.

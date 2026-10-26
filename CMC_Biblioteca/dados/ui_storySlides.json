@@ -1,0 +1,53 @@
+[
+  {
+    "kicker": "CAPÍTULO 1 · BOAS-VINDAS",
+    "title": "Bem-vindo, Invocador!",
+    "text": "Estelle vai acompanhar seu primeiro combate. Vamos conhecer as criaturas, aprender a mirar e ver como um aliado transforma um disparo em combo.",
+    "note": "O guia mantém cada regra em uma etapa curta e repetível.",
+    "art": "guide"
+  },
+  {
+    "kicker": "CAPÍTULO 2 · PERSONAGEM",
+    "title": "Este é o Marcelo.",
+    "text": "Marcelo tem um golpe próprio em dois tempos: colisão forte, pausa e martelada. Ao atravessar um aliado, também ativa o combo daquela criatura; o alvo do golpe fica parado.",
+    "note": "Os dois impactos ficam separados para você enxergar o peso e a reação do martelo.",
+    "art": "unit",
+    "unit": 3,
+    "role": "Colisão forte · martelada atrasada"
+  },
+  {
+    "kicker": "CAPÍTULO 3 · MOVIMENTO",
+    "title": "Puxe para mirar. Solte para lançar.",
+    "text": "Arraste a criatura para trás, na direção oposta ao alvo. A linha pontilhada marca o caminho. Marcelo ativa o combo da aliada ao passar por ela e para somente ao alcançar o bot.",
+    "note": "No impacto, a imagem segura por um instante e aproxima a câmera; depois vem a segunda pancada.",
+    "art": "unit",
+    "unit": 3,
+    "role": "Arrasto · trajetória · dois impactos"
+  },
+  {
+    "kicker": "CAPÍTULO 4 · VOLTAGEM",
+    "title": "Atravesse Voltagem para descarregar raios.",
+    "text": "Voltagem é a aliada de combo. Quando outro monstro cruza sua posição, ela dispara raios contra inimigos aleatórios: no primeiro elo são 2 raios de 15; no segundo, 3 de 20; no terceiro elo do último monstro da rotação, 5 de 30.",
+    "note": "No treino, Turbina atravessa a Voltagem; bots separados deixam visível cada alvo e cada dano.",
+    "art": "combo",
+    "launch": 4,
+    "support": 1,
+    "target": 2,
+    "launchRole": "monstro lançado",
+    "supportRole": "aliada · raios aleatórios",
+    "targetRole": "bots inimigos"
+  },
+  {
+    "kicker": "CAPÍTULO 5 · TREINO EM ETAPAS",
+    "title": "Vamos testar cada elo com bots.",
+    "text": "A primeira arena mostra o Marcelo e seus dois impactos. Depois, três práticas isoladas ensinam o primeiro, o segundo e o terceiro elo da Voltagem. A terceira usa o último monstro da rotação para ativar o combo 3×.",
+    "note": "Cada explicação pode ser pulada, repetida ou avançada. O tutorial permanece aberto para você testar tudo de novo.",
+    "art": "combo",
+    "launch": 4,
+    "support": 1,
+    "target": 2,
+    "launchRole": "1º / 2º / último",
+    "supportRole": "Voltagem · habilidade",
+    "targetRole": "bots de treino"
+  }
+]

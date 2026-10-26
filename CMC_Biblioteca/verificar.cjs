@@ -1,0 +1,7 @@
+// node verificar.cjs — regressão dos outros monstros e invariantes da Âncora.
+const fs=require('fs'),vm=require('vm'),assert=require('assert'),path=require('path');
+function load(p){const c=vm.createContext({});const scripts=[...fs.readFileSync(p,'utf8').matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)];for(const s of scripts)new vm.Script(s[1]);vm.runInContext(scripts[0][1],c);return c.EloEngine}
+const old=load(path.join(__dirname,'original/CMC_REATOR_FISICA_ADERENCIA_FINAL.html')),E=load(path.join(__dirname,'dist/CMC_Modular.html'));
+const norm=x=>JSON.stringify(x,(k,v)=>k==='vortices'||k==='furnaceLavas'?undefined:v&&typeof v==='object'&&!Array.isArray(v)?Object.fromEntries(Object.keys(v).sort().map(k=>[k,v[k]])):v);
+let count=0;for(let i=0;i<16;i++)if(i!==12&&i!==0){assert.equal(norm(old.TYPES[i]),norm(E.TYPES[i]));for(let d=0;d<2;d++){const opts={mode:'local',teams:[[i,1,2,3],[0,3,11,13]]};assert.equal(norm(old.simulate(old.createGame(opts),140,d?65:0,true)),norm(E.simulate(E.createGame(opts),140,d?65:0,true)));count++;}}
+const g=E.createGame({mode:'local',teams:[[12,1,2,3],[0,3,11,13]]});assert.equal(E.startShot(g,150,0),false);assert(E.castAnchorVortex(g,480,300));assert.equal(g.vortices[0].radius,E.C.radius*E.ANCHOR.radiusInCreatureRadii);assert.equal(g.team,0);assert.equal(g.phase,'vortex');for(let i=0;i<Math.ceil(E.ANCHOR.durationSeconds/.05)+1;i++)E.stepWorld(g,.05);assert.equal(g.vortices.length,0);assert.equal(g.team,1);console.log(count+' lançamentos dos outros monstros iguais à base; criação, turno e expiração do vórtice OK.');

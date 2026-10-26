@@ -1,0 +1,1935 @@
+{
+  "efeitos_e_escalas": {
+    "reactorExtraHP": 100,
+    "captainInset": 0.165,
+    "initialEnergy": 3,
+    "reactorTurns": 3,
+    "damageGrowthSteps": 4,
+    "hammerMonsterCap": 90,
+    "captainHeal": 20,
+    "captainCosts": {
+      "vector": 2,
+      "circuit": 3,
+      "wall": 3,
+      "max": 5
+    },
+    "pushScale": 0.85,
+    "specialBoost": 1.25,
+    "formationCap": 0.15,
+    "formationPairs": [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "focusDamage": 8,
+    "frostDamage": [
+      0,
+      15,
+      20,
+      30
+    ],
+    "frostSlow": [
+      0,
+      15,
+      15,
+      20
+    ],
+    "lightningCount": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "lightningDamage": [
+      0,
+      15,
+      20,
+      30
+    ],
+    "turbineMultiplier": [
+      1,
+      1.15,
+      1.3,
+      1.5
+    ],
+    "turbinePercent": [
+      0,
+      15,
+      30,
+      50
+    ],
+    "drillForcePercent": [
+      0,
+      20,
+      0,
+      0
+    ],
+    "drillDamagePercent": [
+      0,
+      0,
+      25,
+      30
+    ],
+    "drillDamageMultiplier": [
+      1,
+      1,
+      1.25,
+      1.3
+    ],
+    "drillForceMultiplier": [
+      1,
+      1.2,
+      1,
+      1
+    ],
+    "portalRadius": 5,
+    "portalDamage": 50,
+    "anchorSlow": 0.5,
+    "turnEnergy": 2,
+    "damageGrowthPerEvent": 0.1,
+    "monsterDamageCap": 70,
+    "hammerCaptainCap": 70,
+    "captainDamageCap": 45,
+    "formationPerPair": 0.1,
+    "specials": {
+      "furnaceRadius": 92,
+      "impactDamage": 12,
+      "chainDamage": 10,
+      "turbineMultiplier": 1.15,
+      "bounceDamageCap": 12,
+      "magnetRadius": 160,
+      "magnetImpulse": 60,
+      "repairHeal": 15,
+      "shieldBreak": 15,
+      "echoFallback": 10,
+      "orbitImpulse": 220,
+      "phaseDistance": 65,
+      "bounceDamage": 4,
+      "echoMultiplier": 0.5
+    },
+    "furnace": {
+      "contactDamage": 20,
+      "lavaRadius": 88,
+      "lavaDamage": 15,
+      "lavaDurationOwnTurns": 1,
+      "explosionDurationSeconds": 0.42,
+      "allyComboBonusPercent": [
+        0,
+        15,
+        30,
+        50
+      ]
+    }
+  },
+  "progresso": {
+    "monsterReward": 20,
+    "captainReward": 30
+  },
+  "ui_genericTutorialStages": [
+    "generic0",
+    "generic1",
+    "generic2",
+    "generic5",
+    "generic6",
+    "generic9",
+    "generic10",
+    "generic13",
+    "generic14",
+    "generic15"
+  ],
+  "ui_turbineTutorialStages": [
+    "turbine1",
+    "turbine2",
+    "turbine3"
+  ],
+  "combos": [
+    {
+      "key": "furnace",
+      "name": "Brasa",
+      "summary": "causa 10 de dano e prepara +8 no próximo impacto.",
+      "damage": 10,
+      "bonus": 8
+    },
+    {
+      "key": "voltage",
+      "name": "Descarga elétrica",
+      "summary": "dispara raios conforme a posição: 2×15, 3×20 ou 5×30.",
+      "damage": 0
+    },
+    {
+      "key": "glacial",
+      "name": "Marca glacial",
+      "summary": "causa 8 de dano, marca o rival e aumenta em 25% o próximo empurrão.",
+      "damage": 8
+    },
+    {
+      "key": "marcelo",
+      "name": "Proteção do Marcelo",
+      "summary": "concede 15 de escudo ao lançador.",
+      "damage": 0,
+      "shield": 15
+    },
+    {
+      "key": "turbine",
+      "name": "Aceleração",
+      "summary": "1 aliado: +15% de velocidade; 2 aliados: +30%; 3 aliados: +50%. Ao colidir, Turbina dobra a velocidade atual.",
+      "damage": 0,
+      "multiplier": 1.15
+    },
+    {
+      "key": "rebater",
+      "name": "Carga cinética",
+      "summary": "causa 10 de dano e prepara +6 no próximo impacto.",
+      "damage": 10,
+      "bonus": 6
+    },
+    {
+      "key": "magnet",
+      "name": "Atração",
+      "summary": "puxa o inimigo mais próximo 55 unidades em direção ao lançador.",
+      "damage": 0,
+      "impulse": 55
+    },
+    {
+      "key": "drill",
+      "name": "Perfuração",
+      "summary": "1 aliado concede +20% de força de impacto; 2 aliados dão +25% de dano de colisão; 3 aliados dão +30%.",
+      "damage": 0
+    },
+    {
+      "key": "prism",
+      "name": "Portal prismático",
+      "summary": "Clique e arraste até o destino; solte para teletransportar e causar dano radial proporcional à Fornalha.",
+      "damage": 0
+    },
+    {
+      "key": "repair",
+      "name": "Reparo",
+      "summary": "cura 10 PV e concede 8 de escudo ao lançador.",
+      "damage": 0,
+      "heal": 10,
+      "shield": 8
+    },
+    {
+      "key": "bulwark",
+      "name": "Quebra-escudo",
+      "summary": "concede 20 de escudo ao lançador.",
+      "damage": 0,
+      "shield": 20
+    },
+    {
+      "key": "echo",
+      "name": "Bump ressonante",
+      "summary": "após o primeiro impacto, redireciona quem toca Eco e devolve +50% de força.",
+      "damage": 0,
+      "multiplier": 1.5
+    },
+    {
+      "key": "anchor",
+      "name": "Vetor",
+      "summary": "aumenta em 25% o próximo empurrão do lançador.",
+      "damage": 0
+    },
+    {
+      "key": "reactor",
+      "name": "Reação cinética",
+      "summary": "Possui vida elevada, fica preso ao primeiro monstro atingido e, após três turnos vivo, explode ao lado do capitão.",
+      "damage": 0
+    },
+    {
+      "$hole": true
+    },
+    {
+      "key": "orbit",
+      "name": "Desvio orbital",
+      "summary": "desloca o inimigo mais próximo 100 unidades em direção ao lançador.",
+      "damage": 0,
+      "impulse": 100
+    },
+    {
+      "key": "phase",
+      "name": "Salto de fase",
+      "summary": "prepara +6 de dano para o próximo impacto.",
+      "damage": 0,
+      "bonus": 6
+    }
+  ],
+  "ui_formations": {
+    "marcelo": {
+      "0-0": [
+        340,
+        480
+      ],
+      "0-1": [
+        340,
+        390
+      ],
+      "0-2": [
+        130,
+        465
+      ],
+      "0-3": [
+        555,
+        465
+      ],
+      "1-0": [
+        340,
+        240
+      ],
+      "1-1": [
+        90,
+        145
+      ],
+      "1-2": [
+        590,
+        145
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "voltage1": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        405
+      ],
+      "0-2": [
+        145,
+        455
+      ],
+      "0-3": [
+        535,
+        455
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "voltage2": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        420
+      ],
+      "0-2": [
+        340,
+        350
+      ],
+      "0-3": [
+        165,
+        465
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "voltage3": {
+      "0-0": [
+        340,
+        430
+      ],
+      "0-1": [
+        340,
+        355
+      ],
+      "0-2": [
+        340,
+        280
+      ],
+      "0-3": [
+        340,
+        500
+      ],
+      "1-0": [
+        340,
+        190
+      ],
+      "1-1": [
+        115,
+        145
+      ],
+      "1-2": [
+        565,
+        145
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "glacial1": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        405
+      ],
+      "0-2": [
+        145,
+        455
+      ],
+      "0-3": [
+        535,
+        455
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "glacial2": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        420
+      ],
+      "0-2": [
+        340,
+        350
+      ],
+      "0-3": [
+        165,
+        465
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "glacial3": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        420
+      ],
+      "0-2": [
+        340,
+        350
+      ],
+      "0-3": [
+        340,
+        280
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "echo1": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        531
+      ],
+      "0-2": [
+        145,
+        455
+      ],
+      "0-3": [
+        535,
+        455
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "echo2": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        531
+      ],
+      "0-2": [
+        145,
+        455
+      ],
+      "0-3": [
+        535,
+        455
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "furnace1": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        130,
+        420
+      ],
+      "0-2": [
+        530,
+        430
+      ],
+      "0-3": [
+        590,
+        420
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        414,
+        220
+      ],
+      "1-2": [
+        422,
+        246
+      ],
+      "1-3": [
+        260,
+        264
+      ]
+    },
+    "anchor1": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        405
+      ],
+      "0-2": [
+        145,
+        455
+      ],
+      "0-3": [
+        535,
+        455
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "anchor2": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        420
+      ],
+      "0-2": [
+        340,
+        350
+      ],
+      "0-3": [
+        165,
+        465
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "drill1": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        405
+      ],
+      "0-2": [
+        145,
+        455
+      ],
+      "0-3": [
+        535,
+        455
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "drill2": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        420
+      ],
+      "0-2": [
+        340,
+        350
+      ],
+      "0-3": [
+        165,
+        465
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    },
+    "drill3": {
+      "0-0": [
+        340,
+        490
+      ],
+      "0-1": [
+        340,
+        420
+      ],
+      "0-2": [
+        340,
+        350
+      ],
+      "0-3": [
+        340,
+        280
+      ],
+      "1-0": [
+        340,
+        220
+      ],
+      "1-1": [
+        130,
+        160
+      ],
+      "1-2": [
+        550,
+        155
+      ],
+      "1-3": [
+        590,
+        300
+      ]
+    }
+  },
+  "ui_TUTORIAL_CARD_ORDER": [
+    3,
+    7,
+    8,
+    4,
+    1,
+    2,
+    11,
+    0,
+    5,
+    6,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15
+  ],
+  "ui_prismTutorialStages": [
+    "prism1"
+  ],
+  "ui_furnaceTutorialStages": [
+    "furnace1"
+  ],
+  "capitao": {
+    "leaderRadius": 23,
+    "guardRadius": 73,
+    "leaderHP": 300,
+    "lossPerDeath": 20,
+    "guardDamage": 16,
+    "maxEnergy": 6,
+    "healCost": 2,
+    "focusCost": 2,
+    "healAmount": 22
+  },
+  "ui_glacialTutorialStages": [
+    "glacial1",
+    "glacial2",
+    "glacial3"
+  ],
+  "ui_voltageTutorialStages": [
+    "voltage1",
+    "voltage2",
+    "voltage3"
+  ],
+  "ui_anchorTutorialStages": [
+    "anchor1"
+  ],
+  "ui_storySlides": [
+    {
+      "kicker": "CAPÍTULO 1 · BOAS-VINDAS",
+      "title": "Bem-vindo, Invocador!",
+      "text": "Estelle vai acompanhar seu primeiro combate. Vamos conhecer as criaturas, aprender a mirar e ver como um aliado transforma um disparo em combo.",
+      "note": "O guia mantém cada regra em uma etapa curta e repetível.",
+      "art": "guide"
+    },
+    {
+      "kicker": "CAPÍTULO 2 · PERSONAGEM",
+      "title": "Este é o Marcelo.",
+      "text": "Marcelo tem um golpe próprio em dois tempos: colisão forte, pausa e martelada. Ao atravessar um aliado, também ativa o combo daquela criatura; o alvo do golpe fica parado.",
+      "note": "Os dois impactos ficam separados para você enxergar o peso e a reação do martelo.",
+      "art": "unit",
+      "unit": 3,
+      "role": "Colisão forte · martelada atrasada"
+    },
+    {
+      "kicker": "CAPÍTULO 3 · MOVIMENTO",
+      "title": "Puxe para mirar. Solte para lançar.",
+      "text": "Arraste a criatura para trás, na direção oposta ao alvo. A linha pontilhada marca o caminho. Marcelo ativa o combo da aliada ao passar por ela e para somente ao alcançar o bot.",
+      "note": "No impacto, a imagem segura por um instante e aproxima a câmera; depois vem a segunda pancada.",
+      "art": "unit",
+      "unit": 3,
+      "role": "Arrasto · trajetória · dois impactos"
+    },
+    {
+      "kicker": "CAPÍTULO 4 · VOLTAGEM",
+      "title": "Atravesse Voltagem para descarregar raios.",
+      "text": "Voltagem é a aliada de combo. Quando outro monstro cruza sua posição, ela dispara raios contra inimigos aleatórios: no primeiro elo são 2 raios de 15; no segundo, 3 de 20; no terceiro elo do último monstro da rotação, 5 de 30.",
+      "note": "No treino, Turbina atravessa a Voltagem; bots separados deixam visível cada alvo e cada dano.",
+      "art": "combo",
+      "launch": 4,
+      "support": 1,
+      "target": 2,
+      "launchRole": "monstro lançado",
+      "supportRole": "aliada · raios aleatórios",
+      "targetRole": "bots inimigos"
+    },
+    {
+      "kicker": "CAPÍTULO 5 · TREINO EM ETAPAS",
+      "title": "Vamos testar cada elo com bots.",
+      "text": "A primeira arena mostra o Marcelo e seus dois impactos. Depois, três práticas isoladas ensinam o primeiro, o segundo e o terceiro elo da Voltagem. A terceira usa o último monstro da rotação para ativar o combo 3×.",
+      "note": "Cada explicação pode ser pulada, repetida ou avançada. O tutorial permanece aberto para você testar tudo de novo.",
+      "art": "combo",
+      "launch": 4,
+      "support": 1,
+      "target": 2,
+      "launchRole": "1º / 2º / último",
+      "supportRole": "Voltagem · habilidade",
+      "targetRole": "bots de treino"
+    }
+  ],
+  "monstros": [
+    {
+      "key": "0",
+      "name": "Fornalha",
+      "attack": 24,
+      "hp": 110,
+      "color": "#ff925e",
+      "skill": "Explosão por contato",
+      "short": "Até 50 · raio de 5 criaturas",
+      "desc": "Ao tocar um inimigo, explode no centro do alvo. Causa até 50 de dano no centro, com redução linear até zero no limite de 5 raios de criatura. Atinge criaturas inimigas dentro da área."
+    },
+    {
+      "key": "1",
+      "name": "Voltagem",
+      "attack": 18,
+      "hp": 110,
+      "color": "#ffe168",
+      "skill": "Descarga",
+      "short": "Raio de 10",
+      "desc": "Descarga: Raio de 10. Especial com recarga de três turnos próprios."
+    },
+    {
+      "key": "2",
+      "name": "Glacial",
+      "attack": 16,
+      "hp": 120,
+      "color": "#72dfff",
+      "skill": "Congelamento progressivo",
+      "short": "Gelo +15/20/30 · força −15/20%",
+      "desc": "Congelamento progressivo: ao cruzar 1, 2 ou 3 aliados, cada inimigo atingido recebe +15, +20 ou +30 de dano de gelo e perde 15%, 15% ou 20% da força no próximo lançamento. Especial do capitão: marca o alvo e aumenta o empurrão em 25%."
+    },
+    {
+      "key": "3",
+      "name": "Marcelo",
+      "attack": 28,
+      "hp": 150,
+      "color": "#dbaa79",
+      "skill": "Impacto pesado",
+      "short": "Colisão + martelada",
+      "desc": "Impacto pesado: colisão forte e martelada atrasada; o rival permanece imóvel. Especial com recarga de três turnos próprios."
+    },
+    {
+      "key": "4",
+      "name": "Turbina",
+      "attack": 17,
+      "hp": 110,
+      "color": "#95f3c6",
+      "skill": "Aceleração",
+      "short": "Velocidade +15%",
+      "desc": "Aceleração: Velocidade +15%. Especial com recarga de três turnos próprios."
+    },
+    {
+      "key": "5",
+      "name": "Rebatedor",
+      "attack": 20,
+      "hp": 120,
+      "color": "#aa9dff",
+      "skill": "Carga cinética",
+      "short": "Ricochete +4, máximo +12",
+      "desc": "Carga cinética: Ricochete +4, máximo +12. Especial com recarga de três turnos próprios."
+    },
+    {
+      "key": "6",
+      "name": "Ímã",
+      "attack": 15,
+      "hp": 130,
+      "color": "#ee87b9",
+      "skill": "Atração",
+      "short": "Agrupa inimigos",
+      "desc": "Atração: Agrupa inimigos. Especial com recarga de três turnos próprios."
+    },
+    {
+      "key": "7",
+      "name": "Broca",
+      "attack": 23,
+      "hp": 115,
+      "color": "#f0bc56",
+      "skill": "Perfuração",
+      "short": "Atravessa primeiro inimigo",
+      "desc": "Perfuração: Atravessa primeiro inimigo. Especial com recarga de três turnos próprios."
+    },
+    {
+      "key": "8",
+      "name": "Prisma",
+      "attack": 19,
+      "hp": 110,
+      "color": "#d5b5ff",
+      "skill": "Feixe",
+      "short": "Atinge alvo atrás",
+      "desc": "Feixe: Atinge alvo atrás. Especial com recarga de três turnos próprios."
+    },
+    {
+      "key": "9",
+      "name": "Pulso",
+      "attack": 12,
+      "hp": 120,
+      "color": "#70e7a1",
+      "skill": "Reparo",
+      "short": "Cura 15",
+      "desc": "Reparo: Cura 15. Especial com recarga de três turnos próprios."
+    },
+    {
+      "key": "10",
+      "name": "Muralha",
+      "attack": 21,
+      "hp": 150,
+      "color": "#b7c6da",
+      "skill": "Quebra-escudo",
+      "short": "Remove 15 de escudo",
+      "desc": "Quebra-escudo: Remove 15 de escudo. Especial com recarga de três turnos próprios."
+    },
+    {
+      "key": "11",
+      "name": "Eco",
+      "attack": 16,
+      "hp": 100,
+      "color": "#ed9fdf",
+      "skill": "Bump ressonante",
+      "short": "Bump +50% após impacto",
+      "desc": "Bump ressonante: depois que o lançador colidir com outro monstro, tocar Eco redireciona o lançamento e devolve +50% de força. Vale para aliados e inimigos; Eco não ativa o bump quando é o lançador. Especial: marca o alvo para repetir dano."
+    },
+    {
+      "key": "12",
+      "name": "Âncora",
+      "attack": 18,
+      "hp": 145,
+      "color": "#7095aa",
+      "skill": "Morteiro · vórtice",
+      "short": "Núcleo de sucção",
+      "desc": "Escolha um ponto da arena para criar o vórtice. Âncora permanece no lugar; aliados são puxados sem dano e inimigos arrastados recebem dano periódico."
+    },
+    {
+      "key": "13",
+      "name": "Reator",
+      "attack": 20,
+      "hp": 120,
+      "color": "#c4f46c",
+      "skill": "Reação cinética",
+      "short": "Converte ricochetes em área",
+      "desc": "Especial: detona uma área ao fim do lançamento, com dano baseado nos ricochetes (máximo 18). Assistência: concede uma carga ao lançador. Recarga: três turnos próprios."
+    },
+    {
+      "key": "14",
+      "name": "Órbita",
+      "attack": 16,
+      "hp": 115,
+      "color": "#b099ff",
+      "skill": "Desvio orbital",
+      "short": "Deslocamento lateral",
+      "desc": "Especial: empurra o alvo lateralmente à trajetória. Assistência: aproxima o inimigo mais próximo da linha do lançador. Recarga: três turnos próprios."
+    },
+    {
+      "key": "15",
+      "name": "Fenda",
+      "attack": 19,
+      "hp": 105,
+      "color": "#ee7bc7",
+      "skill": "Salto de fase",
+      "short": "Reposiciona o lançamento",
+      "desc": "Especial: após o primeiro impacto, salta para o outro lado do alvo, uma vez por tiro. Assistência: +6 no próximo impacto. Recarga: três turnos próprios."
+    }
+  ],
+  "fisica_global": {
+    "minDrag": 10,
+    "maxDrag": 160,
+    "maxSpeed": 1350,
+    "deceleration": 225,
+    "damping": 0.986,
+    "wallBounce": 0.88,
+    "enemyBounce": 0.88,
+    "stopSpeed": 5.1,
+    "dt": {
+      "$divide": [
+        1,
+        120
+      ]
+    },
+    "maxSeconds": 10,
+    "maxBounces": 40
+  },
+  "ui_tones": {
+    "launch": [
+      250,
+      420,
+      0.1
+    ],
+    "hit": [
+      125,
+      55,
+      0.12
+    ],
+    "combo": [
+      520,
+      850,
+      0.18
+    ],
+    "heal": [
+      440,
+      660,
+      0.25
+    ],
+    "guard": [
+      200,
+      320,
+      0.14
+    ],
+    "death": [
+      130,
+      45,
+      0.25
+    ],
+    "win": [
+      440,
+      880,
+      0.45
+    ],
+    "click": [
+      350,
+      400,
+      0.06
+    ],
+    "wall": [
+      200,
+      250,
+      0.035
+    ]
+  },
+  "ui_guideStepKeys": [
+    "aim",
+    "combo",
+    "captain",
+    "special"
+  ],
+  "ui_synergies": [
+    {
+      "ids": [
+        0,
+        6
+      ],
+      "name": "Explosão concentrada",
+      "desc": "Ímã agrupa; Fornalha atinge a área."
+    },
+    {
+      "ids": [
+        1,
+        11
+      ],
+      "name": "Circuito em cadeia",
+      "desc": "Voltagem causa descarga; Eco repete a assistência."
+    },
+    {
+      "ids": [
+        2,
+        3
+      ],
+      "name": "Impacto nas paredes",
+      "desc": "Glacial prepara o alvo; Marcelo empurra."
+    },
+    {
+      "ids": [
+        4,
+        5
+      ],
+      "name": "Ricochete carregado",
+      "desc": "Turbina acelera; Rebatedor aproveita as paredes."
+    },
+    {
+      "ids": [
+        7,
+        8
+      ],
+      "name": "Linha de perfuração",
+      "desc": "Broca atravessa a frente; Prisma alcança outro alvo."
+    },
+    {
+      "ids": [
+        9,
+        10
+      ],
+      "name": "Fortaleza",
+      "desc": "Pulso cura; Muralha protege o lançador."
+    }
+  ],
+  "formacao": [
+    [
+      -80,
+      -150
+    ],
+    [
+      120,
+      -72
+    ],
+    [
+      -70,
+      154
+    ],
+    [
+      130,
+      158
+    ]
+  ],
+  "ui_lessons": [
+    {
+      "title": "Como vencer",
+      "unit": 0,
+      "text": "Você vence ao zerar a vida do capitão rival ou derrotar todas as quatro unidades inimigas. Cada unidade sua que cai também remove 20 PV do seu capitão.",
+      "tip": "Acompanhe as barras de vida dos dois capitães no HUD.",
+      "tag": "OBJETIVO"
+    },
+    {
+      "title": "Monte uma equipe de quatro",
+      "unit": 3,
+      "text": "Cada unidade tem ataque, vida e um especial próprio. Escolha quatro no catálogo e toque em uma carta para ver sua ficha. Duplas específicas ativam sinergias.",
+      "tip": "As sinergias de formação somam bônus de impacto até o limite indicado na tela de equipe.",
+      "tag": "EQUIPE"
+    },
+    {
+      "title": "Um disparo por vez",
+      "unit": 11,
+      "text": "A partida alterna entre você e o adversário a cada jogada. A unidade ativa é escolhida pelo rodízio; na próxima vez da sua equipe, ele avança para a próxima unidade viva.",
+      "tip": "A seta e o aro verde mostram quem está ativo. Unidades derrotadas saem do rodízio.",
+      "tag": "TURNOS"
+    },
+    {
+      "title": "Mire com o toque",
+      "unit": 2,
+      "text": "Toque na unidade destacada, puxe o dedo para trás na direção oposta ao disparo e solte. A linha pontilhada mostra uma previsão da rota e a barra indica a força do arrasto.",
+      "tip": "Arrasto curto dá menos força. Se a mira não servir, solte fora da arena ou toque em cancelar.",
+      "tag": "MIRA"
+    },
+    {
+      "title": "Leia os ricochetes e impactos",
+      "unit": 5,
+      "text": "As bordas claras limitam o campo e fazem o lançamento ricochetear. As faixas vermelhas causam dano quando um inimigo empurrado bate nelas. Um tiro pode atingir mais de um alvo.",
+      "tip": "O ataque base vem da ficha da unidade. Posição e rota decidem quantos contatos você consegue.",
+      "tag": "MOVIMENTO"
+    },
+    {
+      "title": "Use os aliados para formar elos",
+      "unit": 6,
+      "text": "Trace a rota através de um aliado antes de chegar ao rival. O aliado ativa sua assistência e ataca ou prepara um efeito. Cada aliado participa no máximo uma vez por disparo.",
+      "tip": "A prévia da mira indica quantos aliados estão na rota. Os efeitos dependem da unidade que você escolheu.",
+      "tag": "COMBOS"
+    },
+    {
+      "title": "Gaste energia do capitão",
+      "unit": 9,
+      "text": "Você começa com 3 de energia. Depois recebe +2 no início de cada turno seu, até 6. Antes do disparo, use uma habilidade do capitão: Cura custa 2 e recupera até 20 PV; Sobrecarga custa 2 e soma 8 ao primeiro impacto.",
+      "tip": "Vetor (2), Circuito (3), Parede (3) e Protocolo (5) mostram o custo no botão. Só uma habilidade do capitão por turno.",
+      "tag": "CAPITÃO"
+    },
+    {
+      "title": "Ative o especial de cada unidade",
+      "unit": 7,
+      "text": "O botão de especial muda conforme a unidade ativa. Ele pode atravessar, marcar, empurrar, curar ou atingir outros alvos, de acordo com a ficha. O especial recarrega após três turnos próprios completos.",
+      "tip": "O especial da unidade é separado da habilidade do capitão; use os dois no mesmo turno se ambos estiverem disponíveis.",
+      "tag": "PODERES"
+    },
+    {
+      "title": "Entenda dano, escudos e combos",
+      "unit": 10,
+      "text": "Escudos absorvem dano antes da vida. Eventos de dano na mesma jogada elevam o multiplicador em 10%, até +40%. O V7 limita o dano por disparo a 70 por unidade e 45 por capitão; o Marcelo pode chegar a 70 com os dois impactos.",
+      "tip": "Os efeitos e números são valores de teste desta versão; confira os números flutuantes e o registro de jogadas.",
+      "tag": "DANO"
+    },
+    {
+      "title": "Agora pratique na arena",
+      "unit": 13,
+      "text": "O treino abre uma partida contra a IA no modo Explorador, usando este mesmo campo, as mesmas unidades e a física do V7. Cumpra os quatro desafios no quadro de estado durante a partida.",
+      "tip": "Arraste para mirar, tente um combo, use uma habilidade do capitão e depois um especial.",
+      "tag": "PRÁTICA"
+    }
+  ],
+  "ui_drillTutorialStages": [
+    "drill1",
+    "drill2",
+    "drill3"
+  ],
+  "ui_echoTutorialStages": [
+    "echo1",
+    "echo2"
+  ],
+  "ui_tutorialTeams": {
+    "marcelo": [
+      3,
+      2,
+      1,
+      11
+    ],
+    "voltage1": [
+      4,
+      1,
+      2,
+      3
+    ],
+    "voltage2": [
+      4,
+      0,
+      1,
+      3
+    ],
+    "voltage3": [
+      0,
+      2,
+      1,
+      4
+    ],
+    "glacial1": [
+      2,
+      3,
+      4,
+      9
+    ],
+    "glacial2": [
+      2,
+      3,
+      4,
+      9
+    ],
+    "glacial3": [
+      2,
+      3,
+      4,
+      9
+    ],
+    "echo1": [
+      4,
+      11,
+      0,
+      9
+    ],
+    "echo2": [
+      11,
+      11,
+      0,
+      9
+    ],
+    "drill1": [
+      7,
+      1,
+      2,
+      3
+    ],
+    "drill2": [
+      7,
+      1,
+      2,
+      3
+    ],
+    "drill3": [
+      7,
+      1,
+      2,
+      3
+    ],
+    "prism1": [
+      8,
+      1,
+      2,
+      3
+    ],
+    "turbine1": [
+      4,
+      1,
+      2,
+      3
+    ],
+    "turbine2": [
+      4,
+      1,
+      2,
+      3
+    ],
+    "turbine3": [
+      4,
+      1,
+      2,
+      3
+    ],
+    "generic0": [
+      0,
+      6,
+      4,
+      5
+    ],
+    "generic1": [
+      1,
+      6,
+      4,
+      5
+    ],
+    "generic2": [
+      2,
+      6,
+      4,
+      5
+    ],
+    "generic5": [
+      5,
+      6,
+      4,
+      5
+    ],
+    "generic6": [
+      6,
+      1,
+      4,
+      5
+    ],
+    "generic9": [
+      9,
+      10,
+      4,
+      5
+    ],
+    "generic10": [
+      10,
+      9,
+      4,
+      5
+    ],
+    "anchor1": [
+      12,
+      6,
+      4,
+      5
+    ],
+    "anchor2": [
+      12,
+      6,
+      4,
+      5
+    ],
+    "generic13": [
+      13,
+      6,
+      4,
+      5
+    ],
+    "generic14": [
+      14,
+      6,
+      4,
+      5
+    ],
+    "generic15": [
+      15,
+      6,
+      4,
+      5
+    ],
+    "furnace1": [
+      0,
+      6,
+      4,
+      5
+    ]
+  },
+  "ui_TUTORIAL_LESSONS": {
+    "0": {
+      "summary": "Veja a explosão de contato com dano decrescente e alcance reduzido.",
+      "stages": [
+        {
+          "id": "furnace1",
+          "title": "Explosão radial · até 50",
+          "detail": "Dano cai com a distância; alcance de 5 raios de criatura."
+        }
+      ]
+    },
+    "1": {
+      "summary": "Treine cada posição da Voltagem e veja os raios atingirem bots de exemplo.",
+      "stages": [
+        {
+          "id": "voltage1",
+          "title": "Primeiro aliado · 2 raios",
+          "detail": "Primeiro elo: dois raios de 15 de dano."
+        },
+        {
+          "id": "voltage2",
+          "title": "Segundo aliado · 3 raios",
+          "detail": "Segundo elo: três raios de 20 de dano."
+        },
+        {
+          "id": "voltage3",
+          "title": "Combo 3× · 5 raios",
+          "detail": "Último lançamento: cinco raios de 30 de dano."
+        }
+      ]
+    },
+    "2": {
+      "summary": "Compare o dano de gelo e a redução de força conforme o número de aliados atravessados.",
+      "stages": [
+        {
+          "id": "glacial1",
+          "title": "Um aliado · +15 de gelo",
+          "detail": "Reduz 15% da força no próximo lançamento."
+        },
+        {
+          "id": "glacial2",
+          "title": "Dois aliados · +20 de gelo",
+          "detail": "Reduz 15% da força no próximo lançamento."
+        },
+        {
+          "id": "glacial3",
+          "title": "Três aliados · +30 de gelo",
+          "detail": "Reduz 20% da força no próximo lançamento."
+        }
+      ]
+    },
+    "3": {
+      "summary": "Veja a perfuração atravessar aliados e fortalecer a primeira colisão contra o inimigo.",
+      "stages": [
+        {
+          "id": "marcelo",
+          "title": "Colisão e martelada",
+          "detail": "Mira, passagem por aliado e os dois impactos."
+        }
+      ]
+    },
+    "4": {
+      "summary": "Aprenda a aceleração progressiva e o impacto que dobra a velocidade da Turbina.",
+      "stages": [
+        {
+          "id": "turbine1",
+          "title": "Um aliado · +15%",
+          "detail": "Primeiro elo e impacto com velocidade dobrada."
+        },
+        {
+          "id": "turbine2",
+          "title": "Dois aliados · +30%",
+          "detail": "Segundo elo de aceleração."
+        },
+        {
+          "id": "turbine3",
+          "title": "Três aliados · +50%",
+          "detail": "Terceiro elo e impacto máximo."
+        }
+      ]
+    },
+    "5": {
+      "summary": "Tutorial de Rebatedor.",
+      "stages": [
+        {
+          "id": "generic5",
+          "title": "Carga cinética",
+          "detail": "Pratique ricochetes e carga."
+        }
+      ]
+    },
+    "6": {
+      "summary": "Tutorial de Ímã.",
+      "stages": [
+        {
+          "id": "generic6",
+          "title": "Atração",
+          "detail": "Agrupe inimigos antes do impacto."
+        }
+      ]
+    },
+    "7": {
+      "summary": "Treine a Broca atravessando 1, 2 ou 3 aliados antes da primeira colisão.",
+      "stages": [
+        {
+          "id": "drill1",
+          "title": "Um aliado · +20% de força",
+          "detail": "Aumenta a força de impacto antes do primeiro inimigo."
+        },
+        {
+          "id": "drill2",
+          "title": "Dois aliados · +25% de dano",
+          "detail": "Aumenta o dano da primeira colisão."
+        },
+        {
+          "id": "drill3",
+          "title": "Três aliados · +30% de dano",
+          "detail": "Maior bônus de dano na primeira colisão."
+        }
+      ]
+    },
+    "8": {
+      "summary": "Aprenda a abrir um portal, teletransportar o Prisma e causar dano radial no ponto escolhido.",
+      "stages": [
+        {
+          "id": "prism1",
+          "title": "Portal · dano radial",
+          "detail": "Arraste até o destino, veja o raio e solte para teletransportar."
+        }
+      ]
+    },
+    "9": {
+      "summary": "Tutorial de Pulso.",
+      "stages": [
+        {
+          "id": "generic9",
+          "title": "Reparo",
+          "detail": "Cure e proteja um aliado."
+        }
+      ]
+    },
+    "10": {
+      "summary": "Tutorial de Muralha.",
+      "stages": [
+        {
+          "id": "generic10",
+          "title": "Quebra-escudo",
+          "detail": "Reduza escudos e proteja a equipe."
+        }
+      ]
+    },
+    "11": {
+      "summary": "Aprenda o bump de +50% depois do impacto e a exceção em que Eco é o próprio lançador.",
+      "stages": [
+        {
+          "id": "echo1",
+          "title": "Bump · +50% de impulso",
+          "detail": "Após colidir com um monstro, Eco reimpulsiona aliados ou inimigos."
+        },
+        {
+          "id": "echo2",
+          "title": "Eco lançado · exceção",
+          "detail": "O próprio Eco não recebe o bump."
+        }
+      ]
+    },
+    "12": {
+      "summary": "Escolha o núcleo do vórtice; Âncora permanece no lugar.",
+      "stages": [
+        {
+          "id": "anchor1",
+          "title": "Morteiro · vórtice",
+          "detail": "Use Morteiro e clique na arena. Aliados são puxados sem dano."
+        }
+      ]
+    },
+    "13": {
+      "summary": "Tutorial de Reator.",
+      "stages": [
+        {
+          "id": "generic13",
+          "title": "Reator armado",
+          "detail": "Mantenha o Reator vivo por três turnos."
+        }
+      ]
+    },
+    "14": {
+      "summary": "Tutorial de Órbita.",
+      "stages": [
+        {
+          "id": "generic14",
+          "title": "Desvio orbital",
+          "detail": "Reposicione o alvo lateralmente."
+        }
+      ]
+    },
+    "15": {
+      "summary": "Tutorial de Fenda.",
+      "stages": [
+        {
+          "id": "generic15",
+          "title": "Salto de fase",
+          "detail": "Reposicione após o primeiro impacto."
+        }
+      ]
+    }
+  },
+  "fisica_monstros": [
+    {
+      "role": "Explosão radial por contato",
+      "weightClass": "Leve",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 0.8,
+      "maxSpeed": {
+        "$multiply": [
+          {
+            "$ref": "C.maxSpeed"
+          },
+          0.8
+        ]
+      },
+      "pushImpulse": 105,
+      "impactStyle": "blast-on-contact",
+      "blastMaxDamage": 50,
+      "blastRadius": 5,
+      "calibration": "Leve; velocidade máxima 80%; gruda em aliados e ricocheteia em inimigos"
+    },
+    {
+      "role": "Corrente elétrica",
+      "weightClass": "Leve (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Congelamento e redução da força",
+      "weightClass": "Médio (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Colisão forte + martelada atrasada",
+      "weightClass": "Pesado (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 0,
+      "impactStyle": "two-hit-hammer",
+      "impactDamageMultiplier": 1.7,
+      "hammerDamageMultiplier": 0.6,
+      "hammerDelay": 0.32,
+      "hammerImpulse": 0,
+      "calibration": "Etapa focada: dois impactos, alvo imóvel e pausa de 0,32 s; valores ainda ajustáveis"
+    },
+    {
+      "role": "Mobilidade / aceleração",
+      "weightClass": "Leve",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "turbine-impact",
+      "calibration": "1 aliado +15%; 2 aliados +30%; 3 aliados +50%; colisão dobra a velocidade"
+    },
+    {
+      "role": "Ricochete / carga cinética",
+      "weightClass": "Médio (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Agrupamento / atração",
+      "weightClass": "Médio (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Perfuração de linha",
+      "weightClass": "Médio (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "piercing-impact",
+      "calibration": "1 aliado: +20% de força de impacto; 2 aliados: +25% de dano de colisão; 3 aliados: +30% de dano de colisão"
+    },
+    {
+      "role": "Feixe / alcance",
+      "weightClass": "Leve",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "prismatic-portal",
+      "calibration": "Teleporte por clique e arrasto; dano radial proporcional à explosão da Fornalha"
+    },
+    {
+      "role": "Suporte / reparo",
+      "weightClass": "Leve (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Defesa / quebra-escudo",
+      "weightClass": "Pesado (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Bump / reimpulso +50%",
+      "weightClass": "Leve (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Ancoragem / contenção",
+      "weightClass": "Pesado (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Carga / reação",
+      "weightClass": "Médio (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Redirecionamento orbital",
+      "weightClass": "Leve (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    },
+    {
+      "role": "Reposicionamento de fase",
+      "weightClass": "Leve (hipótese)",
+      "massFactor": null,
+      "collisionRadius": {
+        "$ref": "C.radius"
+      },
+      "launchMultiplier": 1,
+      "maxSpeed": {
+        "$ref": "C.maxSpeed"
+      },
+      "pushImpulse": 180,
+      "impactStyle": "ricochet",
+      "calibration": "Pendente de vídeo e medição"
+    }
+  ],
+  "arena": {
+    "width": 960,
+    "height": 600,
+    "left": 24,
+    "right": 936,
+    "top": 24,
+    "bottom": 576,
+    "horizontalScale": {
+      "$divide": [
+        912,
+        632
+      ]
+    },
+    "radius": 19
+  },
+  "efeitos_visuais": {
+    "textLife": 1.1,
+    "ringLife": 0.55,
+    "beamLife": 0.6,
+    "hammerLife": 0.58
+  },
+  "ancora_vortex": {
+    "radiusInCreatureRadii": 10,
+    "durationSeconds": 3,
+    "damagePerTick": 7,
+    "damageIntervalSeconds": 0.5,
+    "pullSpeed": 60,
+    "coreStopDistance": 2,
+    "cooldownOwnTurns": 1
+  }
+}
