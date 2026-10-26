@@ -1,0 +1,10 @@
+{
+  "key": "7",
+  "name": "Broca",
+  "attack": 23,
+  "hp": 115,
+  "color": "#f0bc56",
+  "skill": "Perfuração",
+  "short": "Atravessa primeiro inimigo",
+  "desc": "Perfuração: Atravessa primeiro inimigo. Especial com recarga de três turnos próprios."
+}

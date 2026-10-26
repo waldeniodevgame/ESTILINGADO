@@ -1,0 +1,15 @@
+{
+  "role": "Suporte / reparo",
+  "weightClass": "Leve (hipótese)",
+  "massFactor": null,
+  "collisionRadius": {
+    "$ref": "C.radius"
+  },
+  "launchMultiplier": 1,
+  "maxSpeed": {
+    "$ref": "C.maxSpeed"
+  },
+  "pushImpulse": 180,
+  "impactStyle": "ricochet",
+  "calibration": "Pendente de vídeo e medição"
+}

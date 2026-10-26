@@ -1,0 +1,19 @@
+{
+  "role": "Colisão forte + martelada atrasada",
+  "weightClass": "Pesado (hipótese)",
+  "massFactor": null,
+  "collisionRadius": {
+    "$ref": "C.radius"
+  },
+  "launchMultiplier": 1,
+  "maxSpeed": {
+    "$ref": "C.maxSpeed"
+  },
+  "pushImpulse": 0,
+  "impactStyle": "two-hit-hammer",
+  "impactDamageMultiplier": 1.7,
+  "hammerDamageMultiplier": 0.6,
+  "hammerDelay": 0.32,
+  "hammerImpulse": 0,
+  "calibration": "Etapa focada: dois impactos, alvo imóvel e pausa de 0,32 s; valores ainda ajustáveis"
+}

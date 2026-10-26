@@ -1,0 +1,10 @@
+{
+  "key": "14",
+  "name": "Órbita",
+  "attack": 16,
+  "hp": 115,
+  "color": "#b099ff",
+  "skill": "Desvio orbital",
+  "short": "Deslocamento lateral",
+  "desc": "Especial: empurra o alvo lateralmente à trajetória. Assistência: aproxima o inimigo mais próximo da linha do lançador. Recarga: três turnos próprios."
+}

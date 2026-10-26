@@ -1,0 +1,10 @@
+{
+  "key": "12",
+  "name": "Âncora",
+  "attack": 18,
+  "hp": 145,
+  "color": "#7095aa",
+  "skill": "Morteiro · vórtice",
+  "short": "Núcleo de sucção",
+  "desc": "Escolha um ponto da arena para criar o vórtice. Âncora permanece no lugar; aliados são puxados sem dano e inimigos arrastados recebem dano periódico."
+}

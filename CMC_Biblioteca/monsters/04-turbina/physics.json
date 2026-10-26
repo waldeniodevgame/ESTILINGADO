@@ -1,0 +1,15 @@
+{
+  "role": "Mobilidade / aceleração",
+  "weightClass": "Leve",
+  "massFactor": null,
+  "collisionRadius": {
+    "$ref": "C.radius"
+  },
+  "launchMultiplier": 1,
+  "maxSpeed": {
+    "$ref": "C.maxSpeed"
+  },
+  "pushImpulse": 180,
+  "impactStyle": "turbine-impact",
+  "calibration": "1 aliado +15%; 2 aliados +30%; 3 aliados +50%; colisão dobra a velocidade"
+}

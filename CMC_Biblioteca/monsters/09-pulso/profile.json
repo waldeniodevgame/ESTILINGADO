@@ -1,0 +1,10 @@
+{
+  "key": "9",
+  "name": "Pulso",
+  "attack": 12,
+  "hp": 120,
+  "color": "#70e7a1",
+  "skill": "Reparo",
+  "short": "Cura 15",
+  "desc": "Reparo: Cura 15. Especial com recarga de três turnos próprios."
+}

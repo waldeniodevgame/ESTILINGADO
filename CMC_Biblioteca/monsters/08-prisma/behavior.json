@@ -1,0 +1,12 @@
+{
+  "id": 8,
+  "key": "8",
+  "name": "Prisma",
+  "behaviorRole": "Feixe / alcance",
+  "impactStyle": "prismatic-portal",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}

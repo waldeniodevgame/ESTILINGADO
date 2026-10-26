@@ -1,0 +1,10 @@
+{
+  "key": "6",
+  "name": "Ímã",
+  "attack": 15,
+  "hp": 130,
+  "color": "#ee87b9",
+  "skill": "Atração",
+  "short": "Agrupa inimigos",
+  "desc": "Atração: Agrupa inimigos. Especial com recarga de três turnos próprios."
+}

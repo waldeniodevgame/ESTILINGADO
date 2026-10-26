@@ -1,0 +1,10 @@
+{
+  "key": "5",
+  "name": "Rebatedor",
+  "attack": 20,
+  "hp": 120,
+  "color": "#aa9dff",
+  "skill": "Carga cinética",
+  "short": "Ricochete +4, máximo +12",
+  "desc": "Carga cinética: Ricochete +4, máximo +12. Especial com recarga de três turnos próprios."
+}

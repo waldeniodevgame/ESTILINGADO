@@ -1,0 +1,12 @@
+{
+  "id": 13,
+  "key": "13",
+  "name": "Reator",
+  "behaviorRole": "Carga / reação",
+  "impactStyle": "ricochet",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}

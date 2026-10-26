@@ -1,0 +1,10 @@
+{
+  "key": "10",
+  "name": "Muralha",
+  "attack": 21,
+  "hp": 150,
+  "color": "#b7c6da",
+  "skill": "Quebra-escudo",
+  "short": "Remove 15 de escudo",
+  "desc": "Quebra-escudo: Remove 15 de escudo. Especial com recarga de três turnos próprios."
+}

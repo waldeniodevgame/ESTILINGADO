@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "key": "3",
+  "name": "Marcelo",
+  "behaviorRole": "Colisão forte + martelada atrasada",
+  "impactStyle": "two-hit-hammer",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}

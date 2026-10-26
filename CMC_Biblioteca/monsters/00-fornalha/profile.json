@@ -1,0 +1,10 @@
+{
+  "key": "0",
+  "name": "Fornalha",
+  "attack": 24,
+  "hp": 110,
+  "color": "#ff925e",
+  "skill": "Explosão por contato",
+  "short": "Até 50 · raio de 5 criaturas",
+  "desc": "Ao tocar um inimigo, explode no centro do alvo. Causa até 50 de dano no centro, com redução linear até zero no limite de 5 raios de criatura. Atinge criaturas inimigas dentro da área."
+}

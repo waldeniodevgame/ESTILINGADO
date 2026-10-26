@@ -1,0 +1,12 @@
+{
+  "id": 12,
+  "key": "12",
+  "name": "Âncora",
+  "behaviorRole": "Ancoragem / contenção",
+  "impactStyle": "ricochet",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}

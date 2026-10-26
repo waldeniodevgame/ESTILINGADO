@@ -1,0 +1,12 @@
+{
+  "id": 11,
+  "key": "11",
+  "name": "Eco",
+  "behaviorRole": "Bump / reimpulso +50%",
+  "impactStyle": "ricochet",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}

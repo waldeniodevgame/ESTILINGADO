@@ -1,0 +1,10 @@
+{
+  "key": "8",
+  "name": "Prisma",
+  "attack": 19,
+  "hp": 110,
+  "color": "#d5b5ff",
+  "skill": "Feixe",
+  "short": "Atinge alvo atrás",
+  "desc": "Feixe: Atinge alvo atrás. Especial com recarga de três turnos próprios."
+}

@@ -1,0 +1,10 @@
+{
+  "key": "3",
+  "name": "Marcelo",
+  "attack": 28,
+  "hp": 150,
+  "color": "#dbaa79",
+  "skill": "Impacto pesado",
+  "short": "Colisão + martelada",
+  "desc": "Impacto pesado: colisão forte e martelada atrasada; o rival permanece imóvel. Especial com recarga de três turnos próprios."
+}

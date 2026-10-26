@@ -1,0 +1,12 @@
+{
+  "id": 5,
+  "key": "5",
+  "name": "Rebatedor",
+  "behaviorRole": "Ricochete / carga cinética",
+  "impactStyle": "ricochet",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}

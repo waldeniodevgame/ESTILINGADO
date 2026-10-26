@@ -1,0 +1,10 @@
+{
+  "key": "1",
+  "name": "Voltagem",
+  "attack": 18,
+  "hp": 110,
+  "color": "#ffe168",
+  "skill": "Descarga",
+  "short": "Raio de 10",
+  "desc": "Descarga: Raio de 10. Especial com recarga de três turnos próprios."
+}

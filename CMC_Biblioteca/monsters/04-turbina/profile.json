@@ -1,0 +1,10 @@
+{
+  "key": "4",
+  "name": "Turbina",
+  "attack": 17,
+  "hp": 110,
+  "color": "#95f3c6",
+  "skill": "Aceleração",
+  "short": "Velocidade +15%",
+  "desc": "Aceleração: Velocidade +15%. Especial com recarga de três turnos próprios."
+}

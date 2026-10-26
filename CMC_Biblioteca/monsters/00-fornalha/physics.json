@@ -1,0 +1,22 @@
+{
+  "role": "Explosão radial por contato",
+  "weightClass": "Leve",
+  "massFactor": null,
+  "collisionRadius": {
+    "$ref": "C.radius"
+  },
+  "launchMultiplier": 0.8,
+  "maxSpeed": {
+    "$multiply": [
+      {
+        "$ref": "C.maxSpeed"
+      },
+      0.8
+    ]
+  },
+  "pushImpulse": 105,
+  "impactStyle": "blast-on-contact",
+  "blastMaxDamage": 10,
+  "blastRadius": 5,
+  "calibration": "Leve; velocidade máxima 80%; gruda em aliados e ricocheteia em inimigos"
+}

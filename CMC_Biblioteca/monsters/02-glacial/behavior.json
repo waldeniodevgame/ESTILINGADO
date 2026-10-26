@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "key": "2",
+  "name": "Glacial",
+  "behaviorRole": "Congelamento e redução da força",
+  "impactStyle": "ricochet",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "key": "4",
+  "name": "Turbina",
+  "behaviorRole": "Mobilidade / aceleração",
+  "impactStyle": "turbine-impact",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}

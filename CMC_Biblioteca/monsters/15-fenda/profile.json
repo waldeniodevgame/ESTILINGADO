@@ -1,0 +1,10 @@
+{
+  "key": "15",
+  "name": "Fenda",
+  "attack": 19,
+  "hp": 105,
+  "color": "#ee7bc7",
+  "skill": "Salto de fase",
+  "short": "Reposiciona o lançamento",
+  "desc": "Especial: após o primeiro impacto, salta para o outro lado do alvo, uma vez por tiro. Assistência: +6 no próximo impacto. Recarga: três turnos próprios."
+}

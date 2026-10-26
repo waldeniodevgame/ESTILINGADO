@@ -1,0 +1,10 @@
+{
+  "key": "11",
+  "name": "Eco",
+  "attack": 16,
+  "hp": 100,
+  "color": "#ed9fdf",
+  "skill": "Bump ressonante",
+  "short": "Bump +50% após impacto",
+  "desc": "Bump ressonante: depois que o lançador colidir com outro monstro, tocar Eco redireciona o lançamento e devolve +50% de força. Vale para aliados e inimigos; Eco não ativa o bump quando é o lançador. Especial: marca o alvo para repetir dano."
+}

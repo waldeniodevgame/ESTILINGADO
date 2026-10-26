@@ -1,0 +1,15 @@
+{
+  "role": "Feixe / alcance",
+  "weightClass": "Leve",
+  "massFactor": null,
+  "collisionRadius": {
+    "$ref": "C.radius"
+  },
+  "launchMultiplier": 1,
+  "maxSpeed": {
+    "$ref": "C.maxSpeed"
+  },
+  "pushImpulse": 180,
+  "impactStyle": "prismatic-portal",
+  "calibration": "Teleporte por clique e arrasto; dano radial proporcional à explosão da Fornalha"
+}

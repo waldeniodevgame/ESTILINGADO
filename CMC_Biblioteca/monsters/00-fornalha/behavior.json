@@ -1,0 +1,12 @@
+{
+  "id": 0,
+  "key": "0",
+  "name": "Fornalha",
+  "behaviorRole": "Explosão radial por contato",
+  "impactStyle": "blast-on-contact",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}

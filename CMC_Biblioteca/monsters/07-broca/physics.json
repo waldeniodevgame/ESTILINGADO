@@ -1,0 +1,15 @@
+{
+  "role": "Perfuração de linha",
+  "weightClass": "Médio (hipótese)",
+  "massFactor": null,
+  "collisionRadius": {
+    "$ref": "C.radius"
+  },
+  "launchMultiplier": 1,
+  "maxSpeed": {
+    "$ref": "C.maxSpeed"
+  },
+  "pushImpulse": 180,
+  "impactStyle": "piercing-impact",
+  "calibration": "1 aliado: +20% de força de impacto; 2 aliados: +25% de dano de colisão; 3 aliados: +30% de dano de colisão"
+}

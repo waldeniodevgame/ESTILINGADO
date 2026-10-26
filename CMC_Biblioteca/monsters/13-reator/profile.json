@@ -1,0 +1,10 @@
+{
+  "key": "13",
+  "name": "Reator",
+  "attack": 20,
+  "hp": 120,
+  "color": "#c4f46c",
+  "skill": "Reação cinética",
+  "short": "Converte ricochetes em área",
+  "desc": "Especial: detona uma área ao fim do lançamento, com dano baseado nos ricochetes (máximo 18). Assistência: concede uma carga ao lançador. Recarga: três turnos próprios."
+}

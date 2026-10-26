@@ -1,0 +1,12 @@
+{
+  "id": 7,
+  "key": "7",
+  "name": "Broca",
+  "behaviorRole": "Perfuração de linha",
+  "impactStyle": "piercing-impact",
+  "engineFiles": [
+    "src/engine/025_nextContact.js",
+    "src/engine/027_stepShot.js",
+    "src/engine/015_attack.js"
+  ]
+}
