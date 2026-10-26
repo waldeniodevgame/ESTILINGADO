@@ -1,7 +1,7 @@
 # Tela 08 — Replay Tático (Tablet)
 
-**Status:** A estrutura geral do replay permanece em revisão.
+**Status:** Ícones e painel lateral aprovados.
 
-O padrão de ícones da régua de comando foi aprovado e está documentado em `08_REPLAY_TATICO_TABLET_APROVADO.md`.
+Consulte `08_REPLAY_TATICO_TABLET_APROVADO.md` para a especificação aprovada da régua de comando e de `Eventos da Batalha`.
 
-Pendente nesta revisão: painel de Eventos da Batalha, timeline sincronizada e ficha flutuante dos monstros.
+Pendente de detalhamento: ficha flutuante dos monstros e implementação técnica da sincronização do replay.
