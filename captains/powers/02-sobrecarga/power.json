@@ -1,0 +1,18 @@
+{
+  "key": "focus",
+  "name": "Sobrecarga",
+  "cost": 2,
+  "use": "antes-do-lancamento",
+  "effect": "Adiciona +8 de dano ao primeiro impacto válido.",
+  "duration": "primeiro-impacto",
+  "bestCombinations": [
+    "Broca",
+    "Marcelo",
+    "Rebatedor"
+  ],
+  "status": "implemented",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

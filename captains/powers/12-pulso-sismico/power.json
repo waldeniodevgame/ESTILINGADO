@@ -1,0 +1,18 @@
+{
+  "key": "pulse",
+  "name": "Pulso Sísmico",
+  "cost": 3,
+  "use": "antes-do-lancamento",
+  "effect": "O primeiro inimigo atingido emite onda de 10 de dano em raio de 55 px.",
+  "duration": "primeiro-impacto",
+  "bestCombinations": [
+    "Fornalha",
+    "Ímã",
+    "Lulla"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

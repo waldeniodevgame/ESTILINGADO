@@ -1,0 +1,18 @@
+{
+  "key": "aim",
+  "name": "Mira Prismática",
+  "cost": 1,
+  "use": "antes-do-lancamento",
+  "effect": "Mostra a prévia até o segundo ricochete e destaca aliados de combo.",
+  "duration": "durante-a-mira",
+  "bestCombinations": [
+    "Rebatedor",
+    "Broca",
+    "Prisma"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "key": "return-magnet",
+  "name": "Ímã de Retorno",
+  "cost": 3,
+  "use": "antes-do-lancamento",
+  "effect": "Puxa o inimigo mais próximo até 40 px sem causar dano.",
+  "duration": "primeiro-impacto",
+  "bestCombinations": [
+    "Fornalha",
+    "Âncora",
+    "Lulla"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

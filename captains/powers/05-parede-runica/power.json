@@ -1,0 +1,18 @@
+{
+  "key": "wall",
+  "name": "Parede Rúnica",
+  "cost": 3,
+  "use": "antes-do-lancamento",
+  "effect": "Dobra o dano quando um inimigo é arremessado contra uma parede válida.",
+  "duration": "lancamento-atual",
+  "bestCombinations": [
+    "Rebatedor",
+    "Ímã",
+    "Turbina"
+  ],
+  "status": "implemented",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

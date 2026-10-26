@@ -1,0 +1,18 @@
+{
+  "key": "combo-overload",
+  "name": "Sobrecarga de Combo",
+  "cost": 3,
+  "use": "antes-do-lancamento",
+  "effect": "Cada aliado atravessado adiciona +5% de dano, até +15%.",
+  "duration": "lancamento-atual",
+  "bestCombinations": [
+    "Voltagem",
+    "Glacial",
+    "Pulso"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "key": "recovery",
+  "name": "Casulo de Recuperação",
+  "cost": 3,
+  "use": "monstro-ativo",
+  "effect": "Se sobreviver ao lançamento, recupera 12 PV ao fim do turno.",
+  "duration": "fim-do-turno",
+  "bestCombinations": [
+    "Reator",
+    "Marcelo",
+    "Muralha"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

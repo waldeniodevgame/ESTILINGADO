@@ -1,0 +1,18 @@
+{
+  "key": "shield",
+  "name": "Escudo de Impacto",
+  "cost": 2,
+  "use": "monstro-ativo",
+  "effect": "Concede 25 de escudo temporário ao monstro ativo.",
+  "duration": "fim-do-turno",
+  "bestCombinations": [
+    "Marcelo",
+    "Reator",
+    "Muralha"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

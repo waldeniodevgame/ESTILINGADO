@@ -1,0 +1,17 @@
+{
+  "key": "bounce",
+  "name": "Runa de Ricochete",
+  "cost": 3,
+  "use": "antes-do-lancamento",
+  "effect": "Permite um ricochete válido extra em parede ou ruína.",
+  "duration": "primeiro-ricochete",
+  "bestCombinations": [
+    "Rebatedor",
+    "Turbina"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "key": "inertia",
+  "name": "Campo Inercial",
+  "cost": 2,
+  "use": "antes-do-lancamento",
+  "effect": "Aliados deslocados recebem 30% menos impulso durante a jogada.",
+  "duration": "lancamento-atual",
+  "bestCombinations": [
+    "Eco",
+    "Pulso",
+    "Âncora"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

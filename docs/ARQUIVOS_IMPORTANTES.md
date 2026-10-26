@@ -12,8 +12,9 @@
 | `prototype/v0.5.html` | Protótipo atual de colisões | Entrada principal |
 | `prototype/v0.6-cinematic.html` | Protótipo visual/cinemático | Referência de feedback |
 | `prototype/TESTE LULA 26.html` | Redirecionamento para versão hospedada | Atalho |
-| `configs/models.json` | Modelos usados no desenvolvimento | Configuração |
-| `configs/environments.json` | Ambientes do ciclo de desenvolvimento | Configuração |
+| `captains/powers/index.json` | Índice de custos, uso, efeitos e estado dos poderes | Fonte estruturada |
+| `captains/powers/*/power.json` | Fichas individuais dos poderes | Editar aqui |
+| `captains/powers/*/implementation.json` | Arquivos do motor e dados consumidos | Implementados/propostos |
 
 ## Fonte de verdade atual
 

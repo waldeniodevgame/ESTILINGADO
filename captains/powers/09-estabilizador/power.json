@@ -1,0 +1,18 @@
+{
+  "key": "stabilizer",
+  "name": "Estabilizador",
+  "cost": 1,
+  "use": "monstro-ativo",
+  "effect": "Reduz em 35% o empurrão recebido pelo monstro lançado.",
+  "duration": "lancamento-atual",
+  "bestCombinations": [
+    "Reator",
+    "Marcelo",
+    "Âncora"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "title": "Índice de poderes dos Capitães",
+  "rules": {
+    "maxPowersPerCaptain": 3,
+    "initialEnergy": 3,
+    "energyPerOwnTurn": 2,
+    "maxEnergy": 6,
+    "onePowerPerOwnTurn": true
+  },
+  "powers": [
+    {
+      "id": 1,
+      "key": "heal",
+      "name": "Cura de Campo",
+      "status": "implemented",
+      "path": "01-cura-de-campo/power.json"
+    },
+    {
+      "id": 2,
+      "key": "focus",
+      "name": "Sobrecarga",
+      "status": "implemented",
+      "path": "02-sobrecarga/power.json"
+    },
+    {
+      "id": 3,
+      "key": "vector",
+      "name": "Vetor",
+      "status": "implemented",
+      "path": "03-vetor/power.json"
+    },
+    {
+      "id": 4,
+      "key": "circuit",
+      "name": "Circuito",
+      "status": "implemented",
+      "path": "04-circuito/power.json"
+    },
+    {
+      "id": 5,
+      "key": "wall",
+      "name": "Parede Rúnica",
+      "status": "implemented",
+      "path": "05-parede-runica/power.json"
+    },
+    {
+      "id": 6,
+      "key": "max",
+      "name": "Protocolo Máximo",
+      "status": "implemented",
+      "path": "06-protocolo-maximo/power.json"
+    },
+    {
+      "id": 7,
+      "key": "shield",
+      "name": "Escudo de Impacto",
+      "status": "proposed",
+      "path": "07-escudo-de-impacto/power.json"
+    },
+    {
+      "id": 8,
+      "key": "impulse",
+      "name": "Motor de Impulso",
+      "status": "proposed",
+      "path": "08-motor-de-impulso/power.json"
+    },
+    {
+      "id": 9,
+      "key": "stabilizer",
+      "name": "Estabilizador",
+      "status": "proposed",
+      "path": "09-estabilizador/power.json"
+    },
+    {
+      "id": 10,
+      "key": "aim",
+      "name": "Mira Prismática",
+      "status": "proposed",
+      "path": "10-mira-prismatica/power.json"
+    },
+    {
+      "id": 11,
+      "key": "bounce",
+      "name": "Runa de Ricochete",
+      "status": "proposed",
+      "path": "11-runa-de-ricochete/power.json"
+    },
+    {
+      "id": 12,
+      "key": "pulse",
+      "name": "Pulso Sísmico",
+      "status": "proposed",
+      "path": "12-pulso-sismico/power.json"
+    },
+    {
+      "id": 13,
+      "key": "mark",
+      "name": "Marca de Ruptura",
+      "status": "proposed",
+      "path": "13-marca-de-ruptura/power.json"
+    },
+    {
+      "id": 14,
+      "key": "inertia",
+      "name": "Campo Inercial",
+      "status": "proposed",
+      "path": "14-campo-inercial/power.json"
+    },
+    {
+      "id": 15,
+      "key": "return-magnet",
+      "name": "Ímã de Retorno",
+      "status": "proposed",
+      "path": "15-ima-de-retorno/power.json"
+    },
+    {
+      "id": 16,
+      "key": "recovery",
+      "name": "Casulo de Recuperação",
+      "status": "proposed",
+      "path": "16-casulo-de-recuperacao/power.json"
+    },
+    {
+      "id": 17,
+      "key": "combo-overload",
+      "name": "Sobrecarga de Combo",
+      "status": "proposed",
+      "path": "17-sobrecarga-de-combo/power.json"
+    },
+    {
+      "id": 18,
+      "key": "field-brake",
+      "name": "Freio de Campo",
+      "status": "proposed",
+      "path": "18-freio-de-campo/power.json"
+    },
+    {
+      "id": 19,
+      "key": "ghost-pass",
+      "name": "Passagem Fantasma",
+      "status": "proposed",
+      "path": "19-passagem-fantasma/power.json"
+    },
+    {
+      "id": 20,
+      "key": "barrier",
+      "name": "Barreira Tática",
+      "status": "proposed",
+      "path": "20-barreira-tatica/power.json"
+    }
+  ]
+}

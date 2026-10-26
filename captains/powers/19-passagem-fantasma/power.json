@@ -1,0 +1,18 @@
+{
+  "key": "ghost-pass",
+  "name": "Passagem Fantasma",
+  "cost": 4,
+  "use": "antes-do-lancamento",
+  "effect": "Ignora uma ruína no lançamento sem dano nem ricochete.",
+  "duration": "primeira-ruina",
+  "bestCombinations": [
+    "Broca",
+    "Lulla",
+    "Prisma"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "key": "impulse",
+  "name": "Motor de Impulso",
+  "cost": 2,
+  "use": "monstro-ativo",
+  "effect": "Aumenta em 25% a velocidade inicial do lançamento.",
+  "duration": "lancamento-atual",
+  "bestCombinations": [
+    "Rebatedor",
+    "Turbina",
+    "Lulla"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

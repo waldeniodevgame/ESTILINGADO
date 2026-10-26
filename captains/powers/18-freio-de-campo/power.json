@@ -1,0 +1,18 @@
+{
+  "key": "field-brake",
+  "name": "Freio de Campo",
+  "cost": 2,
+  "use": "antes-do-lancamento",
+  "effect": "O primeiro inimigo empurrado tem velocidade reduzida em 35% por 1,5 s.",
+  "duration": "primeiro-empurrao",
+  "bestCombinations": [
+    "Glacial",
+    "Âncora",
+    "Ímã"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

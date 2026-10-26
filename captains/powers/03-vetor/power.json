@@ -1,0 +1,18 @@
+{
+  "key": "vector",
+  "name": "Vetor",
+  "cost": 2,
+  "use": "antes-do-lancamento",
+  "effect": "Dobra a velocidade do próximo lançamento.",
+  "duration": "lancamento-atual",
+  "bestCombinations": [
+    "Ímã",
+    "Âncora",
+    "Muralha"
+  ],
+  "status": "implemented",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

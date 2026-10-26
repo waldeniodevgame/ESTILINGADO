@@ -1,0 +1,18 @@
+{
+  "key": "heal",
+  "name": "Cura de Campo",
+  "cost": 2,
+  "use": "antes-do-lancamento",
+  "effect": "Cura o aliado mais ferido em 20 PV.",
+  "duration": "imediato",
+  "bestCombinations": [
+    "Reator",
+    "Marcelo",
+    "Muralha"
+  ],
+  "status": "implemented",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

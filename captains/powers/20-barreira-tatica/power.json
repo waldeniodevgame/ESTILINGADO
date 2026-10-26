@@ -1,0 +1,18 @@
+{
+  "key": "barrier",
+  "name": "Barreira Tática",
+  "cost": 4,
+  "use": "ponto-livre",
+  "effect": "Cria barreira curta de 70 px que bloqueia um contato e desaparece.",
+  "duration": "fim-do-turno",
+  "bestCombinations": [
+    "Rebatedor",
+    "Fornalha",
+    "Ímã"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

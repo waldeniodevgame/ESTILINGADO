@@ -1,0 +1,18 @@
+{
+  "key": "max",
+  "name": "Protocolo Máximo",
+  "cost": 5,
+  "use": "clique-direto",
+  "effect": "Causa 50 de dano em todos os monstros inimigos e no Capitão rival.",
+  "duration": "imediato",
+  "bestCombinations": [
+    "Fornalha",
+    "Broca",
+    "Lulla"
+  ],
+  "status": "implemented",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

@@ -30,6 +30,8 @@
 
 - [Plano de captura e diagnóstico da câmera](CAMERA_PC_CAPTURA.md)
 - [Biblioteca de poderes dos Capitães](BIBLIOTECA_PODERES_CAPITAES.md)
+- [Índice estruturado de poderes](../captains/powers/index.json)
+- [Fichas individuais dos poderes](../captains/powers/)
 - [Checklist ativo](CHECKLIST_DESENVOLVIMENTO.md)
 
 ## Ordem de trabalho

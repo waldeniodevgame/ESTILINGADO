@@ -1,0 +1,18 @@
+{
+  "key": "mark",
+  "name": "Marca de Ruptura",
+  "cost": 2,
+  "use": "antes-do-lancamento",
+  "effect": "O primeiro inimigo tocado recebe +25% de dano de impacto.",
+  "duration": "primeiro-impacto",
+  "bestCombinations": [
+    "Marcelo",
+    "Broca",
+    "Glacial"
+  ],
+  "status": "proposed",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}

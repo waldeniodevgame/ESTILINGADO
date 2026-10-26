@@ -1,0 +1,13 @@
+{
+  "powerKey": "max",
+  "status": "implemented",
+  "engineFiles": [
+    "CMC_Biblioteca/src/engine/010_useSkill.js",
+    "CMC_Biblioteca/src/engine/023_startShot.js",
+    "CMC_Biblioteca/src/engine/027_stepShot.js"
+  ],
+  "dataFiles": [
+    "CMC_Biblioteca/dados/capitao.json",
+    "CMC_Biblioteca/dados/efeitos_e_escalas.json"
+  ]
+}

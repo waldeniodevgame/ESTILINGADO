@@ -1,0 +1,18 @@
+{
+  "key": "circuit",
+  "name": "Circuito",
+  "cost": 3,
+  "use": "antes-do-lancamento",
+  "effect": "O primeiro dano causado por combo recebe multiplicador de circuito.",
+  "duration": "primeiro-combo",
+  "bestCombinations": [
+    "Voltagem",
+    "Eco",
+    "Pulso"
+  ],
+  "status": "implemented",
+  "sourceDocuments": [
+    "docs/BIBLIOTECA_PODERES_CAPITAES.md",
+    "CMC_Biblioteca/docs/PODERES_CAPITAES_ATUAL.md"
+  ]
+}
