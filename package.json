@@ -2,6 +2,7 @@
   "name": "gordon-prototypes",
   "private": true,
   "scripts": {
-    "serve": "node tools/prototype-server.mjs"
+    "serve": "node tools/prototype-server.mjs",
+    "serve:gordon": "node tools/gordon-server.mjs"
   }
 }
