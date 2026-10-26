@@ -29,6 +29,7 @@
 **Objetivo da rodada:** gerar evidência comparável do mesmo movimento nos dois dispositivos e nos dois modos de jogo, localizar a diferença e corrigir apenas a causa reproduzível.
 
 - [Plano de captura e diagnóstico da câmera](CAMERA_PC_CAPTURA.md)
+- [Biblioteca de poderes dos Capitães](BIBLIOTECA_PODERES_CAPITAES.md)
 - [Checklist ativo](CHECKLIST_DESENVOLVIMENTO.md)
 
 ## Ordem de trabalho
