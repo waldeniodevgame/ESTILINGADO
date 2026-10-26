@@ -34,4 +34,4 @@ A régua inferior organiza os controles em grupos separados por divisórias suti
 
 ## Próximo escopo
 
-Validar o painel de `Eventos da Batalha` e sua sincronização bidirecional com a timeline do replay.
+Validar o painel de Eventos da Batalha e sua sincronização bidirecional com a timeline do replay.
