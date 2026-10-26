@@ -1,53 +1,58 @@
-# Índice de desenvolvimento
+# Índice de desenvolvimento — Legiões das Armadilhas
 
-Use este arquivo como porta de entrada do repositório e atualize o [checklist](CHECKLIST_DESENVOLVIMENTO.md) ao encerrar cada tarefa.
+> Painel simples do projeto. Use este arquivo para saber onde estamos; marque a execução no [checklist ativo](CHECKLIST_DESENVOLVIMENTO.md).
 
-## 1. Onde testar
+## Base oficial
 
-- **Build atual:** [`../builds/TESTE LULA 26 - IMÃ DANO ALIADO CORRIGIDO.html`](../builds/TESTE%20LULA%2026%20-%20IM%C3%83%20DANO%20ALIADO%20CORRIGIDO.html)
-- **Base imediata:** [`../builds/TESTE LULA 26 - ARRASTO CORRIGIDO.html`](../builds/TESTE%20LULA%2026%20-%20ARRASTO%20CORRIGIDO.html)
-- **Biblioteca compilável:** [`../CMC_Biblioteca/dist/CMC_Modular.html`](../CMC_Biblioteca/dist/CMC_Modular.html)
+- **Build de referência:** [`TESTgordon/TESTE26gordon.html`](../TESTgordon/TESTE26gordon.html)
+- **Estado:** funcional e visualmente aprovada no Android.
+- **Regra:** não alterar esta base diretamente. Cada ajuste nasce em cópia versionada ou branch própria.
+- **Registro técnico:** [Base atual Gordon](BASE_ATUAL_GORDON.md)
 
-## 2. Onde editar
+## Visão rápida
 
-| Objetivo | Arquivo ou pasta |
-|---|---|
-| Vida, ataque, descrição e cor | `CMC_Biblioteca/dados/monstros.json` |
-| Velocidade, raio, massa e impulso | `CMC_Biblioteca/dados/fisica_monstros.json` |
-| Arena, limites e colisores | `CMC_Biblioteca/dados/arena.json` e `dados/fisica_global.json` |
-| Vórtice da Âncora | `CMC_Biblioteca/dados/ancora_vortex.json` |
-| Combos e efeitos | `CMC_Biblioteca/dados/combos.json` e `dados/efeitos_e_escalas.json` |
-| Turno, dano, colisão e IA | `CMC_Biblioteca/src/engine/` |
-| Mira, arrasto, canvas e HUD | `CMC_Biblioteca/src/ui/` |
-| Layout e responsividade | `CMC_Biblioteca/styles/` |
-| Compilar a biblioteca | `python CMC_Biblioteca/compilar.py` |
-
-Leia também: [guia completo da biblioteca](../CMC_Biblioteca/LEIA_PRIMEIRO.md), [mecânicas aprovadas](MECANICAS_APROVADAS.md) e [progresso atual](PROGRESSO_2026-10-26.md).
-
-## 3. Estado das mecânicas
-
-| Área | Estado | Referência |
+| Frente | Onde estamos | Próximo marco |
 |---|---|---|
-| Arrasto e captura de ponteiro | Build de teste disponível | `builds/TESTE LULA 26 - ARRASTO CORRIGIDO.html` |
-| Dano de parede por equipe | Corrigido em código; teste manual pendente | build Ímã corrigida |
-| Aliados e combos | Implementado em variações por criatura | `src/engine/025_nextContact.js` e `027_stepShot.js` |
-| Vitória por Capitão e rebirth | Implementado na linha de teste; requer regressão | build atual |
-| Arena de Teste e telemetria | Existe em build paralela; ainda não consolidada | histórico de builds |
-| Biblioteca modular | Editável e compilável | `CMC_Biblioteca/` |
+| Base Gordon | Referência definida e preservada | Trabalhar sempre a partir de uma cópia |
+| Combate | Física, lançamento, colisões, dano e turnos existem | Fechar regressão crítica |
+| Arena de Teste | Editor, telemetria e replay de lançamento existem | Usar para reproduzir bugs e gravar evidências |
+| Jogo Livre | Build jogável no Android | Validar a mesma experiência no PC |
+| Câmera e efeitos de arena | Android está correto; PC não mostra todos os efeitos | Capturar, comparar e corrigir sem mudar configurações atuais |
+| Interface/HUD | Funcional, em evolução | Ajustar somente depois da câmera estar reproduzível |
+| Conteúdo V1 | 1 arena, 2 Capitães e 4 monstros definidos como alvo | Definir vertical slice após QA do combate |
+| Publicação | Ainda não iniciada | Migrar para Android depois do vertical slice |
 
-## 4. Ordem de trabalho
+## Prioridade atual — câmera no PC
 
-1. Rodar o teste manual do Ímã e registrar o resultado.
-2. Fazer a regressão crítica de lançamento, turno, vitória e rebirth.
-3. Consolidar a build atual com a biblioteca modular antes de ampliar criaturas.
-4. Definir e validar uma criatura por vez.
-5. Só então avançar para progressão, nuvem, Android e publicação.
+**Problema conhecido:** no jogo livre, os efeitos de câmera/arena que aparecem no Android não ficam visíveis no PC. A configuração atual permanece congelada porque está funcionando no Android.
 
-## 5. Documentos
+**Objetivo da rodada:** gerar evidência comparável do mesmo movimento nos dois dispositivos e nos dois modos de jogo, localizar a diferença e corrigir apenas a causa reproduzível.
+
+- [Plano de captura e diagnóstico da câmera](CAMERA_PC_CAPTURA.md)
+- [Checklist ativo](CHECKLIST_DESENVOLVIMENTO.md)
+
+## Ordem de trabalho
+
+1. Capturar Android e PC na **Arena de Teste**.
+2. Capturar Android e PC no **Jogo Livre**.
+3. Comparar evento, intensidade, duração e retorno da câmera.
+4. Registrar a causa reproduzível antes de tocar no código.
+5. Corrigir em cópia da build Gordon e validar Android + PC.
+6. Só então retomar HUD, combos, armadilhas e vertical slice.
+
+## Documentos de apoio
 
 - [Checklist ativo](CHECKLIST_DESENVOLVIMENTO.md)
-- [Progresso desta subida](PROGRESSO_2026-10-26.md)
+- [Câmera: captura e diagnóstico](CAMERA_PC_CAPTURA.md)
+- [Mecânicas aprovadas](MECANICAS_APROVADAS.md)
+- [Casos de teste V0.5](TESTES_V0.5.md)
+- [Roadmap](ROADMAP.md)
+- [Progresso anterior](PROGRESSO_2026-10-26.md)
 - [Changelog](../CHANGELOG.md)
-- [Roadmap anterior](ROADMAP.md)
-- [Testes V0.5](TESTES_V0.5.md)
-- [Teste LULA 26](TESTE_LULA_26.md)
+
+## Regras de registro
+
+- Uma alteração por vez.
+- Uma correção só entra após reproduzir o problema e repetir o teste.
+- Todo ajuste aprovado atualiza o checklist e o changelog.
+- Não misturar correção de câmera com mudança de mecânica, balanceamento ou HUD no mesmo commit.
