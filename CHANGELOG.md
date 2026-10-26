@@ -1,3 +1,9 @@
+﻿# Registro Gordon — Workspace multiambiente
+- Adicionado `README_GORDON.md` com regras de trabalho e ciclo de validação.
+- Adicionado `docs/ARQUIVOS_IMPORTANTES.md` com o inventário operacional.
+- Adicionado `configs/environments.json` para separar local, QA, preview e produção.
+- Adicionado `configs/models.json` para registrar modelos e regras de seleção.
+- Mantida a lógica dos protótipos existentes sem alterações.
 # Changelog
 
 ## V0.5 — Colisões
@@ -43,3 +49,4 @@
 - Lançamento.
 - IA simples.
 - Dano e turnos iniciais.
+

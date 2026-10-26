@@ -1,0 +1,33 @@
+{
+  "default": "local",
+  "environments": {
+    "local": {
+      "purpose": "Desenvolvimento e testes rápidos",
+      "entry": "prototype/v0.5.html",
+      "baseUrl": "http://localhost:4173",
+      "deploy": false,
+      "dataPolicy": "dados locais e descartáveis"
+    },
+    "qa": {
+      "purpose": "Validação de colisões, dano e regressão",
+      "entry": "prototype/v0.5.html",
+      "baseUrl": "",
+      "deploy": false,
+      "dataPolicy": "cenários determinísticos"
+    },
+    "preview": {
+      "purpose": "Revisão visual antes da publicação",
+      "entry": "prototype/v0.6-cinematic.html",
+      "baseUrl": "",
+      "deploy": false,
+      "dataPolicy": "sem dados persistentes"
+    },
+    "production": {
+      "purpose": "Versão pública aprovada",
+      "entry": "",
+      "baseUrl": "",
+      "deploy": false,
+      "dataPolicy": "definir antes do primeiro deploy"
+    }
+  }
+}

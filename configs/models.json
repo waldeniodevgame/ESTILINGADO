@@ -1,0 +1,26 @@
+{
+  "default": "gordon",
+  "models": {
+    "gordon": {
+      "purpose": "Análise, edição e validação do projeto",
+      "provider": "Docker",
+      "enabled": true
+    },
+    "physics-review": {
+      "purpose": "Revisar colisões, impulso, ricochete e dano",
+      "provider": "local-or-configured",
+      "enabled": true
+    },
+    "qa-review": {
+      "purpose": "Comparar testes, invariantes e regressões",
+      "provider": "local-or-configured",
+      "enabled": true
+    }
+  },
+  "selectionRules": [
+    "Não usar um modelo para alterar mecânicas aprovadas sem teste.",
+    "Registrar modelo e ambiente no changelog da alteração.",
+    "Separar análise visual de mudança de comportamento.",
+    "Revisar alterações no protótipo antes de promover uma versão."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "gordon-prototypes",
+  "private": true,
+  "scripts": {
+    "serve": "node tools/prototype-server.mjs"
+  }
+}
