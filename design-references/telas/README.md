@@ -1,17 +1,1 @@
-# Coleção de Telas — Legiões das Armadilhas
-
-Padrão de nomes: `TELA_XX_NOME_DA_TELA.png`
-
-| Nº | Arquivo | Nome da tela | Status |
-|---:|---|---|---|
-| 01 | `TELA_01_SELECAO_INICIAL.png` | Seleção Inicial | Aprovada |
-| 02 | `TELA_02_ARENA_LIVRE_MODO_DE_JOGO.png` | Arena Livre — Modo de Jogo | Aprovada |
-
-## Regras
-- Cada tela nova recebe o próximo número sequencial.
-- Conceitos em revisão usam o sufixo `_R01`, `_R02` quando existirem alternativas.
-- Só avançar para implementação após aprovação explícita.
-- O índice registra a navegação entre telas.
-
-## Fluxo aprovado até agora
-`Tela 01 — Seleção Inicial` → `Tela 02 — Arena Livre: Modo de Jogo` → próxima tela: montagem de equipe.
+# Coleção de Telas — Legiões das Armadilhas\n\nPadrão de nomes: `TELA_XX_NOME_DA_TELA.png`\n\n| Nº | Arquivo | Nome da tela | Status |\n|---:|---|---|---|\n| 01 | `TELA_01_SELECAO_INICIAL.png` | Seleção Inicial | Aprovada |\n| 02 | `TELA_02_ARENA_LIVRE_MODO_DE_JOGO.png` | Arena Livre — Modo de Jogo | Aprovada |\n| 03 | `TELA_03_MONTAGEM_DE_EQUIPE_R01_SIMPLES.png` | Montagem de Equipe — simples | Em revisão |\n\n## Regras\n- Cada tela nova recebe o próximo número sequencial.\n- Conceitos em revisão usam o sufixo `_R01`, `_R02` quando existirem alternativas.\n- Só avançar para implementação após aprovação explícita.\n- O índice registra a navegação entre telas.\n\n## Fluxo atual\n`Tela 01 — Seleção Inicial` → `Tela 02 — Arena Livre: Modo de Jogo` → `Tela 03 — Montagem de Equipe` → próxima tela: confirmação/pré-batalha.\n
