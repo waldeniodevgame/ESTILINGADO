@@ -18,7 +18,7 @@
 | 01 | Portal da Arena | Escolher Campanha, Arena de Treino ou Jogo Livre | Conceito aprovado |
 | 02 | Campanha: Mapa de Fases | Ver progresso e escolher fase | Aprovada |
 | 03 | Preparar Equipe | Montar equipe para a fase selecionada | Pendente de redesenho |
-| 03A | Modal de Seleção de Criaturas | Escolher criatura para uma vaga da equipe | Aprovada |
+| 03A | Modal de Seleção de Criaturas | Escolher criatura para uma vaga da equipe | Reprovada |
 | 04 | Batalha: Arena | Executar arremessos, colisões e poderes | Em revisão |
 | 05 | Vitória e Recompensas | Mostrar progressão e decidir entre avançar ou rever | Aprovada |
 | 06 | Derrota e Reagrupar | Informar o resultado e permitir repetir ou ajustar equipe | Aprovada |
