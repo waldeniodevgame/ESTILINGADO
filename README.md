@@ -1,4 +1,4 @@
-# Legiões das Armadilhas — Capsulemon Remasterizado
+# ESTILINGADO
 
 Protótipo HTML5 de arena por turnos com lançamento por arrasto, colisões, combos e habilidades de criaturas. O repositório guarda a build testável e a biblioteca modular usada para editar atributos, CSS e funções sem depender de um único HTML gigantesco.
 
