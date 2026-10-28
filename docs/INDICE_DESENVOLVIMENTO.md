@@ -1,4 +1,4 @@
-# Índice de desenvolvimento — Legiões das Armadilhas
+# Índice de desenvolvimento — ESTILINGADO
 
 > Painel simples do projeto. Use este arquivo para saber onde estamos; marque a execução no [checklist ativo](CHECKLIST_DESENVOLVIMENTO.md).
 
