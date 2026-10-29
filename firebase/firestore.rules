@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /players/{uid}/save/main {
+      function owner() { return request.auth != null && request.auth.uid == uid; }
+      function validSave() {
+        let s = request.resource.data;
+        return s.keys().hasAll(['schemaVersion', 'updatedAt', 'buildVersion', 'campaign', 'currency', 'collection', 'settings', 'stats'])
+          && s.keys().hasOnly(['schemaVersion', 'updatedAt', 'buildVersion', 'campaign', 'currency', 'collection', 'settings', 'stats'])
+          && s.schemaVersion == 1 && s.updatedAt is int && s.updatedAt >= 0
+          && s.buildVersion is string && s.buildVersion.size() < 100
+          && s.campaign is map && s.campaign.unlockedStage is int && s.campaign.unlockedStage >= 0
+          && s.campaign.completedStages is list
+          && s.currency is map && s.currency.coins is int && s.currency.coins >= 0
+          && s.currency.fragments is int && s.currency.fragments >= 0
+          && s.collection is map && s.collection.captains is map && s.collection.monsters is map && s.collection.upgrades is map
+          && s.settings is map && s.settings.sound is bool && s.settings.music is bool && s.stats is map;
+      }
+      allow read: if owner();
+      allow create: if owner() && validSave();
+      allow update: if owner() && validSave() && request.resource.data.updatedAt >= resource.data.updatedAt;
+      allow delete: if owner();
+    }
+    // Everything else is denied by default.
+  }
+}
