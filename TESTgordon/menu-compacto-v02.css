@@ -1,0 +1,19 @@
+
+/* Menu compacto V0.2: apenas apresentacao, sem alterar logica. */
+#modeSelectOverlay{box-sizing:border-box;width:100%;height:100vh;height:100dvh;padding:12px;overflow:auto;align-items:center;justify-items:center}
+#modeSelectOverlay *,#modeSelectOverlay *::before,#modeSelectOverlay *::after{box-sizing:border-box}
+#modeSelectOverlay .mode-select-card{width:min(100%,520px);max-height:100%;overflow:auto;padding:20px 22px;border-radius:20px}
+#modeSelectOverlay .mode-select-emblem{height:28px;gap:7px;margin-bottom:8px}
+#modeSelectOverlay .mode-select-emblem b{width:22px;height:22px;border-radius:6px}
+#modeSelectOverlay .mode-select-kicker{font-size:10px;letter-spacing:1.4px;line-height:1.4}
+#modeSelectOverlay h1{font-size:clamp(22px,4.4vw,30px);line-height:1.12;margin:8px 0}
+#modeSelectOverlay .mode-select-card>p{font-size:12px;line-height:1.4;margin:0 auto 14px;max-width:390px}
+#modeSelectOverlay .mode-select-options{gap:8px}
+#modeSelectOverlay .mode-option{min-height:64px;grid-template-columns:32px minmax(0,1fr) 16px;gap:10px;padding:10px 12px;border-radius:12px}
+#modeSelectOverlay .mode-option-icon{width:30px;height:30px;border-radius:9px;font-size:17px}
+#modeSelectOverlay .mode-option strong{font-size:14px;line-height:1.3}
+#modeSelectOverlay .mode-option small{font-size:11px;line-height:1.35;margin-top:3px}
+#modeSelectOverlay .mode-select-foot{font-size:10px;line-height:1.4;margin-top:12px}
+@media(max-width:420px){#modeSelectOverlay{padding:10px}#modeSelectOverlay .mode-select-card{padding:16px 14px}#modeSelectOverlay .mode-option{padding:10px;gap:8px}}
+@media(max-height:500px){#modeSelectOverlay{padding:8px}#modeSelectOverlay .mode-select-card{width:min(100%,680px);padding:12px 16px}#modeSelectOverlay .mode-select-emblem{display:none}#modeSelectOverlay h1{font-size:23px;margin:5px 0}#modeSelectOverlay .mode-select-card>p{margin-bottom:9px}#modeSelectOverlay .mode-select-options{grid-template-columns:repeat(2,minmax(0,1fr))}#modeSelectOverlay .mode-select-foot{margin-top:8px}}
+@media(max-height:500px) and (max-width:420px){#modeSelectOverlay .mode-select-options{grid-template-columns:1fr}}
