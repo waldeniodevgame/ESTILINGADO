@@ -40,7 +40,13 @@ A build em `builds/` é a referência mais recente para testar o jogo. `CMC_Bibl
 - Dano por impacto deve ocorrer uma vez por contato válido, sem repetição por frame.
 - Não marcar item como concluído sem teste executado.
 
-
 ## Versão para jogar online
 
 A publicação da interface centralizada está preparada para GitHub Pages. Veja [ativação e publicação](docs/GITHUB_PAGES.md). Gere o site com `npm run build:pages`.
+
+## Progresso local e nuvem opcional (protótipo V0.5)
+
+O protótipo `prototype/v0.5.html` possui save local versionado, modo visitante e
+integração opcional de login Google/Firestore. Veja [configuração e testes](docs/CLOUD_SAVE.md).
+A integração é exclusiva desse protótipo; não substitui os saves da biblioteca CMC
+nem altera as outras builds. Execute `npm test` e `npm run lint` para verificar.

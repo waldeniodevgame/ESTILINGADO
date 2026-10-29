@@ -4,6 +4,10 @@
   "scripts": {
     "serve": "node tools/prototype-server.mjs",
     "serve:gordon": "node tools/gordon-server.mjs",
-    "build:pages": "node tools/build-pages.mjs"
+    "build:pages": "node tools/build-pages.mjs",
+    "test": "node tests/cloud-save.test.cjs",
+    "lint": "node tools/check-cloud-save.cjs",
+    "test:browser": "node tests/browser-smoke.cjs",
+    "test:rules": "node --test tests/firestore-rules.test.mjs"
   }
 }

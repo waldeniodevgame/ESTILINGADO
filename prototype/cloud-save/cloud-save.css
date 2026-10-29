@@ -1,0 +1,7 @@
+#cloud-save-panel{max-width:900px;margin:12px auto;padding:12px;border:1px solid #447565;border-radius:12px;background:#102b22;text-align:left;font:14px system-ui;box-sizing:border-box}
+#cloud-save-panel .save-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+#cloud-save-panel button{font:inherit;margin:0;cursor:pointer}
+#cloud-save-panel button:disabled{opacity:.5;cursor:default}
+#cloud-save-panel button:focus-visible{outline:3px solid #ffe28a;outline-offset:3px}
+#cloud-save-panel p{margin:8px 0 0;color:#b6cbc2;overflow-wrap:anywhere}
+#cloud-save-panel [hidden]{display:none}

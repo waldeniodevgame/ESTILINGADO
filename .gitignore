@@ -28,3 +28,9 @@ MemoryCaptures/
 
 # GitHub Pages staging output
 /_site/
+
+# Optional cloud-save development tools
+node_modules/
+.firebase/
+firebase-debug.log
+firestore-debug.log
