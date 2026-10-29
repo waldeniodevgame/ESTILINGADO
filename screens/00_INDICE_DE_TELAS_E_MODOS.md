@@ -1,4 +1,4 @@
-# Legiões das Armadilhas — Índice de Telas e Modos
+# ESTILINGADO — Índice de Telas e Modos
 
 **Atualizado em:** 26/10/2026
 **Regra de status:** *Aprovada* significa conceito visual aprovado; *Em revisão* não deve orientar implementação final; *Pendente* ainda não possui conceito aprovado.
