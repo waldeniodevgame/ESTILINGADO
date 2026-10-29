@@ -39,3 +39,8 @@ A build em `builds/` é a referência mais recente para testar o jogo. `CMC_Bibl
 - Aliados atravessados podem gerar combo, mas não recebem dano de colisão no turno do lançador.
 - Dano por impacto deve ocorrer uma vez por contato válido, sem repetição por frame.
 - Não marcar item como concluído sem teste executado.
+
+
+## Versão para jogar online
+
+A publicação da interface centralizada está preparada para GitHub Pages. Veja [ativação e publicação](docs/GITHUB_PAGES.md). Gere o site com `npm run build:pages`.

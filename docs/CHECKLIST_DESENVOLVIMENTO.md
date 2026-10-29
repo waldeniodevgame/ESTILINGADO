@@ -85,3 +85,13 @@ Marque apenas depois de executar o teste indicado. Painel de navegação: [Índi
 - [ ] Mobile: 360×800, 390×844 e 430×932.
 - [ ] Sem rolagem horizontal e com arena legível.
 - [ ] HUD, mira e toque alinhados após resize/rotação.
+
+## Interface — comandos centralizados (29/10/2026)
+- [x] Criar cópia da build sem editar a referência Gordon.
+- [x] Centralizar habilidades e destacar especial abaixo do campo.
+- [x] Agrupar pausa e som acima do campo.
+- [x] Validar botões com altura mínima de 44 px e ausência de overflow horizontal em quatro viewports no Chromium.
+- [x] Verificar pausa/retomada, ativação de Sobrecarga e ocultação da barra na Arena de Teste.
+- [ ] Validar ergonomia e disposição em Android físico com o usuário.
+
+Abrir com `npm run serve:gordon`; cópia: `TESTgordon/BATALHA_CENTRALIZADA.html`.

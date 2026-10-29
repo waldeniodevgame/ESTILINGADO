@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "serve": "node tools/prototype-server.mjs",
-    "serve:gordon": "node tools/gordon-server.mjs"
+    "serve:gordon": "node tools/gordon-server.mjs",
+    "build:pages": "node tools/build-pages.mjs"
   }
 }

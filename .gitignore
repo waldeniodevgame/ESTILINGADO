@@ -25,3 +25,6 @@ MemoryCaptures/
 # As builds HTML de teste deste projeto são versionadas.
 !builds/
 !builds/*.html
+
+# GitHub Pages staging output
+/_site/

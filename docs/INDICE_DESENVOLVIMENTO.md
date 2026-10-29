@@ -9,6 +9,10 @@
 - **Regra:** não alterar esta base diretamente. Cada ajuste nasce em cópia versionada ou branch própria.
 - **Registro técnico:** [Base atual Gordon](BASE_ATUAL_GORDON.md)
 
+## Revisão de interface — comandos centralizados
+
+Execute `npm run serve:gordon` para abrir a [cópia com comandos centralizados](../TESTgordon/BATALHA_CENTRALIZADA.html). A build-base original permanece preservada em `TESTgordon/TESTE26gordon.html` e acessível pelo seu nome no servidor. A revisão reúne habilidades abaixo da arena e pausa/som acima dela. Validação em Android físico ainda pendente.
+
 ## Visão rápida
 
 | Frente | Onde estamos | Próximo marco |

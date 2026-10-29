@@ -63,3 +63,18 @@
 - Registrado ambiente PC inicial em environment-pc.json.
 - Nenhuma mecânica ou configuração da base foi alterada.
 
+
+
+## 2026-10-29 — Comandos de batalha centralizados
+- Nova cópia de interface em `TESTgordon/BATALHA_CENTRALIZADA.html`; base `TESTE26gordon.html` preservada.
+- Habilidades reunidas abaixo do campo, especial central em destaque e pausa/som agrupados acima da arena.
+- Botões de batalha com alvo mínimo de 44 px; no celular, habilidades distribuídas em duas colunas e página com rolagem para manter acesso aos painéis.
+- `npm run serve:gordon` abre a nova cópia; a base segue disponível pelo nome original.
+- Chromium/Playwright: 1440×900, 768×1024, 390×844 e 360×740 sem overflow horizontal ou erros JavaScript; pausa/retomada verificadas. Sobrecarga consumiu energia e foi desabilitada após uso. Arena de Teste mantém a barra oculta.
+- Todos os scripts originais foram comparados e preservados; apenas um script de disposição foi acrescentado. Validação em aparelho Android físico permanece pendente.
+
+
+## 2026-10-29 — Preparação do GitHub Pages
+- Adicionados `npm run build:pages` e workflow de publicação em pushes para `main`.
+- Artefato estático contém a build centralizada como `index.html` e `.nojekyll`, sem fontes ou documentação.
+- Instruções de ativação e verificação em `docs/GITHUB_PAGES.md`.

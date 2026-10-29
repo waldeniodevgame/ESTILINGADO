@@ -10,7 +10,7 @@ const contentTypes = { ".html": "text/html; charset=utf-8", ".json": "applicatio
 const server = http.createServer((request, response) => {
   try {
     const requestPath = decodeURIComponent((request.url || "/").split("?")[0]);
-    const relativePath = requestPath === "/" ? "TESTE26gordon.html" : requestPath.replace(/^\/+/, "");
+    const relativePath = requestPath === "/" ? "BATALHA_CENTRALIZADA.html" : requestPath.replace(/^\/+/, "");
     const file = path.resolve(root, relativePath);
     if (!file.startsWith(root + path.sep) || !fs.existsSync(file) || !fs.statSync(file).isFile()) {
       response.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
