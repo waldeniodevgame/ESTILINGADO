@@ -1,4 +1,4 @@
-# Legiões das Armadilhas — Índice de Telas e Modos
+# ESTILINGADO — Índice de Telas e Modos
 
 **Atualizado em:** 26/10/2026
 **Regra de status:** *Aprovada* significa conceito visual aprovado; *Em revisão* não deve orientar implementação final; *Pendente* ainda não possui conceito aprovado.
@@ -17,8 +17,8 @@
 |---|---|---|---|
 | 01 | Portal da Arena | Escolher Campanha, Arena de Treino ou Jogo Livre | Conceito aprovado |
 | 02 | Campanha: Mapa de Fases | Ver progresso e escolher fase | Aprovada |
-| 03 | Preparar Equipe | Montar equipe para a fase selecionada | Pendente de redesenho |
-| 03A | Modal de Seleção de Criaturas | Escolher criatura para uma vaga da equipe | Reprovada |
+| 03 | Preparar Equipe | Montar equipe para a fase selecionada | Aprovada pelo responsável em 31/10/2026; integração pendente |
+| 03A | Modal de Seleção de Criaturas | Escolher criatura para uma vaga da equipe | Aprovada conforme especificação de 26/10/2026 |
 | 04 | Batalha: Arena | Executar arremessos, colisões e poderes | Em revisão |
 | 05 | Vitória e Recompensas | Mostrar progressão e decidir entre avançar ou rever | Aprovada |
 | 06 | Derrota e Reagrupar | Informar o resultado e permitir repetir ou ajustar equipe | Aprovada |
@@ -51,7 +51,7 @@
 
 ## Ordem de trabalho
 
-1. Redesenhar e aprovar a Tela 03.
+1. Integrar a Tela 03 aprovada ao fluxo, preservando as regras funcionais e a seleção da Tela 03A.
 2. Concluir a Tela 04 sem alterar física, câmera ou limites da arena.
 3. Validar a Tela 08 e implementar a Tela 07 sem alterar física ou câmera.
 4. Desenhar o fluxo interno de Jogo Livre.
