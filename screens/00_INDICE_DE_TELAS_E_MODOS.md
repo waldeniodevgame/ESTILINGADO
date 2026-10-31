@@ -1,6 +1,6 @@
 # ESTILINGADO — Índice de Telas e Modos
 
-**Atualizado em:** 26/10/2026
+**Atualizado em:** 31/10/2026
 **Regra de status:** *Aprovada* significa conceito visual aprovado; *Em revisão* não deve orientar implementação final; *Pendente* ainda não possui conceito aprovado.
 
 ## Modos de jogo
@@ -19,7 +19,7 @@
 | 02 | Campanha: Mapa de Fases | Ver progresso e escolher fase | Aprovada |
 | 03 | Preparar Equipe | Montar equipe para a fase selecionada | Aprovada pelo responsável em 31/10/2026; integração pendente |
 | 03A | Modal de Seleção de Criaturas | Escolher criatura para uma vaga da equipe | Aprovada conforme especificação de 26/10/2026 |
-| 04 | Batalha: Arena | Executar arremessos, colisões e poderes | Em revisão |
+| 04 | Batalha: Arena | Executar arremessos, colisões e poderes | Visual aprovado pelo responsável em 31/10/2026; integração e testes pendentes |
 | 05 | Vitória e Recompensas | Mostrar progressão e decidir entre avançar ou rever | Aprovada |
 | 06 | Derrota e Reagrupar | Informar o resultado e permitir repetir ou ajustar equipe | Aprovada |
 | 07 | Campo de Treino | Praticar e analisar jogadas sem custo ou progresso | Aprovada |
@@ -52,7 +52,7 @@
 ## Ordem de trabalho
 
 1. Integrar a Tela 03 aprovada ao fluxo, preservando as regras funcionais e a seleção da Tela 03A.
-2. Concluir a Tela 04 sem alterar física, câmera ou limites da arena.
+2. Integrar a Tela 04 aprovada visualmente sem alterar física, câmera ou limites da arena; validar o fluxo e os testes.
 3. Validar a Tela 08 e implementar a Tela 07 sem alterar física ou câmera.
 4. Desenhar o fluxo interno de Jogo Livre.
 5. Conectar o vertical slice em código, com dados reais entre as telas.
