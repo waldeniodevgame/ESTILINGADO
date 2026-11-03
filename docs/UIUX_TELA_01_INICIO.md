@@ -15,7 +15,7 @@ A primeira tela passa a ser um **hub curto e vivo**, com a arena como protagonis
 ### Hierarquia
 
 1. **Topo compacto:** avatar/perfil à esquerda; configurações à direita. Moedas, gemas e loja só entram quando a economia existir.
-2. **Hero da arena:** miniatura animada da arena, bandeiras, luzes e o título ‘Legiões das Armadilhas’.
+2. **Hero da arena:** miniatura animada da arena, bandeiras, luzes e o título ‘ESTILINGADO’.
 3. **Ação primária:** botão grande `JOGAR AGORA`. Ele deve retomar a última configuração válida ou abrir a escolha de modo se ainda não houver partida pronta.
 4. **Dois atalhos secundários:** `Arena de Treino` e `Jogo Livre`, lado a lado em cartões grandes.
 5. **Conteúdo futuro sem enganar:** Coleção, Missões, Loja e Social só aparecem quando tiverem ao menos uma função real; antes disso, ficam fora da home.
@@ -27,7 +27,7 @@ A primeira tela passa a ser um **hub curto e vivo**, com a arena como protagonis
 │ Perfil / nível                 ⚙   │
 │                                    │
 │       [ LOGO + ARENA VIVA ]        │
-│    Legiões das Armadilhas          │
+│    ESTILINGADO          │
 │                                    │
 │          [ JOGAR AGORA ]           │
 │                                    │

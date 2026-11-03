@@ -1,4 +1,4 @@
-# Legiões das Armadilhas — Fluxo Completo de Telas
+# ESTILINGADO — Fluxo Completo de Telas
 
 **Atualizado em:** 26/10/2026  
 **Escopo:** fluxo principal do primeiro vertical slice.

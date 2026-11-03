@@ -1,6 +1,6 @@
 # Espaço Gordon
 
-Este diretório é o workspace principal para evoluir o Capsulemon Remasterizado com múltiplos modelos, ambientes e ciclos de validação.
+Este diretório é o workspace principal para evoluir o ESTILINGADO com múltiplos modelos, ambientes e ciclos de validação.
 
 ## Regras de trabalho
 

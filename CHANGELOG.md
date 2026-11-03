@@ -6,6 +6,10 @@
 - Mantida a lógica dos protótipos existentes sem alterações.
 # Changelog
 
+## 2026-10-28 — Identidade ESTILINGADO
+- Corrigidos nomes e links em 17 arquivos HTML e documentos; caminhos, identificadores e scripts preservados.
+- Validação e divergência local/remota registradas em `docs/VALIDACAO_IDENTIDADE_2026-10-28.md`.
+
 ## V0.5 — Colisões
 - Mantida a mecânica de lançamento aprovada na V0.4.1.
 - Colisão aliada sem dano e com transferência de impulso.

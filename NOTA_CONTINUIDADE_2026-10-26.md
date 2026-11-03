@@ -1,15 +1,15 @@
-# Nota de continuidade — Gordon / Capsulemon Remasterizado
+# Nota de continuidade — Gordon / ESTILINGADO
 
 Data: 26/10/2026
 
 ## Objetivo do projeto
 
-O repositório principal de trabalho é o Capsulemon Remasterizado, mantido em uma pasta separada chamada `GORDON`.
+O repositório principal de trabalho é o ESTILINGADO, mantido em uma pasta separada chamada `GORDON`.
 
 Repositório remoto:
 
 ```text
-https://github.com/waldeniodevgame/capsulemon-remasterizado
+https://github.com/waldeniodevgame/ESTILINGADO
 ```
 
 O projeto é uma reimplementação clean-room de um jogo de combate por turnos com movimentação por estilingue, colisões, dano e IA. Não reutilizar código, sprites, áudio ou outros assets proprietários do jogo de referência.
@@ -137,7 +137,7 @@ A validação de hoje confirmou HTTP 200 para o catálogo, V0.5 e V0.6.
 Instale Git e Node.js. Depois execute:
 
 ```powershell
-git clone https://github.com/waldeniodevgame/capsulemon-remasterizado GORDON
+git clone https://github.com/waldeniodevgame/ESTILINGADO GORDON
 cd GORDON
 node tools/prototype-server.mjs
 ```
